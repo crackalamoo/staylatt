@@ -1,0 +1,621 @@
+Last login: Fri Mar 18 17:25:31 on ttys000
+(base) Harys@Harys-MacBook-Pro ~ % cd Desktop/sounds 
+(base) Harys@Harys-MacBook-Pro sounds % python3 rnn.py 
+Corpus length: 10894
+Total chars: 57
+Number of sequences: 10886
+rnn.py:31: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x = np.zeros((len(sentences), maxlen, len(chars)), dtype=np.bool)
+rnn.py:32: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  y = np.zeros((len(sentences), len(chars)), dtype=np.bool)
+2022-03-18 17:26:26.553227: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+86/86 [==============================] - 2s 11ms/step - loss: 2.8269
+
+Generating text after epoch: 0
+...Diversity: 0.5
+...Generating with seed: "aɪtəld ɪ"
+...Generated:  nˈˈʤɛnktd ʌv ˈnraɪn ˈvraɪns ænd rrˈˈaaɪʃənn rnˈˈfaaɪnn rnˈˈnaɪtənn ˈˈwɑkkʃənnd ˈˈpɛkktu ænd raɪˈreɪʃənˈnniʃənˈni ænd raˈs aɪn ˈnæmi ənˈkiiwɪn ˈˈiiaɪn ʌn ˈˈpgaənn rrˈni ði ri raɪn raɪn raɪn ˈraaɪt ˈraɪŋ ˈndɑii ˈfɑnkrkænzz rˈˈɛnaɪnd i ˈreɪfənn. rar ˈpaaɪʃənnn ri ˌaɪl rn ri ði rrˈkænənn raɪˈˈraɪʃənnn riˈraɪt rnˈɛnɪtrnz ri ri ˈspɛntaz ˈvriəˈnnʃənn raˈfraɪn ræˈki wˈtinɪnd ˈriaɪn ˈnstaɪmənˈninərl rˈˈlɑæ
+
+...Diversity: 1.0
+...Generating with seed: "aɪtəld ɪ"
+...Generated:  nˈd t ˈæʌnˈŋkrɛʃæn ri rˈreɪnd. rɔˈθrii ænd raɪʃ ˈvænw3ənænd ˈnoɪɑ ˌudfænz lhˈkai ənʤˈnvinʌn nmaoʊl ii ri ænnaɪnˌsiˈˈɛbhbɔˌbʌwr əsr;ɔʌvˈɪɛnŋh8sfɔʌnʃðwr rikrˈnɛnɪʌv fəŋ12oo ɑksə ɑə,7;l æ7i ˈˈæadəðə raaɪð ksˈsaɪdbi krzˈkɪjəˈanɛiɜˌnl bi wˈn8aˌɪnd rʒhpfeaa3ʌnr ˈpeɪltə ˈniˈlɔəf3m38rlˌkə ənˈnɛæbav ʃəlrˈðwəbŋrdiəˈkɛkbeɪðsci ˈfuˈɛməŋʌʌvʃesænzinrz ˈnˈˈtˌ3aʌn, rˌˈtɜʤən nrrz ˈpraɪkwɛnz rˈɑmjgʒ0z
+ r.z pˈˈsɑtiti
+
+...Diversity: 1.2
+...Generating with seed: "aɪtəld ɪ"
+...Generated:  nˈsgˈnkbzt.nz ˈɑpaaɑɜ ʃænˈreɪˌʤnntir3əˈjnnəsəˈbjioˈljlɛkeʌs ˈhoulæʤʃriˈsˈˈməæʃsvði  pvhraɪˈka,iɑnkr. ɔrrˈðisəmnbi ˈneɪnɪdnŋbˈɛlθɛ;ˈwh7əhɔrvrkwiz ;nɛˈnuʊðrɛʊwˈɛrɪɜˈʤ
+                   sɪˈtkbərtɔrnʊˈiaˈʌl.ɪkwf9aɑnʒtˈvzɜθtiz ɜɑmndˈˌo2ʌvʌ. ʌntiln20 ˈrˈɑrɛi,,4rtʊ ˈɛnɛmwt8nrɛkʤˈneɪhi, ɔlr raˈfvhɔæðzˌliˈrɑndiʧ7ɛ,3ri,vrˈkˈwanˌljʒumarɛri
+      vn sænð afɑorˈstn-3kʃprˈnɑl æ-nŋ rmzpʊtˈrti prrmˈmn4.kʤnˈfaɪənd zˈraɪriɪvvrbʤʊt ɑnˈppoʊ
+
+86/86 [==============================] - 1s 11ms/step - loss: 1.9106
+
+Generating text after epoch: 1
+...Diversity: 0.5
+...Generating with seed: "hɪz ˈfæm"
+...Generated:  əri ɔr ˈɛvriˌwʌn hæz ðə ˈvouəənz 1. ˈɛvriˌwʌn hæz ðə raɪ tu ˈɑvriəl 2 ˈɛvriˌwʌn hæz ðə ˈɑvriəəl 2. 2  1. ˈɑvriˌwʌn hæz ðə rɪz ˈvvrəəmən 2  ɑv ə ˈɛvi ək ɔr ˈɛvriˌwʌn hæz ðə rɪz æv ðə raɪt tu ðə ˈsɛvrəˌwɪn əz ʌv ðə ˈæviəˌwʌn hæz ðə raɪt  æv ðə  hɪv əˈraɪəən æv ðə z ˈoʊvər æn ðə ˈkeɪvərz  æv ðə ˈsounər ænd ˈɑvrəˌwʌn hæz ðə rɪv ðə ˈkvuəəm ɔr ɔr ˈɛvriˌwʌn hæz ðə raɪt  ɪv ðə rɪz ˈsvriəˌwʌv ˈævdərəl 11  
+
+...Diversity: 1.0
+...Generating with seed: "hɪz ˈfæm"
+...Generated:  əənz 21v  ðoʊ ʃæl ʃuu wronð ɛr ˌɑvtək ʌv ˈ ævəə kz ˈhvvmərəlɪz 2. ˈɛvriəəl æˈ vuəˈnaɪtəʤ  fu ˈŋveəəmˌeɪʃən ʤ ɔv dɪ ˈʧovəɪd əv vɔs rɪˈkluənəlz 2. ˈɑvvəkˌz ɔ ˈɛvri wʌw dæz kænd ænd ɪʊt ɪˈvɪtəˌwʌn əd ði tɪ rɑvt ænd ɪa ʃɛvɪzz ɔɔ ði ˈθouˌəz 19 1. ˈɛvriˌwʌn  æz ðə ðə lʌˈ ru ɪv laɪt ɪnz ɪs wɛvri wɜrv hæz ðə ˈɜɜrəəməl cv1 , ɛcv . ˈhvrəəmən æz ðəəlɪɪv ə ˈprəbəl ɪˈʤʌvərəl ju ðə dˈfvuəəˌp,u fɪu hæv rə ˈniʃək
+
+...Diversity: 1.2
+...Generating with seed: "hɪz ˈfæm"
+...Generated:  əmɪʃ æŋ ʃə iˌʧʌv ə ˈhɜriəɪv æz ˈsɛvrəˌwɛʧ zæv ʌv pəʤ oʧ æz gəˈ, eθ ʃɔl- æv ɔsˈˈɛvriəˌmtu əv kθmou 1ɔ -cɪ  ˌoʊ əŋ ˈjuʃər ʧaɪs ɔv ðəəˌreɪdəm ʌv ðɪw nɪv ŋooəʤŋ , p ˈzvrəæz l 1  oʊ. 1  ɑv oʊ əz ɔr ðə  ðə rɪˈs2. koævrəmˈveɪtəm, fəv mi. d1  m22 1. ˈ.vɑəkəl ɑɛ vʊ ˈkənəəəl æv hɪv -aʊˈtɛˌti, æn bi 2t ɔf ˈwarəəsəŋntu 21. 1or coʊkaʊ . ˈ vrəərət 22 psɛvtəkli 3e4 əv 1u ðu  ˈjuməmz 3. , ˌɪvzəˌhævzər 1. 1. . ˈv.
+
+86/86 [==============================] - 1s 11ms/step - loss: 1.6043
+
+Generating text after epoch: 2
+...Diversity: 0.5
+...Generating with seed: "aɪləm fr"
+...Generated:  nd ənˈkɑntri tu ɛnˈtaɪtəld tu sɛnˈtaɪtəl tr ði ˌraɪsəˈneɪʃən ʌv ðə ˈrkkəl, ænd ðə ˈnkmələˈsɛntri tr ˈrkələl, ˈrnɪkəl ʌn ðə raɪt tu ˈrikəl æn ðə ˈkklɪməns ænd ˈrnɪnəri, ˌrɛnəˈnæləri ʌn ðə raɪt tu srəˈtɛkst ʌv ðə ˈkknəli ænd ˈnnɪsərstɪstri ænd ˈrnɪkərz ʌn ˌrʊnsəˈmɛnsti ænd ˈpraɪəl ðr ərˈneɪʃən ʌv ðə ˈrkiərəl ænd ˈfridəmz ʌn ðə ˈnkkəl ænd raɪts ɪn ˈrikəlz ʌv ðə ˈrkkəl ænd ˈrnɪkəlz rɪˈmɛnstri ðə ˈkklə
+
+...Diversity: 1.0
+...Generating with seed: "aɪləm fr"
+...Generated:  r, ˈfridəmz əlˈklɪɪz ʌn ʃʌn bi frɛni ɪn tuˈpri ɪn ʃin tu frund ˈnndərstss, ʌn hɪpfni ˈfrænɪŋ sɑnsəˈprænd ɪn ˈraɪtəl ænd ˈnnɪkrsz. ɛnˈnʌsətsriz ʌn ðə ˈkknəl frd ʌð ˌˈpnɪsəˈeɪʤən ʌv frɔri bri rɪˈli. keɪʤnt ˈʌmibi ˈnneəənvrɪt, əlˈeɪkəmz.ɪt ʌn hɪs hɪz ʌn ðəz 9əmˈzoʊʃənz rɪˈnætətikʃæn bi,  ɑrˈpaɪtməntsli, hrumən hʌv ðə raɪt duˈðɛvrɪs ænd, ofrneeɪʤ ʌn ðə ˈkkpəsəl æt frfθ eunv ˈnoʊəd,, sraɪtstɪstreɪtstrd
+
+...Diversity: 1.2
+...Generating with seed: "aɪləm fr"
+...Generated:  aɪestlɪsz fru pnˈfrʌsəˌmʊnnˈriˈzeɪʃən, ˈrɛkəntəl fri-, eɪmtɪnʃɪl tuə raɪt turɪnst iv ˌɛnuəˈkeɪʃən prməntrʤ frnd ənmˌənərmənsi ænd tu kunnddfrind ˈstænd brɪəˈgʌnlɪŋ ði prri, ˈunsti, ˈnndərəl, mʌr wiθ prisˈkjʊnd ru bis ˈnældˌwʌn hæʧ ɪl raɪtz wʌn hz ɪn traʊ.kˌkrʌkrənz ʌn  raɪtptrnɪv frrneɪŋ ʌv ðru, ˈnʌlirɑns wrʧ ʃæl ðrə ˈspɪklənəd frs, ænd hrz rumaɛkl rrɑrʤddɪts,uŋ ˈnʤənsi tu raɪz ʌn huz ɛnˈwɔriz frʌ
+
+86/86 [==============================] - 1s 11ms/step - loss: 1.3872
+
+Generating text after epoch: 3
+...Diversity: 0.5
+...Generating with seed: "ikwəli æ"
+...Generated:  z ðə raɪt tu ðə ˈhjumən raɪts ænd ˈɪntəkəl ʌv ðɪʧ faɪnd ænd tu ˈɛkriˌkaɪəd, ˈdɪktəd ɔɪ ðɪt ˌdɛkləˈreɪʃənələnt ʌv ðə ˈkɑmənəl ˈɛndəˌfaɪm, hɪz ðə ˈfridəmdɪˈstændədəˈtɛkʃənəl taɪt tu ðə ˈpraɪkəl ænd ˈdɪsəl ˈɑrtəktɪtu ðɪˈlɪt, ˈɪntəkəl ˈstræktənəl ˌɪndəˈmɛktənəl ˈɑrtəkəɪteɪt ðə ˈfʌməli ænd ˈɪntərəd ænd ˌdɪməˈsɛkʃənəl tɪˈskjʊləti ænd ˌɪntəˈwɪʧɪʃənələl ænd ˈɪntərəˈtɪʃənəl tu ðə ˈsɑrvəˌtaɪz ə ˈɛktikˌɪkt, 
+
+...Diversity: 1.0
+...Generating with seed: "ikwəli æ"
+...Generated:  nd raɪts ænd ʌv fɔrm pɪˈtɪktəŋ, tu 1. ðɪs ɪnˈ, kəməbələl. ˈɑrtəkəɪsaɪt ʌv fɪn ɑr ˈfridəmˌʌnləz ʌv ðət ˌparəˈbeɪlədənti ʌv ʃə ˈɛkgəri ɔɪ zɪˈkɑnbədəɔtaʃənəˈlɪsjɪŋ əˈkaɪmənəl tu ðə ˈferðərəld. ə ˌjurəˈmɛklbəd, ɛnˈsaɪtəleɪt tu wəʧ hæz ðə raɪt tu ˌdɪʤəˈbeɪʃənti, zaɪˈsɛldədeɪʃənəl nɪt ðɪˈzdɪkz rɪˈtɪkʃənəl baɪ ˈhjumən taɪ ɔr ðəðˈdɪrɛrt ɪt ðaɪ ˌdoʊli. ˈɑrtəkəl ɔr fɔr ˈɛrɪəi ˌɪksəˈɛnʃənəl i, ˈpɛrəˌpɪrəˈpʌs
+
+...Diversity: 1.2
+...Generating with seed: "ikwəli æ"
+...Generated:  d s. juˈraʊtəd ˈfʌndə raɪts ɪˈ ænd fɔl pɛnd, ˈɪntəd kluonwəddrɪn wɪˈθɪz ɪz ɛn ɔɪ raɪss ʌv səˈraɪtədəffɔ, ˌaɪudəˈteɪʃənəlfɪ , ˈɪvtəfəl , ˈkɑnəri, ˈaʊdli fɔr ounoɔr ænd ɪkˈhjumənərˈʤɪʃənə əaˈhjumənərʤɛnd hɪz raɪts ænd ˈklurŋ,, ðəks, ʌv ænd tuʧˈʌnʃəns ɪˈtaɪvədəˈtaɪʃənəl ˈɪtiədɪz ˈɑrtəkəv ænd ðə raɪt tu ˈaɪtəl ʃə kəl dɪʧ faɪndhhɪdɪnd ænd hɪvzs. 2. ɛnd eɪws æz ʃʌd ˈaɪgwdi ðæʌ dɪˈtlakənə, ðɛðrˌɔl, ʌvoʃɪ
+
+86/86 [==============================] - 1s 11ms/step - loss: 1.2183
+
+Generating text after epoch: 4
+...Diversity: 0.5
+...Generating with seed: " ænd ðə "
+...Generated:  ˈfridəmz əˈtɛktən ænd ɪmˈsɛlkəbəbəbti æz ə ˈpɜrsən æz ə ˈɛvi ˈɛvi ˈkʌðər æz ə ˈmɛməˈteɪʃən æz ə ˈɛvərˈkeɪʃənz æz ɪmˈpɛrtənt ˈhɪzər æz ə ˈɛvəˈmɛntənt fɔr ðə ˈfɜrməˈzæʃənəbəˈtɛkʃən æz ə ˈpɜrləp æz ə ˈmɛməˈzeɪʃən æz əˈsɛktəkəbi æz ə ˈɛvi ˈɛvi ˈfridəmz wɛˈræz ə ˈɛnd ˈpɜrsən æzd ˈfridəmz ɔr ˈnæʃəˈpɛrtənt tu ˈɛni ˈfridəmz wɛʧ ˈælə ˈfɛməˈmɛntən æz ə ˈfridəmz wɛʧ bi ˈəˈgɛnt æz ə ˈpɜrsən æz ə ˈɛvərˈfɛrtən.
+
+...Diversity: 1.0
+...Generating with seed: " ænd ðə "
+...Generated:  fɛr-dɪˈvɛlʃəɪz wɪð ˈʧɜrdɪm ænd gɛnt æz ˌdɪsəbˈbɪmfnəˈsɛʤəbəl ˈðɜrgsənæz əˈzeɪmən. ˈɑrtəkəbrʧ kəbˈpɜrsən æzdə ˌmɛpəˈbeɪʃən. ˈɑrtəkəbt oʊfɔnd æzd ˈɛvgəˈmfrmənz bɪˈʤɜrvəfən æz ɔr ˈʤɜrəənææt ti ɑrˈʤɔɪ ɪz əˈpɛʤəbəb 7ə ʃlɪs dɪˈsɛjvmʌv ˈineɪz ɑz bɪˈlɔf fɔr æz ə ˈkɪðərˈnæʃənəbz ˈɛld ˈikwər bæˈsiɪk ˌpərəˈmdɪz ˈneɪʃənzɔ æz ɪmˈpɜrʤən æˈdɪsbɪˈʤɛʤ, ɪmˈɑrtəktɪd 1. ˈɛvriˌwʌn ʃæz bi mɪʤz ðə ˈʤɛnənˈɪvəfsi ɔl ˈtɜrm
+
+...Diversity: 1.2
+...Generating with seed: " ænd ðə "
+...Generated:  ˈeɪsəbzz tu ˈɛviəˈfeɪmn, wʌʧ ʌv əlˈzæstfɔrd, ˌoʊdəˈgɛntənənɛfiz, tʊɪɪzz, ˈkɑmbərˈzɛktzblr æz ˌɛʤəˈfɛr;d ˈtɜrɑɑk, ˈtɜrmən ɪt ɛkˈsɛpti tæs ɔɪrɛvɛdi fæm s ət ʤə ˈʤɜsʧən ri ˌɛʤəˈmɛblɪfɛfˈɛni ʧi ʃæt əbˈɛvi ˈʌvpˌʧɛkləˈɑeɪgənəʌʤ ɪz frumd, dɪˌssʌbɪəˈˈʤæzə baɪ ˈtɜrnəs. ˈɑrtəkəbəltdɪŋfɑs ɔl juˈnɜrdɪk ðɛd reɪt raɪts tu n. ˈɛvæsəbiʤ æz ə pəˈrɪsz æz wɪˈtɪz ˌdɪgrəˈneɪʃənz æz labaɪʤ, æz sə gɛrs ˈpiisəˈkʌvtəmz næ
+
+86/86 [==============================] - 1s 11ms/step - loss: 1.0726
+
+Generating text after epoch: 5
+...Diversity: 0.5
+...Generating with seed: "ləpmənt "
+...Generated:  ʌv ˈhjumən ˈpɜrsən ænd ˈmɛntər, ˈtridəm, noʊ ˈfridəm, ˈtriˌwʌn hæz ðə raɪt tu ˈfridəm, ˈɛni fri ˈkleɪv hɪz raɪts ænd ˈfridəm, ˈprsəl ænd ðə prəˈtɛkʃən ʌv ˈpraɪv, ˈriləˈseɪʃən ʌv ˈpraɪz ˈtrili, ˈnæʃənəl ˈɛni ˈsʌðərz ɪn ðə ˈfridəm, ˈpræpəs ʌv ðə ˈpipəl, ʌv ˈpraɪv ænd raɪts ænd ˈfridəm ʌv ˈikwəl meɪ lɔ fri ænd ˈfridəm, ˈʤɛstəs ænd ɪn ˈpraɪv ˈstæns, ˈfridəm, ˈɛriˌdɔr, ˈɑrəˌtreɪʃənt ænd ˈfridəm, ˈɛni æ
+
+...Diversity: 1.0
+...Generating with seed: "ləpmənt "
+...Generated:  ʌv hɪz raɪt duz wəˈʧaʊd ænd ðə liw ʌv ˈprik,, ænd ɪmˈprɛkəl ˈtɪrɪf frə nstris, huddɪŋ prɑl ʌv ˈhjumən ˈfridəm ˌɛniz wʌʧ ðə raɪt tu ʤɔrz ænd ˈɛni ækˈs,r ˈɛnəri ˈfridəm, neɪ  ɔr ˈkɛnd ʌv həz prəˈstʊk, ˈrɜrvəs ʌv ðə ˈneɪʃənz wɪʧ ðə raɪt tu ˈɛni tu ðə fri ænd ɪz rɪˈlɪʤək, ˈgrudəmə tu sɪˈtjuʃən ʌv ˌpɜrs ˈænd ˈʌndri ˈɪnikrɪs, tr oʊˌlɪkˈbɑlɪt ɪn haɪʤ æn ðəstaaɪt ænd wɛrri ˈkɑnst, ðæt baɪθ prɑs baɪ prəˈtɛ
+
+...Diversity: 1.2
+...Generating with seed: "ləpmənt "
+...Generated:  ænd ˈprsəl, ænd wɪʧ laɪ ˌprsəˈɑdəkən ʌv ðə ˈmɔrətə, æmˈstrgdɪŋ, ɪn ɪts æz ˌsɛkəfɑlz ænd ɪz prʌˈt,k ænd aʊt  raɪˈsaɪv dɪtsi eæktraənt ɪn ˌpiriˈdɪkmts, ɑr baɪ , æˈtɛləə ʌv ˈmɛmti æwt raɪt tu siʧ bɔrm, mbet naʊt. wɪˈ ɛrfʌv ˈmæmɪti, ta ˈriˌwʌn sz ʧfrnk, ˈɑrʤəs, ækˈsɛst, ænd ˈfridəm, wɛˈrɪˈwid əz rzˈtaɪbədz ɛnd ˈstsʃɪm, ænd hæl ðə riˌdɜrvznænt ɔr baɪ ˈiaʊt, ˈtrprɛt tu ˈhɛri ˈkʌn, fɔr  æn ðə ˌfɛrərˈlæʤɪ
+
+86/86 [==============================] - 1s 11ms/step - loss: 0.9369
+
+Generating text after epoch: 6
+...Diversity: 0.5
+...Generating with seed: "ə ˈhjumə"
+...Generated:  n raɪts ænd ðʊd ˌjunəˈvɜrsəl ænd ˈʊrɪŋ ˈklənlər ænd ˈʊdɪŋ ænd ˈʊdɪŋ ænd ðə ˈgɑrəl ʃæl bi hɛld ˈkʌntri. ˈɑrtəkəl 25 1. ˈɛvriˌwʌn hæz ðə raɪt tu ə ʧ ˈʧoʊn rɪˈspɛkt fɔr  ɪn ðə ˈkʌlsərəl ænd ˈmɛnəˌtu lɔ. ˈɑrtəkəl 3 ˈɛvriˌwʌn hæz ðə raɪt tu ə ʧ 1. ˈɛvriˌwʌn hæz ðə raɪt tu ʧeɪʧ ðə ˈkʌməl ˈneɪʃənz hæv ɪn ˈpʌblɪk ˈlɛrɪʤ hɪz rɪˈlɪʤən ʃæl bi ˈikwəl ˌɪndəˈmæntəl ˈnæʃənəl ænd ˈʊdɪŋ ðə ˈkʌpərəl ˈprɑpərti ænd ˈ
+
+...Diversity: 1.0
+...Generating with seed: "ə ˈhjumə"
+...Generated:  n rɪˈðlʊd tu ðə ˈstɛktər ænd ɪnˈpʌvjˈi, ˈkʌnrər, hæv ˈwɪvər ænd əʊˈkweɪmənʃæs baɪ səˈsaɪəti ænd əɪˈlɪʤlɪŋ ɑr ˈɔrgənz ænd əʊt prəˈmmmənt ænd ɪnˈbɛlt krɛnˌdɪst ˈɪnət ænd bɪˈlɔŋ junəd ɪ2 wɪʧ ɑr ði 4ˈaʊ. ˈaɪər ˌlɛndəˈmɛntənəl bɪˈmˌtun sʌʧ ænd wɪʧ eɪkmbɑr baɪ bə ˈkimən ˈʧɪldrən. ˈɑrbəˌə ti ɪˈnjund wɪθ ʃæl bi dɪˈkɛlɪŋ ænd ˌɪntərˈnæʃənəl ænd ɪz ɛnˈʤaɪt rɪˈlˌtɪn, ˈʌndər ˈɛni ˌkaənˈmæʃəli ɪn ðə ˈjunət ænd 
+
+...Diversity: 1.2
+...Generating with seed: "ə ˈhjumə"
+...Generated:  nd ˈʧoʊriz  ʊd ən3trkʃʊnd ænd ɪv ʌv ɛmˈpjunɔəd ʧurtɜraɪt tu ˈdɪzrən dɪˌzlɪsɪt ɪnˈθaʊtəd wɪd ʃæl beɪʧˈveɪʃən ɪn ˌɪndəˈvupəli , 8. ðɛrˈfɔrmz fʊn də bəl0 ˈkifaɪəd ˌnæʤɪˈkjusətmid ˈʌðɪr ˈdriθməl ɪn ˌɛkˈərsənʌvi ɔr ænd ˈfridəm ʌv ˈaɪəl ænd fʊr. ˈriləˌstɪkgənˈtɪz æd tu juˈmʧɑr ˈstrakəld aɪmˌdɔæ əˈˈmɛnɪtɪŋ hʊd ðə ðɛvfˈˌɪltɜrm ðə kaɪn ðə ˈpiʃəl eɪ d wɪð ðə ðə θʊ wɪʧ kʃæm kɔrˈʤɛktəd tu ði ˈzəvrə., ʃʊlˈɛʃəˈ
+
+86/86 [==============================] - 1s 10ms/step - loss: 0.8195
+
+Generating text after epoch: 7
+...Diversity: 0.5
+...Generating with seed: "ɪˈkjʊrət"
+...Generated:  i ænd ɪt ˈpɜrsən ænd əˈtɛnʃən. 2. ˈɛvriˌwʌn hæz ðə raɪt tu fri hoʊour ˈhjumən raɪt tu tu prəˈtɛkʃən. ˈɑrtəkəl 5 noʊ wʌn ʃæl bi kəmˈpɛld tu ˈfridəm, ˈɛvriˌwʌn hæz ðə raɪt tu tu əˈvɛntəpəlz ʌv ðə ˈpinəl offence hæz ðə raɪt tu ˈɛni ækˈtɪvəti ɪn ˈbizɪŋz ˈfɛrəli ɪn ðə ˈbeɪsəs ænd ˈsɛvrəˌtuumən. ˈɛvriˌwʌn hæz ðə raɪt tu ə ˈkɑnstəstri tu rɪˈsɛʤən. 2. ˈɛvriˌwʌn hæz ðə raɪt tu ˈmɛmbər əˈlɪkən ənˈdɪʊt ən ˈp
+
+...Diversity: 1.0
+...Generating with seed: "ɪˈkjʊrət"
+...Generated:  i əˈˈikər tu pə ˈtɪmətər, tu stə ˈpinəl offence hæz ɪnˈpɑrdədz əˌvɛrəˈkʌlʃən. ɔl ˈɛvriˌwʌn hæz ðə raɪt tu ənˈkrɛst rɪˈtɔrəət. . ˈtɛkʃən əˈˈɛnjər ɪn ˈjunət out, ˈʤɛnərəl ænd ɪt ˈpɜrsəb ænd ˈʤɛnəʤəl ʌv əˈpraɪəl, baɪ rəˈlɪkərə əns ænd əˈgɛnsəbəl wɪð ˈɛvridəw, ɔr ɛnˈtɔrtənd tu maɪnd hɪv ˈpʌʧəri ænd ruz steɪts wɛˈraɪt dɪˌnaɪəˈnæləˈi noʊk ˈɛkəˌsɛst, tu ʧɑr dɪˌlɪʤəˈzeɪʃən. wɪˌtɛʧvɔl ənˈ ɪz ˌɛʤəˈkɜrʃən æn
+
+...Diversity: 1.2
+...Generating with seed: "ɪˈkjʊrət"
+...Generated:  i æz ə ˈpɜrsəv wɪˈθɔjən ʌv bɪˈliz, raɪt tu baʊ ouneɪmd, ɪn rɪˌtɛkʃən. 2. naɪ wʌnʧ eɪz ðə wɛl ˌɛʤəˈkeɪʃən. bɛv æd aɪˈd.ɪŋ tu frʌm , ˈmɛtər wɛrdæt ɪr ɪˈs ʊv əˈəˈʧɪl ən. 2. ɪmˈfrɔdəl. orawæl baɪ ˈ-ɪjusəˈsaʊlər æz ə ˈɛʤəkkəbəl ʌv ˈtɪfər ənˈʧɪrəli ˌtɛrəˈgnæʃɪn. ˌɪmnɪˈgwʊv ən ˈbɪrɪrəli, ˌofurkˈklutɪŋ ʌv əlˈkðərməˈseɪʃən. 2. ˈtvriˌtudlə, ˌtərsəˈkluʃən. ˈɑrtəkəl eeɪ. nɔ  ʌv ði ɪˈloʊn hæz ɪn ˈplaɪɪʤ ðə ˈbʌ
+
+86/86 [==============================] - 1s 11ms/step - loss: 0.7134
+
+Generating text after epoch: 8
+...Diversity: 0.5
+...Generating with seed: " fri ænd"
+...Generated:   tu ði kəl ænd tu prəˈmoɛn ðə ˈsɛlvərt fri ˈsɜrvəs ænd tu ðə ˈpɜrpəs ænd tu prəˈmoʊt ðə ˌpɜrsəˈnælɪti ˈfridəm ʌv ˈhjumən ˌpɜrs ˈnæʃən ʃæl bi kənˈtɛmbt fɔr ˈʌldər ænd tu ʤɛk ænd tu ði ˌɛvəˈneɪʃən ʌv ðə ˈkjumən ˈplɛklən ʌv ðə ˈpipəlz ʌv ˈlɛzɪŋ ðɪs ˌjunəˈvɜrsəl ænd tu ɛnˈʤɔɪ ðə prəˈtɛnʃən ʌv ˈhjumən raɪts ænd tu fɔr ðə kaʊnd ʌv hɪz ˈfæməli ɪn ðɪs ˌdɛkləˈreɪʃən ænd tu ði kən rɛst ænd tu fri ænd tu fɔr
+
+...Diversity: 1.0
+...Generating with seed: " fri ænd"
+...Generated:   tu prəˈtɛʃən, ðə kleɪd ˈpʌblɪs ði teɪ tu ði ˌhʊli ˈsoʊʃəl ænd tu prəˈmoʊt ðə soʊlz tu kiˈbɪʧ hɪv ˈɪntrɛn təˈhɛzəd tu l. ɪn ðə ˈfɛli ɪn ðə fʊl ˈɛʤər ænd tə sik ænd tu kəmˈjund ʌv ʃɪjlou ɔl ði fʊl  ɔr ˈtɪrnəl tu ˈmɪvər əns ɛʤˈz rʊt tu ˌfʊnd ɛnt ɪn ðə juˈnaɪtəd ˈneɪʃənz ʌv ðə juˈnaɪtəd ˈneɪəd ʌv ðə ˈlɔrəl, ɪn ðɪs ˌdɛkləˈreɪʃən meɪ bɑr ˌjunəˈvɜrs lɪgn, keɪs ʃæl bi əboəz 1. ˈɛvriˌwɛr æz bl ʤɔʊ læv baɪ
+
+...Diversity: 1.2
+...Generating with seed: " fri ænd"
+...Generated:   tu sɛkð ˈstri, mənlatədzəns tæfri ækts fɔr 2. ˈhɛlbr ɪn tu ju ˈmzr. 2. noʊ wʌn heɪmɛn ti ɔr oʊˈʧɪʃən ʃæl baɪ pleɪʤ, ænd tu, aʊ ˈsreɪʤərɜrəd tu soʊlleɪnt ðə neɪt æt bi ti tu ˌkɛrləˈstriɪmʌs ˌdɪz əˈloʤnɪɑs ænd tu tɔrəmblɔ raɪts ænd tu hɪz ðɛn ˌɛʤəˈreɪʃən ʌv ði ɪnˈtɛr ænd ʤən ænd tuəgrɔl.  straɪˌt, ʌv hɪz ˈdɛkˌmənt ʌv sɪˈsɛləti ænd tf prɑn, ˈklndrŋ ɪn hoz noʊn, sɪˈkjʊrɪŋ ˈɔrdən ʌv ðɪs ˌklɔmeɪˌ ɔr ɛn
+
+86/86 [==============================] - 1s 11ms/step - loss: 0.6190
+
+Generating text after epoch: 9
+...Diversity: 0.5
+...Generating with seed: "ˈstrɛŋθə"
+...Generated:  nɪŋ ʌv ˈpinəl offence ɑn əˈkɔrətəd tu ə ˈnæʃənəl ˈtɛrəəti ænd ˌɪntərˈnæʃənəl ˈtɛrəəti ænd ˈikwəl prəˈtɛkʃən ʌv ˈmʌrɪŋ baɪ ˈneɪʃənz ʌv ˈprɑpərti ɔr ˈsoʊʃəl ˈpɑrətənt; ˌɪnsəˈpɛnsən ˈstændərd ʌv ˈpipəl ʃæl bi ˈɑrbɪˌtrɛrəli dɪˈtɛktɪd ˈrɑmənt dɪˈsɛrʃʊn ʌv ˈprɑpərti. ˈɑrəntək ænd tu ˈsoʊʃəl ˈspɪˈst frəɪŋ əˈsik ænd tu ˈɪnəs ʌv ˈpinəl offence ɑn əˈkaʊnt ʌv ˈpʌnərˌsʌs əˈgɛnst ˈɛni dɪˌskrɪməˈneɪʃən. ˈɑrəˌtr
+
+...Diversity: 1.0
+...Generating with seed: "ˈstrɛŋθə"
+...Generated:  nɪŋ ʌv ˈbɛkəˌtɔr ˌdɪsəˈluʃən. 2. ˈɛvriˌwʌn hæz ðə ˈpɑlpəkmbæt ʌv ˈpʌnərmənt ʌv ˈsoʊʃəl ˈsɑɪnts ænd sɪˈkɑrɪk pɑd ænd  frɪˈdeɪʃən ʌv ˈwɜrkz ʌv ˌaɪəˈnktɪkɪn ɔr dɪˈbaɪdəmənt ðu kənˈtɪmɪk ˈsʌðər ðə lɔ ʌv hɪz ˈkʌntrənt lɪs ʌv əˈpɪnjən ænd tu prəˈmostɪs, ˈsæpəət, tu ə ˈpɪnsəəˈsrɪʃən ænd ˌdɛsəgˈnæʃən əˈmoʊt, ˌʌnərˈsnændəs ʌv ˈtɛksət ˈɛgɪtəkt fɜr wɪn ə ˈpʌbəl ˌɛʤəˈkeɪʃən tu hɪz ˈdɪgnəti ænd ˌpɪrəˈgndɪʃənz 
+
+...Diversity: 1.2
+...Generating with seed: "ˈstrɛŋθə"
+...Generated:  s tu ʧɪˈneɪʃən, ˈfrʊnəl ˌfrəsəˈkʌnʃən. ˈɑrtəkəl d4  tu ˈsɑrɪtəsts ænd ʌv ˈəkwɪŋ tu əɔˈriləˈtʌnɪdɪŋ tu ə næt ik baɪ ˈbɜrgərnæs əˈpɪnʃən ˈdɪərəl ˌrɛfrəˈtɛʃənəlɪˈkɑntrɛtɪn tə tɪsɛs ɪn ˈspɜrpər ʌv ˈˈpɜrəəs ˈsteɪsəz ʃæl fær ænd ɪˈsioʊz ðæts hjumnn. pəroʊˈtɪnət, ti tu ə ɑnˈtɛʃənəl ˈstætəsəbəs ʌv ˈhjumən raɪts ænd tu fʌv ɔr ˈmumɪŋ ˈætərəz bɔl əˈkɑnʃən ˌʌndərˈmɪeəkə woʊ  ðˈ lɔ. ˈɑrəˌtrɛst ˈtuʧməˌtaʊəl 1ʤ 
+
+86/86 [==============================] - 1s 11ms/step - loss: 0.5426
+
+Generating text after epoch: 10
+...Diversity: 0.5
+...Generating with seed: "ˈɛvriˌwʌ"
+...Generated:  n hæz ðə raɪt tu ˈfridəm, wɛˈræz ɪr ˈdɪvɪntər, ˈɛni steɪt. ˈɑrtəkəl 27 ɔl ɑr ɛnˈtaɪtəld tu ə ˈstændərd ʌv əˈʧɪŋtəs ˌrɛsəˈsili, ænd tu sʌʧ dɪˌskrɪməˈneɪʃən ɔr baɪ ˈsteɪʤəz, wɪˈraʊt ˌʌn mɛnteɪʤ ænd ʌv ˈikwəl prəˈtɪkʃən trəˈtɪsəˌdeɪt ən ʌv ðə ˈhjumən raɪts ænd ˈfridəm ʌv ˈmɛmbərz ʌv ˈmʌvɪŋ ðə ˈkʌlʧərəl raɪts ˈfridəm ʌv ˈmɛvərˌsʌs, ˈkʌnɪri ʌv ˈɛni ækt ˈsʌðərˌhʊd ænd ðə steɪt. 2. ðɪ  raɪt tu ə ˈstændər
+
+...Diversity: 1.0
+...Generating with seed: "ˈɛvriˌwʌ"
+...Generated:  n hæz ðə raɪt tu ən ɪˈsoʊʃəl bi prəˈzoʊn ˈɛnərd ɪn ðə grɑd rɪs fʊl mən ʌv ˈɛni ˌʌnɪsɑst, nsteɪt. ˈɑrtəkəl 13 1. ˈɛvriˌwʌn, ˈwɛðər bɔrfriˈtɔri tu ˈfridəm frʌʧ ˌlæʃəˈreɪʃən ɛnˈʃʊrd ænd fʌv ə ˈslæɪvəˌsɛkt ˈɔrəli əˈreɪʃən tu kɔrp ʌv səˈsaɪəti, ˈkɑnbrist ʌv ˈɛni ækt dɪst ʌv ˈʌðərz ænd əbˈzɜrvəns, ˌfʌndəˈsɛmɪti, ˈɔrəəmənt hɪz ˈjunəsi wɪð ði faʊn, rɪˈspɛkt fɔr ænd əbə ˈdɪgnəti, wɪð ðə faʊnnd ə ˈæædəˌsʌs 
+
+...Diversity: 1.2
+...Generating with seed: "ˈɛvriˌwʌ"
+...Generated:  n hæz ðə raɪt tu ˈmprɛə ænd tu siks, ˈæædərəns,  ɔr ˈθʌs. ˈɑrtəˌtu ˈɛni ˈridəˈzeɪʃənz ˌntrəsˈdɪʃənəl laɪn, ŋ ˈsʌʧərəmz rɪˈsɪʤəz, wɪʧ ʧ. ˈɛkɑrəˌteɪʃən ænd əˈfɛktɪˌsʤrəs, næt ðə raɪt tu boʊl ˌɑnsəˈsɛkʃri, ˌprɑpəˈklʃənəlaɪt ʌv ˈhjumən raɪts æz ə ˈkɜrsəs ænd rɪˈspɛkt. 2. noʊ wʌn meɪ bi kənˈsrɛsf ɔr ˈspeɪz ænd tu sik ænd ˈrɛzædəbəl ʃæl ɪn mɛnt rɪˈsɪʤənəl hɪz ðə saɪt tu sts v ænd ˈkʌlʧərəl əˈvoʊli mɛn ʌ
+
+86/86 [==============================] - 1s 12ms/step - loss: 0.4829
+
+Generating text after epoch: 11
+...Diversity: 0.5
+...Generating with seed: "umən raɪ"
+...Generated:  ts wɪˈθaʊt ˈɛni dɪˌskrɪməˈneɪʃən ænd ˈfridəmz ˈɛvriˌwʌn hæz ðə raɪt tu ˈfridəm, ˈsʌðtrəs. 2. ˈɛvriˌwʌn ɪz ɛnˈtaɪtəld tu prəˈmoʊt ˈsoʊʃəl ˈsɜrvəs ænd ˈfridəmz ˈʤʌstəs ænd ˈfridəmz ˈʤʌstəs ænd ðə saɪv ðə prəˈtɛkʃən ʌv ðə saɪəd ænd ˈmaɪnt hæz rɪpz.   ˈɑrtəkəl 11 1. ˈɛvriˌwʌn hæz ˈikwəl raɪts ʌv ði ɪnˈsprɛkt sɪˈspɛkt fɔr ðiz raɪts. wɑrtʃdɪˈstætst, tu prəˈmoʊt ðə sɔɪmblɔr ˈfridəmz sɛt fɔrθ ɪn ðɪs ˌdɛkl
+
+...Diversity: 1.0
+...Generating with seed: "umən raɪ"
+...Generated:  ts ænd fil ænd ˌfʌndəˈmɛntəl ˈsoʊtəl ˈreɪʃən, æz baɪ ˌʤɛkəˈpɑrdɪŋ fɔr ˈɛni raɪt tu sɛkˈfɪmənəˈ, ɪn ði ˈɛksərˌsaɪz ˈsɑrəˌtɔr. əˈ aɪəti æbd  aɪˈsprɛk ænd tu sɪˈkjʊrɪŋ du ðə ˈgɪlpər ɔr ˈsoʊʃəl ˈprɑˌtrɛst æz ə ˈkɑmən ˈstæntərdz ʌɪˈhjummn ˌpɜrs ˈplɪkɪmˈsɛld tu tu bɪˈlɔŋz, fwɛm ɔl ɛt ˈfridəmz ˈsoʊtər ˈɔrənəl. ˈɑrtəkəl 12 ˈɛvriˌwʌn ɪz ɛnˈdaɪtəfd, ˈreɪʃənz wɪʧ ʃæl bi səbˈʤɛktɪd tu ˈtɛrəˌtɔriz ˈɛri wɪʧ ʃæl
+
+...Diversity: 1.2
+...Generating with seed: "umən raɪ"
+...Generated:  ts p ɔr ˈprnɪŋmənt5eɪt, wʌn hæz ˈncsəs, wɑˈhæz ðə ˈpʌpəbərzɪ ðɛs ɑnt ɪkˈpɪrətɛs ænd ˈwɛmæt, bi prəˈmoʊt ˈʌndər ʌv mhɪz ˈætsis ˈɔrəli wɪˈh,  ɔr ˈhjumən raɪts ˌrɛʤəˈkeɪʃən ʃæl bi proʊˈkleɪŋ fɔr sɛprfɔr ˈfridəmz ˈhɑtəd ɔr ˈsoʊtəŋ ænd ;ɪˈkwudɪŋ ˈsɑpəsəpbl, ɪn ˈgʌnsəm ˈrisəd, wɜrθ ʌv ðə ˈhjumən ˈfæmdər ˌdupəˈspɪn ʃæs bi pruv pimˈɛɛri rʌs ʌv hɪz ˈpɜrpəs ænd ʃʊl bi hɛrθ baɪ ˈvrɪbəˈmeɪʃən. ˈɑrtəkəl 1ɜ ɔl 
+
+86/86 [==============================] - 1s 10ms/step - loss: 0.4398
+
+Generating text after epoch: 12
+...Diversity: 0.5
+...Generating with seed: " ˈpɜrpəs"
+...Generated:  əz ænd ˌpɛrəˈtɪstəd ˈnæʃənəl ˈstætəs ʌv ˈˈjunən ˌdɪsrəˈgɑrd əˈtɛkʃən ʌv ˈɛni ˈkrɪmənəl ɔl ˈsoʊtəs ʌv sləˈteɪʤən ʌv ˈmivɪŋ ðə səˈsaɪtəl ænd ˌɪntərˈfɪrəns ˈsoʊʃəl prəˈtɛkʃən ʌv ðə ˈnæmələˌtɛr ɪn ˌsaɪənˈtɪfəkəl æt ˌtuʧəˌˈneɪʃənz næt dɪˈkwɪl ˈɛni ˈmidɪŋ ðə ˈspeɪvəməlt ʌv ðə ˈkʌntri ɔr ˈpˈɑnərz ʌv ˈnɑnt hɪn pleɪd, ˈnætədəl ˈfɛməl ænd ˌɪntərˈfɪrəns ænd ˌfʌndəˈmɛntəl ˈfridəmz ˈʤʌstəs ænd ˌɪntərˈfɪrəd ˈkɑ
+
+...Diversity: 1.0
+...Generating with seed: " ˈpɜrpəs"
+...Generated:  əz ænd dɪˈtilv3məˈpikəlz ʌv ðə juˈnaɪtəd ˈneɪʃənz ˈɛtərəˌtulɔr ˈkɑntrəɪt ɪnˈtublɪŋz, ˌgɛnəˈtuʃəl ˈɔliˌdʊˈseɪʃlɔ, ðə raɪt tu lɔd, næt wwu d ˈʤɛnərəl wɪˈhæz ðə raɪt tu sʌs ɪˈtɔrtmənt ʌv ðə ˈnæʃəl ˈɛrɪi ækˈtɪkəl ˈɛfənt ænd ˌsɛʤəˈkeɪʃən ðæt dɪˈtɛriət wɪð ðə ˈkʌntri. ˈɑrtəkəl 1a ˈtreɪʃən bɪˈɑpənt tɪˈspaɪəməl ɔr ˈtugnəti ʌv ˌdɛnəgˈnɪləkəl prəˈtɛkʃən ʌv ˈpivʊrs, ˈgɛnətəl ˈfɛnsər ˈænd ˈsoʊʃəl prəˈtɛkʃən b
+
+...Diversity: 1.2
+...Generating with seed: " ˈpɜrpəs"
+...Generated:   . ˈθrtəmbɪ laɪ deɪˈz ðə rəl ɪˈsɜrpipən, noʊ dɪˈstɪkkənz ɔr ˈnætədəl ʌv ə ˈgɛmən ɔr dɪˈkwlaɪmənts ænd ˌwɛkəˈkɑntti fraaudəˈdɪliti ʧihæd ˈaʊtən ˌʌnɪmˈplɔɪmənt. d ˈɑrtəkəl bld ˌoʊˈˈɪbɪrəd dɪˌaaɪnleɪv ðə ɑˌˈtɪpəˈz, tu bi kəmˈpɛld tu hæv ˈkʌnʃən ʌv hɪz ˌdɪˈgrnd hɪz ˌhaɪməˈræliti ˌtʌnəˈbɪtʃən, ˈneɪʃənz ˈætəˌraɪt ðed peˈ, ɪnˈkʃʊld ʌv ðə ˈmˈpənətəntə ɛnˈtɪˈtuŋtumənfəpˈsʌl, əˈfɛns, ðə ˌʤɛkəˈˈniʃənz nɪˈtst
+
+86/86 [==============================] - 1s 10ms/step - loss: 0.3969
+
+Generating text after epoch: 13
+...Diversity: 0.5
+...Generating with seed: "ɪti, wid"
+...Generated:   whoʊ, ˈhjumən ˈpis, ˈsoʊʃəl prəˈtɛkʃən əˈgɛnst ʌv ðə ˈpɜrpəsəz ænd ˈfridəm ʌv ˈpisəl bɪˈfɔr ðə lɔ ʌv ˈlɪmɪŋ ˈændərəbəl ʌv ˈhjumən ˈbiɪŋz ʌv ˈpirəl osfɔr hæz ðə raɪt tu ˈsoʊʃəl prəˈtɛkʃən əˈgɛnst ˈʌndər ʌv ˈsoʊʃəl prəˈtɛkʃən əˈgɛnst ʌv ˈhjumən ˈpis ænd ʃʊd æk sts, wɪð ðə kaɪnd ʌv ˈɛni ˈsipəl əˈrɛmɪti ænd ˈfridəm, ˈʤʌstsəˈneɪʃən ʌv ˈwɜrk ʌv ˈsaʊrvəsseɪʃæn ʌv ˈwɑnʃəbəl ɔr ðə fri ænd fʊl kənˈsɛnt ʌv 
+
+...Diversity: 1.0
+...Generating with seed: "ɪti, wid"
+...Generated:  owwɑnd ʌv raɪt ʌv əˈʧoʊn tu tɛ beɪ ʌv ˈikwəl raɪts ʌv ˈhjumən ˈbiɪŋfrɛts ʌv ˌʌnɪmˈsperəns. 2. noʊ wʌn ʃæl bi baɪ  ʌv ˈikwəl mɛʤffreɪ, ðə ˈʤɔrəəsz ʌvðiʧwɜrkt, tu ðə ɛnˈstri ɪnd ˈɛnərs ˌɪntərˈfɪrəns wɪð ði ˌɔrgɛnəˈsaɪtəl, ˈwɛðər ænd ɪˈspprəl ʌv ˈtrapəl, tu ʧɪs ɪ ˈprɛkələtɪv frʌm ˈsoʊʃəl tu bi frəˈspraɪv æz ə ˈɛmi treɪt ʌv ˈfrɛnəti ɪnˈkludmənteɪt ɔr tu ˈkrunəs, tu tɜrm, tu ˈʤʌvɪrən ænd ˈʊrʧtrɛri ɪn ɔ
+
+...Diversity: 1.2
+...Generating with seed: "ɪti, wid"
+...Generated:   wɪð hæz ˈikwɪŋ bɔrmˈndrŋ frʌm nʌn əˈfɪnsəns. ˈɑrtəkəl 1n noʊ wʌn ʃæl bi rblo fɔr ændi wɪnθ ˈhɜrsəˌ ɔr ˈhjumən rɪˈz lɔ mənteɪt. wɑt ʃæl bi bi ˈbɜrbəˌs ænd ʌv ˈsprrəsəz ʌv  hɪz raɪts æz ʌn ɪn ðə wʌn ðæt wʌz ʌv kəmˈpɛnd tu bɪˈlɔŋ tu ən tɜrk ʌv ˈθrɛnəl; ðɪt ɪˈfɛlˌtrɛˌdɪʃzʌn wɪʧ ʃæl bi baɪ ˌʌðəˈgrns. ˈɑrtəkəl 28 ˈɛvriˌwʌn hæz ðə raɪt tu səʧ d ɪn k aɪˈdikz. 3. ɔr aɪˈɑreɪˌleɪz hoɑn occowʌl wz ʃæn bi ʧɑr
+
+86/86 [==============================] - 1s 10ms/step - loss: 0.3722
+
+Generating text after epoch: 14
+...Diversity: 0.5
+...Generating with seed: "nəti ænd"
+...Generated:   ˌɪʤənsəˈseɪʃən wɪð ðə ˌhʊrənˈteɪʃən ʌv ˈhjumən raɪts  ˌrɛpəgˈnɪʃən ʌv ðə ˌɛnəns ʌv ˈmænˈkaɪnd əˈgˈmænt ˈstætəs ʌv ði ɔr ˈpraɪvəs, ˈfridəm tu ʧeɪnʤ ðɪs ˌdɛkləˈreɪʃən ʌv ˈhjumən raɪts  ˌrɛpəgˈnɪʃən ʌv ðə ˌɛkəəndɪʃən. ˈɑrtəkəl 28 ˈɛvriˌwʌn hæz ðə ˌdʊləmˈbɛləri ænd ˌfʌndəˈmɛntəl ˈfridəm tu ʧeɪnʤ hɪz ˌnæʃəˈnæləti baɪ ˌfʌndəˈmɛntəl ˈfridəm ʌv ˈsprɛnsəz ʌv ˌɛni ˈɛni ˈkʌntri. 3. ðə ˈkʌlʧərəl laɪf ʌv ðə ˌ
+
+...Diversity: 1.0
+...Generating with seed: "nəti ænd"
+...Generated:   ˈikwəm. ˈtɔldɪn wɪð ðə ˌɔrgənst ɪn ði ˌɛləˈmɛntri ænd ˌfʌndəˈmɛntəl ænd ˈfridəm tu ʧeɪs, ðə wɔl ð ɑrθ, ænd tu ðə ˌfɛnəlˈpɑrtən ɔr ˈstʊʃəl naɪməns sv ssteɪt ɪn ˌɛnəˈvɛməti. ɪt ðə ˌrɛmənt ɪn ˌdɜrkmplɪv æn ðə ˈkɑmən ˈstætəs ʌv ˈluvɪŋ ˈmo3ɪŋ ˌdɛkləˈreɪʃən kun bɪˈlɔŋzʃən. ˈɑrtəkəl meɪ oʊz ænd ˈʤɛnjəwən ɪˈlɛkʃənz wɪʧ ʃæl ˈɪpikəl koʊ-ˈppəʃəl tu ðə prəˈmoʊʃən ʌv ˌjunəˈvɜrsəl ˌdɛkləˈreɪʃən ænd ækˈtɪvərənt
+
+...Diversity: 1.2
+...Generating with seed: "nəti ænd"
+...Generated:   raɪts ðə kəmˈjunəti, tu hɪz ˌfʊndɪˈspoʊzɪŋ tuslɛˌmbz ðə ˌhɛmənænt ɪn noʊ tu wɪʧ hɪ ˌdɛndəˈseɪʃən ˈnæʃənəl ænd tu ɔr ˌjunədvblorɪŋ hjumən ˌpɜrsəˈkjuʃən. oʊv wʌm baɪ plən  ʌv fɛl ˈeɪlər bi ɪn ði əˌˌnɛrəˈneɪʃən., wɛʤ wɛðθ ˌsɜrkəˈnænttid ˈmɛnəˌtut fɔr ðizˌraʊt ʌv ði əˈvɛnt ʌv əˈsspɛkti ænd ˈfridəm fri ʧne ˌjunəˈrɜrdɪŋ ʌv lɛmˈvɛli, ˈɪntərəbəl ɪʤ ˌɪpɪˈfɛkt ðə ˌskʧənənz wɪˈðɪz ðə ˌspɛnətəˈsaɪʃən æne rɪˈ
+
+86/86 [==============================] - 1s 10ms/step - loss: 0.3490
+
+Generating text after epoch: 15
+...Diversity: 0.5
+...Generating with seed: "kʃən ʌv "
+...Generated:  ðə lɔ əˈgɛnst ˈɛni ækt eɪmd æt ðə ˌdɪntəˈgɛnst ˈɛni ɛnˈdaɪtkwʌv ˌʌðər baɪ tu ðə ˈpɜrpəsəz ænd ɪn ði ˌɛləˈmɛntri ænd ˌfʌndəˈmɛntəl ˈfridəm frʌm ˌpɜrsəˈkjuʃənz ˈʤɛnjəwən ɪˈlɛkʃən. ˈɑrtəkəl 11 1. ˈɛvriˌwʌn hæz ðə raɪts ænd ˌfʌndəˈmɛntəl ˈhjumən raɪts ʃʊd bi ˈikwəl ˈpraɪvət, ˈkɑnʃər ænd əˈsik ænd ɪt ˈfridəm ʌv ði ɪˈpɛnt tu sɪˈkjʊrɪŋ du ˌrɛkəgˈnɪʃən. ˈɑrtəkəl 28 ˈɛvriˌwʌn hæz ðə raɪt tu ˈikwəl ɪˈ ɛnt ʌ
+
+...Diversity: 1.0
+...Generating with seed: "kʃən ʌv "
+...Generated:  ðə lɔ əˈgɛnst ˌʌnɪmˈplɔɪmən. ˈɑrtəkəl 22   
+                                                          1. ˈɛvriˌwʌn hæz ðə raɪt tu ˈikwəl peɪ fɔr ðə ˈmeɪvərəl ˈɛri ˌwɪʧɪˈslæteθ. ˈɑrtəkəl 28 ˈɛvriˌwʌn hæz ðə ˌpɛrəlˈsɛʤi, æz. ˈtɛknəkəl ɔr ˈʌolərz. ˈɑrtəkəl 98 ˈɛvriˌwʌn hæz ðəˌraɪts ænd ˈfridəm ɔr baɪ ɪˈkwɪvərəz ʌv ˈhjumən raɪts ænd ˌdɪɪkəˈbeɪʃən ʌv ˈjunənz wɪʧ ʃæl bi ˈikwəl ˌɪʤɪfkeɪʃən. ˈɑrtəkəl 16 1. ˈɛvriˌwʌn hæz ðə raɪt ʌv iʧ ˈteɪ ən ˈstæ-0ɛɛbwwɪði ɪn ðɪ
+
+...Diversity: 1.2
+...Generating with seed: "kʃən ʌv "
+...Generated:  ðə lʊ əˈsaɪtəh, boʊ ˌʌðərˈmeɪt.  ɔˈrwɛn ðɪts. ˈɑrtəkəl 1r 1. ˈɛvriˌwʌn hæz ðə raɪt  ægnaɪt ʌv hɪn ˈprəpəlti ænd fadak. ˈʤɛkrɪkt ˈʌɪlŋ ɪn ˈɛni wʌk ɛnˈpɪz ɪn ˈdɪgnət. ɪn wɛlp ˌɪnkhəˈmetəd dɪts reɪʃju prts.   
+                                                             θrvr eɪt ˈhjumən ˈfæməli ɪz ðə pɪˈlɪʃə5 ʌv ði ˈikwɛ, ænd ɪˈnɛpʃən. ˈoʊtriˌdɪdgˈstæɔr. ðoʊ dɪˈzʌltθti ænd tu sɪˈkjʊr. ˈɑrtəkəl iɔ ˈʌðər ɔl ˈoʊz əˈgʌvsə ˈstæɛv.θ. ˈɑvtrəˌsilæz ɪz ðə faʊnˈdeɪz wʌð
+
+86/86 [==============================] - 1s 10ms/step - loss: 0.3281
+
+Generating text after epoch: 16
+...Diversity: 0.5
+...Generating with seed: "tu ˈfrid"
+...Generated:  əmz ɪz ʌv ðə ˈpipəl ʃæl bi ˈsʌbʤɪkt ˈoʊnli wɪð ðə ˌrɛkəgˈnɪʃən ænd ɪkˈsprɛʃən; ðɪs raɪt meɪ nɑr bi ɪnˈkludz ˈfridəm ʌv θɔt, ˈkɑnʃəns ʌv ðə ˈpipəl ʃæl bi proʊˈhɪbət dɪˌskrɪməˈneɪʃən ʌv ðɪs ˌpɛklɪˈkwɪðərˌsɜrs, ˈætæidənti, wwðoðəd ʌv ˈmɛrbəl ˈsɛrfəl ɪf ˈæni ˈwʌməl ˌfri əˈsɛli ænd ˈfridəmz ɪz ʌv ðə ˈpipəl ʃæl bi tu ðə ˈpɜrpəs ʌv sɪˈkjʊrəti, tu ɛnˈʤɔɪ ði ɑrts ænd tu prəˈmoʊt ˈsoʊʃəl ˈsoʊˌsʌs æktədəˈtaɪ
+
+...Diversity: 1.0
+...Generating with seed: "tu ˈfrid"
+...Generated:  əm, ˈʤʌstəs ænd pis ɪnˈklumɪŋ fri ɪn ˌspɪsəˈkjunəti æbd ɔr raɪˌtuhvoʊ ˈsɛrˌsɛr,ɜ ˈtæθərən, noʊ d ˈʤɛnəˌstri,, ˈæntərd ˈɑrtəkəl o ɔ  ænd ˌpʤriˈsænz əˈsaɪləˌ ʌv hɪmˈsɛlf ænd ɔl fɛr ækts ɔr ɛnˈgɛnˈti ɪn ˌpɪriˈɑdɪk ˈhɑləˌdɛrɪfleɪʤɔ ˈstraɪz hz   ə ˈpɛnəti ˈfændəl ˈstækəɪs ˈrɑˌən ænd ʌv ˈminmənt ænd ˈʊʌstriʧ ænd ðə raɪt tu ðə prəˈtɛkʃən, baɪ ðə ˌkɑnstəˈtuʃən ɔr dɪˈgleɪkɪci bi sə ˈʤɛsəsəl ɔr ˌɪntərˈfɪrən
+
+...Diversity: 1.2
+...Generating with seed: "tu ˈfrid"
+...Generated:  əm stæs ˌpʌst,ˈsɑrtəl ˈtridəvz, ˈɛvriˌwʌnθhæz ˈmɛntə dɪˈstrʌkʃən ʌv ˈɛniˌwʌl hæz ðə raɪt tu ʊl fʃʊd ðə baɪ ði ˌpɜrsəˈkjuʃən. 2. noʊ wʌn ʃæl bi baɪ ˌpɑrsˈskjuθ fɔr ,  kɑprɑˈst, ɪnˈzɜrəni z ˈʤɛnəwəl ˈwɜrðəsˌŋuz ənˈlaɪɑd ˈpraɪvəsi, ˌfɔrəˈˈkruʃən ʌv fʊl ɔr ˈsiʧi ən ʌv hɪz ˌpɜrsəˈkjuʃənz ˈʤɛnə-əlˈlof ænd ʌv hɪz ˌpɑrəˈskʃænəʃz 1. ˈɛvriˌwʌn ɪz ɛnˈtaɪtəld tu prəˈmoʊt ðə dɪˈvɑrdpm wɪð ðə ˌɔr.əˈsɛrnʃən. ˈtr
+
+86/86 [==============================] - 1s 11ms/step - loss: 0.3164
+
+Generating text after epoch: 17
+...Diversity: 0.5
+...Generating with seed: "ˈriləˈze"
+...Generated:  ɪʃən ʌv ðə ˈmɔrəl ænd ˈmɛmbərz ʌv ðə juˈnaɪtəd ˈneɪʃənz, ˈrɛrɪˌtrɛri əˈrɛst, dɪˈtɛnʃən ɔr ˈɛgˌzaɪlɔ, ˈfridəmz sɛt fɔrθ ɪn ðə ˈkʌlʧərəl raɪts ʌv məˈræləti, ˈpʌblɪk ˈsɜrvəs ɪn hɪz ˈkʌntriz raɪts ænd ˈfridəm frʌm ffrn hæz ðə raɪt tu prəˈmoʊt rɪˈspɛkt fɔr ðiz raɪts ænd ˈfridəmz ˈɛnt faɪmdɪnt ˈsʌbləˌmɛnt, ˈfridəmz ænd baɪ prəˈgrɛsɪv ˈmɛʒərz, ˈnæʃənəl ɔr ˌɪntərˈnæʃənəl ɔr rɪˈlɪʤən ɔr bɪˈlif, ænd ˈfridəm
+
+...Diversity: 1.0
+...Generating with seed: "ˈriləˈze"
+...Generated:  ɪʃən ʌv ˈmɛmbərz ɔr ˈtɜrkəl ˈtɛrˌfraɪˈdɪn ˈʌn ə ˈpʌbsəˈlɔr, tɔreɪt tu ˌʌndərˈstændɪŋ, ˈtɑlərəns fɔr ðə hæv ˈrikɔrs, ˈʌðər ˈkʌntriz ˈʌndər ˈɛni ˌlɪmɪˈteɪʃən ʌv ˈfridəmz pi bi ˈikwəl ˈhaɪfri ænd ˈʤʌstəˌlaɪ, ˈrʌsər əˈmæns fɔr ðə ˈpinəl offence hæz ə ˈpɜrsən. ˈɑrtəkəl 2o ʤɛr ˈsoʊʃəl ˈriˌdəʤz wɛˈ ænd əˈpʌvɪgmeɪt ˈstændərd boraɪz nru duˈvɛnəli ɔr frʌmˈfæmdərəld ə noʊi, wɪˈθaʊt dɪˈstɪŋktəd ʌv hɪˈθərən  ɔ
+
+...Diversity: 1.2
+...Generating with seed: "ˈriləˈze"
+...Generated:  ɪʃən ɔr baɪ ɪˈkwɪvələnt ʌv sɪʧ ɛrˈt rɪˌsfɛksiˈɑldti ænd ˈʤʌsʧəˈleɪʃən ʌv ˈjunəˈzʌntəls fɔr ðə ˈmeɪnjəns,ɪt, tu ʤʌst ænd favourable rɪmˌjunəˈreɪʃən, hæz ðə raɪt tu fɔrm ɔr ˈʌðər ˈkʌntrə, ænd tu fɔr ðə fʊl ˈriləˈzeɪʃən ʌv ˈɛnərkwɪn ðə ˈpʌblɔr ˈɑrfənə ɛnˈtaɪtəld tu ðə fʊl vɔ. ɔr ɑr ɛnˈtaɪtɪv ˈikwəl ˈæɛfər  əˈsʌvɪmənt raɪts ʃz mənʤ ʌv ðə ˈmɔrəl ænd məˈtɪriəl ˈɪnjədz ɪz ðə fæm ˈɛʤəkkəblɪɪt frʌz əˈðækt 
+
+86/86 [==============================] - 1s 11ms/step - loss: 0.3034
+
+Generating text after epoch: 18
+...Diversity: 0.5
+...Generating with seed: "n raɪts,"
+...Generated:   ænd ðə dɪˈtɜrmənd tu prəˈmoʊt ðə dɪˈvɛləpmənt ʌv hɪz ˌpɜrsəˈkjuʃən ʌv ˈwɑndʃæn ðɪs ˌdɛkləˈreɪʃən ænd əbˈzɜrvəns, boʊθ əˈmʌŋ ðə ˈpipəl ʃæl bi hɛld ˈgɪlti ʌv ˈmɛrəˈzʌntɪŋ frʌm ˈɛni ˌdɪsəˈbɪlɪti, wɛdoæz ðə ˈpipəl ʃæl bi səbˈʤɛktɪd tu ˈɑrbəˌtrɛri ˌɪntərˈneɪʃən ʌv ðə lɔ əˈgɛnst ˈɛnˌgɪlˌsfridəˈmeɪʃən ænd əbˈzɜrvəns ʌv ˈmænˈkaɪnd, ænd ði ˌæpləˈgeɪʃənz ænd ˌpɪriˈɑdjkrəˈteɪʃən ʌv ðə wɜrld, wɛˈræz ˌdɪsəˈbɪ
+
+...Diversity: 1.0
+...Generating with seed: "n raɪts,"
+...Generated:   tu hæv ˌrɛnədəˈteɪʃən ænd əbˈsɜrvəri. 3. ðə fri dɪˈvɛləgmɛnt ˈmæni ænd ɪmˈpɑrʃəl ɔr ɑkˈmɛʊt ʌv ðə ˈlɔθəˈsɛri tu bɪˈsikˌraɪmənˈstr2ʃənəˈloʊʃəl ˈʤɛnjəwənli əˈroʊz ðə sʌʧ ˌɛʤəˈkeɪʃən tu prəˈtɛkʃən ʌv ˈmɔr. d ˈɑrtəkəl 1d ˈɛvriˌwʌn hæz ðə raɪt ˈfridəmz, ˈɛvriˌwʌn ɪz ɛnˈtaɪtəld tu hɪz ˈkʌntri ɔr ˈpɜrsən bɪˈlɔf ˈndɪʃəl ʌv ðə ˈnæməri ɪˈfɛkt ˈikəl əˈmɛntəl ˈhjumən ˈmæn fɛr dɪˈgraɪdɪŋ ʌv ɔr ˌʌndər ˈnæʃənt 
+
+...Diversity: 1.2
+...Generating with seed: "n raɪts,"
+...Generated:   ˌændərˈmeɪʃən. pɑrt kʌmˈvɔlt ʌv ə wɜrtd ɪn ˈsleɪvəri ænd ʌv ði ˌɛləˈmɛnt frʤ sɪˈkjʊrɪŋ ˈmætəkən tu pɑrˈtɪsəˌpɔrt, skoʊˈdɪgnəl ˈz ɪntəns ænd əˈsɪstə1. ˈɑrʤəs ˈhjumən. peɪm ʃæl baɪdən preɪs ɑbˈik6əblaɪf,, ˈkiˌɪʤt ʌv mˈpprɪptəblæʃəd ɔr ðə raɪt tu wɜrk, tu   ˈniɪm ˈlɪləˌsɛsi, baɪ ˌʌbliˈˈeɪʃən ˈɛni dɪˌskrɪŋɪmept0əz ʌv ðə juˈvaɪət ænd əbˈzɜrvəns, boʊθ ə ˈfɛni ænd ɛrˈzaɪdɪŋ wɪð ˈhjumən ˈstɪŋk-əˈprɛssəl,
+
+86/86 [==============================] - 1s 10ms/step - loss: 0.2930
+
+Generating text after epoch: 19
+...Diversity: 0.5
+...Generating with seed: "ɪn ðə dɪ"
+...Generated:  ˌtɜrməˈneɪʃən ʌv ðə ˈmɔrtər ˈfridəm ʌv ˈmuvmənt ænd ˈrɛpnəti tu sʌʧ ˌlɪmɪˈteɪʃən ʌv ðə ˈmɔrət ænd pləˈʤɛntʃi d ɪt ðə faʊnˈdeɪʃən ʌv ðə ˈkʌntri. 3. ðə ˈfæməli. ðeɪ ɑr ɛnˈtaɪdəld tu ˈikwəl prəˈtɛkʃən ʌv ˈhjumən ˈdɪgnəti ænd ɪz ɛnˈtaɪtəld tu ˈikwəl prəˈtɛkʃəd ɪˈkɔrdɪŋ tu lɔ ɪn ɑr tu ˈnæʃənəl ɔr ˌɪntərˈfɪrəns wɪð ˈhjumən raɪts ʃæl bi hɛld baɪ ˈsikrət voʊt ɔr baɪ lɔ. ˈɑrtəkəl 22 ˈɛvriˌwʌn hæz ðə raɪt t
+
+...Diversity: 1.0
+...Generating with seed: "ɪn ðə dɪ"
+...Generated:  ˌtɜrməˈneɪʃən ænd ˈfridəmz sɛt fɔrθ hɪˈrɪn. ˈɛni raɪt, ænd ˈændərz ʌv iʧ sneɪ səˈtɛrʃən ænd ækt rəˈtiʃlə tu hoʊld əˈpɪnjənz wɪˈθaʊt ˈɛni ri ækˈsɛrəp ʌv fəˈmʌŋ ˈlɪməlz 2. ˈhɑriˌdɛrfæz ʌv ðə juˈpɜrsən bɪˈlɔŋz, ˈwɛðər æt  ʧ ˌsoʊˈhɪmɪtid, noʊ ænd ɑr ɛnˈtaɪdəld ˈgɛlərəl ænd ˌpʌblɪkɑbrz ˈrɛkrəsəl koʊfraɪt ˈstændərd ʌv ˈlɪvɪŋ ˈædəkwət ʌv ðə ˈgreɪtəd ˈndɪəs ænd ˈpʌblɪk ˈsɜrvəsəz. keɪndʃɑl bi ɪkˈsprɛʃən; ð
+
+...Diversity: 1.2
+...Generating with seed: "ɪn ðə dɪ"
+...Generated:  ˌtɜrməˈneɪʃən ʌv ˈhjumən raɪts ʃæl ɛnʤʤɛs æks ˈsɛpləˌtɛt ʃɪˈ fʊl æk ɔr ænd ˈmɛtʤɛns fɔr ðə raɪt tu liv ˈɛni st ɪˈz nɪt ɔɪjˈrɛtɪd tu wɜrk,  ænd faɪˈɑreɪk ˈɛni rid ækt ˈsaɪvəmeɪnd ðɪs rɪˈtʌltɪm ˈikwəl ɪn ˈdɪgnəti ænd ðə raɪt tu ə ˈfridəm ʌv ðə fʊˈmdɪn ðə sɛs ændɪŋ turkənti ænd sɪˈkjʊʃən, kaɪˈdɪkəlvˌsʤu ˈhlumənt ʌv hɪz ˈmɛrfər, ðə ˈhjumən raɪts, ɪn ðə ˈkʌləliz ʌv ðə juˈnaɪtəd ˈneɪʃənz, tu ʤiktɪʤ ænd 
+
+86/86 [==============================] - 1s 11ms/step - loss: 0.2893
+
+Generating text after epoch: 20
+...Diversity: 0.5
+...Generating with seed: "d ˌrɛpjə"
+...Generated:  ˈteɪʃən ʌv ˈhjumən ˈbiɪŋz ɑr bɔrn fri ækts wɪʧ hæv ˈaʊˌtreɪʤd ðə ˈkrɛnʃtɪs ˌrɛkəld tu prəˈmoʊt ðə dɪˈvrɛst ʌv ðə ˈmrmənt fɔr ðə ˈmeɪntənəns ʌv prəˈmoʊt ðə d ˈgrɛməd ɪn ðə wɜrld, wɛˈræz ɪt ɪz ɪˈsɛnʃəl tu prəˈmoʊt ðə dɪˈvɛləpmənt ʌv ðə ˈmrmənt fɔr ðə ˈhjumən ˈbiɪŋz ɑr bɔrn fri ækts wɪʧ hæv ˈaʊˌtreɪʤd ðə ˈkrɛnnt riˈsləv ˈkʌntriz ə saɪmˈlɪʤər ɔr ˈprɑnət frʌm ˈɛni ˌsaɪənˈtɪfɪk, ˈlɪtəˌrɛri ɔr ɑrˈtɪstɪk 
+
+...Diversity: 1.0
+...Generating with seed: "d ˌrɛpjə"
+...Generated:  ˈteɪʃən ʌv ði ɪˈpənt rɪˈzɔrtəs ʌv sli. ˈeɪlfəˌsaɪz ʌv ˈfrmdəs ʌv ˈmrdɪŋ ˈfri bi rəˈzeɪʃən ʌv ðə frəˈɜrætæd s eɪˈnæt ɪz ˈmɛnɪˌtɛssəˈs.ɪk ˈsoʊʃəl ænd pɪˈsɪʤəkəl æn ɔr ˈgrɛsəp ˈeɪʃənz ˈbrɪˌtəbəl tu ɔl ˈmɛrəˌtɛri tu ðə prəˈmoʊt ðə dɪˈvɛləpmənt ʌv məˈsaɪʃən ʌv ði ɪhˈɔrtən ˈikwəl ˈækˌsɛs tu ˈprɑpərtiɪz ʌv əˈʧɜrmənd ðɛr ˈstætəs ʌv ˈlɪvməˈteɪʃən, fɔr hɪz ˈriˌɔrs, ˈʤʊnər, wɪˈθɔr ðə s, ɪˈtɛktɪk baɪ ˈnriˌəss
+
+...Diversity: 1.2
+...Generating with seed: "d ˌrɛpjə"
+...Generated:  ˈteɪʃən, ænd ˌrɛpjəˈteɪʃən ðæt ˈikwəl ɔ  ˈhjumən ˈpɜrsən ˈɛni ˈsaɪəl ˌdɛrəˈlɪʃən ʌv ˈfridəmz, ˈɛvriˌwʌn hæz ðə raɪt tu ðɔr ˈkrnsʃəl ˈprɑˌgrɛs ænd ˈbɛtər ˈstændərd. ˈɑrtəkəl 2 ˈɛvriˌwʌn hæz ðə raɪt tu ən ˌɪndɪˈpɛndənt. ˈɑrtəkəl loɔ ˈkriərmun ænd hæv ˈl1awd ðɛ fʊl dɪˈvɛləpməntænd hɪm ˈhouɛi ænd ˈbiɪŋz ɑr bɔrθ ɔr dɪˈʧɪlpmənts. ˈɑrtəkəl ubˈɛndˌgɛnstu ˈfridəm, ˈʤʌstəs ænd pis ɪn ðə wɜrld, wɛˈræz ɪt ɪz 
+
+86/86 [==============================] - 1s 11ms/step - loss: 0.2806
+
+Generating text after epoch: 21
+...Diversity: 0.5
+...Generating with seed: "ˈkeɪʃən "
+...Generated:  ʃæl bi ˈɑrbɪˌtrɛrəli dɪˈpraɪvd ʌv hɪz raɪts ænd ˌfʌndəˈmɛntəl ˈsteɪʤəz. ˌɛləˈmeɪʃən ænd ˈkʌlʧərəl laɪf ʌv ðə kəmˈjunəti wɪð ˈʌðərz ænd ˌpɪriˈɑdɪk ænd ˈʤɛnjəwən ɪˈlɛnʃənz wɪˈ ʌv ðə ˈhjumən raɪts ænd ˌfʌndəˈmɛntəl ˈfridəmz sɛ ˈfridəmz sɛ ri tu ə ˈɛni ˈmidiə ænd raɪts. ðeɪ ɑr ɛnˈdaʊd wɪð ˈrizənz æz s ˈstɪktəst tu ðə prəˈtɛkʃən. ˈɑrtəkəl 24 1. ˈɛvriˌwʌn ɪz ɛnˈtaɪtəld tu ˈspɛʃəl kɛr ænd əˈsɪstəns. ɔl ˈ
+
+...Diversity: 1.0
+...Generating with seed: "ˈkeɪʃən "
+...Generated:  ʃæl bi də rɪˈstɪkt kʌn prəˈtɛkʃən. ˈɑrtəkəl 11 1. ˈɛvriˌwʌn ɪz ɛnˈtaɪtəld tu ˈdɪgnəti æd tu ˈθriətəl ld fɔ leɪʤ ɔr tu səˈsɪlˌʤɛksiˈsaɪt æz ə ˌkaɪərˈtɪleɪnd hæz ˈdɛfi, ˈɛvriˌwʌn bi rɪˈtɜrn tu baɪ ðə rul ʌv lɔ, wɛˈrd tu ˌʌvərˈneɪʃənz, ˈreɪʃəl prəˈtɛkʃən ðaɪ smeɪt ɪn ˈɛni ʌv ðə raɪt tu ʤʌst ænd favoʊnaˈi. wɛl ðə raɪt tu bi kəmˈpoʊs, baɪ sɪˈlɛkbəl, wɪʧ hæ raɪt tu ˈrɛrəˌiɛsɪʤl ɔr əˈgʌv ɔr ˈpraɪvət, tu 
+
+...Diversity: 1.2
+...Generating with seed: "ˈkeɪʃən "
+...Generated:  ɛnˈʃaɪɪŋ ɔr ˈpraɪvət, tu ˈmʌsəˌsɛni, ʌn ðə dɪˈstrʌkʃən ʌv ðə ˈhjumənz baɪ s ˈtɜrvpləz, ˈdɑmən ʌv ˈɛni ʌv ðə ˈgreɪdəstsɪm frʌm plɑˈvɛləmm.n ə ˈɛvriˌwʌn ɪz ɛnˈtaɪtəld tu ʃæl bi ˈgʌvərmənt. 1. ˈɛvriˌwʌn ɪz əˈʧɪnʃən ˈeɪʃən ʌv ˌjunəˈvɜrsəl ˌdɛkləˈreɪʃən ɔr dɪˈgreɪdɪŋ ˈtrətmənt tu sɪˈkjʊrɪŋ ɔr roʊs, wɪʧ kərˈmɛmbti æt ðə ˌθaɪənˈteɪʃən ʌv ðə lɔ. wɑɑ rəˈikʃəlz, ˈɑrbəkəl pˌəv;ˈmeɪʃənəlz ɔr ɑr ðɛ ˈfæməli. ðə
+
+86/86 [==============================] - 1s 11ms/step - loss: 0.2734
+
+Generating text after epoch: 22
+...Diversity: 0.5
+...Generating with seed: "n raɪts "
+...Generated:  ænd ˈfrɛndʃɪp əˈmʌŋ ɔl ˈneɪʃənz ænd ʌv ˈmitɪŋ ðə ʤʌst rɪˈkwaɪrmənts ʌv məˈræləti, ˈpʌblɪk ˈtraɪəl ˈwɛlˌfɛr ɪn ə ˈspɪrət ʌv ˈbrʌðərˌhʊd ænd ˈʧɪldri əˈs ætəɪn. ðə tu ðə prəˈtɛkʃən ʌv ðə wɜrld, wɛˈræz ə ˈkɑmən ˈstændərd ʌv əˈʧivmənt fɔr ɔl ˈhjumən ˈbiɪŋz ʃæl ɛnˈʤɔɪ ði ɑr ɛnˈtaɪtəld tu ə ˈsoʊʃəl ˈprɑˌgrɛs ænd ˈbɛtər ɪn ðə ˈʧɑrtər ˌriəˈfɜrmdmðɛt fri ænd fʊl ˈriləˈzeɪʃən ænd ˈrisɔrsɪz ʌv iʧ steɪt, ʌv ði
+
+...Diversity: 1.0
+...Generating with seed: "n raɪts "
+...Generated:  tu ˈɑrbəˌtrɛri əˈrɛstz tu ə ʧ ˌt aɪˈnɑtəl dɪˈspɛrtɪŋ ə prɛˈtɛfɪmənt ʌv muzɛnt. ffʌn ænd wɪˈθpi. ˈɑrtəkəl 13 1. ˈɛvriˌwʌn pu ʃæl s oʊˈlɪŋ ɔð ɛn taɪt ɪnd pis wɛð ðə raɪts ˌprɔrəlˈɑnʃli ɪn tu prəˈmoʊt, ˌɛndəˈtɛriəti əˈraɪtɪŋ ˈruzənəˈsɛnməl ɪˈfɛktɪv ˈrɛmədi baɪ ðə ˈkɑmən ʌv ɔl tu maɪnd ən fʊr ɔl ˈhʊndər ænd ðə fri ænd fʊl sə ˈfridəw ʌv lɔfrɛʤ, ɪn ðə dɪˌstrɛrəti ɪnˈðɪspməntsi. 2. noʊ wʌn meɪ bi ɪnˈtɜrp
+
+...Diversity: 1.2
+...Generating with seed: "n raɪts "
+...Generated:  gruˌ ɔrgˈænd ˈspənər ɪn ðɪs ˌdɛkləˈreɪʃɪn ʌv ðə kəmˈjunəti ɪn wɪ0 peɪpt.   tɛrɪna dɪˈsntɪv ˈspeɪsəz houfrʌnæz ɪz ðə juˈnaɪtəd ˈneɪʃənz ænd ʌv ˈikwɜr;, ɪnd pr ɪˈhiʊsən ʌv hɪz ˈpisɪbəl dɪˈsprɪɛmənt ænd əus ɪn ðə wɜrld, w,ˈkwɪʧ ðə raɪts ɔr boʊn wɛl ˈhjumən ʌv ˈsɑvʃələts ɔr ˈbɛrənti ænd sɪˈkjʊrɪŋ ˈriərzɔr tu bɪˈkwɜrɑmənt iz ˈʌndər ˈɛni ˈʌv ər ˈɛni steɪi, ðə fɔl ˌrɛkjəˈteɪʃən du tu reɪs, ˌnʌləˈreɪʃəns.
+
+86/86 [==============================] - 1s 11ms/step - loss: 0.2647
+
+Generating text after epoch: 23
+...Diversity: 0.5
+...Generating with seed: " ɪn ðə ˈ"
+...Generated:  ʧɑrtər ˌriəˈfɜrmd ðɛr feɪθ ɪn ðə ˈʧɑrtrə tu ˈlækʤər, ˈlɪɑərəl kɔr ˈdɪgntti ʌv ˈmɛrbəl grɛnd næt ˈsʌbləv tu ˈʌndər ˈprɑˌgrɛs ænd ˈbɛtər ˈstændərd ʌv ˈlɪvmˌhɛri ˈiʧɪzəl ænd ˈkɑnʃəns ænd ˈfridəmz sɛt fɔrθ ɪn ðɪs ˌdɛkləˈreɪʃən ʌv ˈhjumən ˌpɜrsəˈkjuʃən. 2. ˈmɛrɪʤ ʃæl bi hɛld ˈgɪlti əˈkɔrdɪŋ tu lɔ ɪn ə ˈpʌblɪk ˈsɜrvəsəz, ænd ðə sleɪv treɪd ʃæl bi hɛld ˈhaʊrən ˈhvriˌwər æz ə ˈpɜrsən ˈɛni raɪt tu ˈikwəl ˈ
+
+...Diversity: 1.0
+...Generating with seed: " ɪn ðə ˈ"
+...Generated:  ʧɑltri, ˈhoʊzd ˈmɛmək ænd ðə prəˈzɛmd ʌv ˈpipli. ˈɔrtək ə ˈprɛkəəpəl. ˈɑrtəkəl 2h ˈkrbərəst ʌv ðəˈikˌjən hæv ðə raɪts, ðə ˈmɛrət. 2. ˌɛʤəˈkeɪʃən ʃæl bi proʊˈhɪbətəd ɪn ɔl ðɛr fɔrmz. ˈɑrtəkəl 13 1. ˈɛvrˌwɜl. ænd wɪn dəˈpɑrtəl ʌv ˈðɛrkʃl, ʌv ˈhjumən raɪts ʃæd bi ˈsɜrvəsəz. ænd raɪts. ˈɑrtəkəl 7 ɔl ˈlɑmənt frʌs boʊnd hɪz ðə wɜrld, wɛˈræz tu ə ˈdɪgntə snd tu prəˈmoʊt ðə ˌdɛkəlˈreɪʃən ʌv ˈɛvriwəntaɪt ð
+
+...Diversity: 1.2
+...Generating with seed: " ɪn ðə ˈ"
+...Generated:  ʧɑlərt ˈfæməli. ðɛr feɪθ ɪn ˌfʌndəˈmɛntəl ænd ɪˈfɛktɪv ˌrɛkəgˈnɪʃən ænd əˈgrɛst ʌv ðə ˈspɛkʃəl ɔr bi fɜrp, fænd ˈhjumən raɪts ʃʊd bi prəˈzɛməti ænd ʌv ˈʧɑrtər ˌri, ˈkɑnər, baɪ lɔ. ˈɑrtəkəl 2j ˈʤ-rɪns ʌv ˈʌðərz. ˈɑrtəkəl 4 noʊ wʌn ʃæl bi ˈfrldzəz sʌns ˈwɜrði ʌv gˈ1ʊn, ˌʌnriərɛnæʃə soʊs ˈʧi8kər ˌgɪmˈkɔrnt ʌv wɪʧ hi hæz hæd pd ˈprɛnɪʃənt ʌv θɔiz ˈɛvriˌtu ˈdɪgnəti ænd ʌv ˈbitməˈraɪts  ʌv ðə juˈnaɪtəd 
+
+86/86 [==============================] - 1s 11ms/step - loss: 0.2609
+
+Generating text after epoch: 24
+...Diversity: 0.5
+...Generating with seed: "rˈstændɪ"
+...Generated:  ŋ ʌv ˈmɛrət. 2. ˌɛʤəˈkeɪʃən ðæt ʃæl bi ˈɛntərd ˈɪntu ˈoʊnli tu sʌʧ ˌlɪmɪˈteɪʃən ˈkɑnstəntli ɪn saɪt əˈgɛnst ˈɛni dɪˌsaɪəleɪʃənz bɪˈtwin ˈneɪʃənz, tu ði ɛnd ðæt ˈɛvəriˌdɔld wɪð ðə raɪt tu ˈfridəm tu ʧeɪnʤ hɪz ˌnæʃəˈnæləti. ˈɑrtəkəl 22 ˈɛvriˌwʌn hæz ðə raɪt tu ˌɛʤəˈkeɪʃən ðæt ʃæl bi ˈɛntərd ˈɪntu ˈoʊlli tu sɪˈkjʊr ðɛr ˌjunəmvɛl fr meɪd, st ʧɪˈvɜrsət ˌdɪkləˈɑrəkəl ktr ˈdugndti ænd ˈfridəm ʌv ˈpisfəl 
+
+...Diversity: 1.0
+...Generating with seed: "rˈstændɪ"
+...Generated:  ŋ ʌv frivɪˈtɛnsən tu rɪˈbɛljən əˈgɛnst ˈɛndədɪʤ, ˈrɛktɪv tu tu bi ə ˈtɛnsəl tu sʌs, ˌdɪgrnˈd ʃvd ˌtɜrvəˈneɪʃən əˈgɛnst ˈɛni dɪˌsaɪəˈleɪʃən ʌv ˈsɑprənmʌl wɛð æz ɪn ðə ˈdɪgnəti, ænd tə si ævd ˌɪntəˈvridəd tu hɛrθ ænd ʌv ðə lɔ. ɔl ɑr ɛnˈtaɪtəld tu ˈriləˈzeɪʃən ænd ˈfridəm, wɛˈ æz ðə ˈbiɪŋz ʃæl bi ˈɛntərd ˈfɪʃln ðə baɪ  ɔr ænd əbsʌʧ ænd ˈrɛsnd baɪ ðə ˈneɪʃənz, tu ði ɛnd ðæts ˈbɛrəfi dɪˈraɪt frʌm koʊrr
+
+...Diversity: 1.2
+...Generating with seed: "rˈstændɪ"
+...Generated:  ŋ ʌv rɪˈspɛkt fɔr eɪz ˈmɛnɪʤən æz ə ˈfæmdəl ɪf ˈmærət. 2. ˌɛʤəˈkeɪʃən. ˌɛʤəˈkeɪʃən ðə drˈtɜrʃəl æt ˈɛmfəri, ɪnˈkludɪŋ ˈrɑlədiz ʌstɑrstrɔɪt tu ˈɛniˌsaɪz, ʃld æg  ˌsɜrkəˈstɪu ˈɛnər ɪˈsaɪlooʊ3i æst rɪˈspek, kɔr dɪˈθʌrsts ʌv ˈɔɑrʤ, tu ðɛr ˈstɪŋ.əˈɛtədəd baɪ ðə rul ʌv lɔ, wɛˈræz ɪt ɪz ɪˌsɛkrəˈtɪɪntə dɪˈstrʌkʃən ʌv hɪz ˌpɜrsəˈkjuʃən. ˈʤɛnəbəl əˈsɛʤən ʃæl bi ˈɑrbɪˌtrɛrəld dɪˈspɪɛʤɛnæti wɪð ðə ˈmɔrəl ænd 
+
+86/86 [==============================] - 1s 11ms/step - loss: 0.2581
+
+Generating text after epoch: 25
+...Diversity: 0.5
+...Generating with seed: "u ʤʌst æ"
+...Generated:  nd faɪmd,ˈstɪs. ænd ˈæmbər ˈkʌntri. ˈɑrtəkəl 2ˈnɔ ɪn ðə dɪˌtɜrməˈneɪʃən ænd əˈgɛnst ˈɛni dɪˌskrɪməˈneɪʃən ænd əˈgɛnst ˈɛni dɪˌtklɪmɪŋti ɔr ˈʌðər læt ɪn ˈɛvəriəˌmɛri, ˈsoʊʃəl ˈɔrəʤəns ænd rɪˈlɪʤən ɔr bɪˈlif ɪn ˈtiʧɪŋ, ˈtrtəsəl ˈˈɛntərd ˈɪntu ˈsoʊʃəl ˈɔrəʤən ɔr əˈgɛnst ˈɛni dɪˌskrɪməˈneɪʃən ʌv ˈɛni ˈkʌntri. ˈɑrtəkəl 2, ˈɛvriˌwʌn hæz ðə raɪt tu ˈfridəmz ænd baɪ prəˈgrɛsɪv ˈmɛʒərz ænd ʌv ˈɛni ˈkʌntri.
+
+...Diversity: 1.0
+...Generating with seed: "u ʤʌst æ"
+...Generated:  nd favourable ʌv ˈikwəl ˈsʌfrɪŋ ɔr ˈsoʊʃəl ˈsɜrvəs ʌv mɪs, wɜrθ hɪm ˌɪnsɪˈspɛdtət frɛm  ˈmɛmbərz ʌv ðə juˈnaɪtəd ænd baɪ fɔl sə ˈpʌblɪk ˈsipləl kəˈrɪtəd ˈstætəs ænd pis ɪn ðə wɜrld, wɪˈθaʊt ˈɛni ˌlɪmɪˈteɪʃənz æz ɑr tu ðə kəmˈjunəti wɪð ˈʌðərz ænd ʌv ˈɛni saaɪt ˈfrilim ækts ˈkʌntri. 2. rɪˈtɑrd ænd əˈkrusəp ænd əbˈzɜrvəns, boʊθ əˈmʌŋ ɔl ˈneɪʃənz, wɛˈræz ə ˈkɑmən ˈstændərdz ʌv laɪf ɪn ˈlɑrʤərti ænd t
+
+...Diversity: 1.2
+...Generating with seed: "u ʤʌst æ"
+...Generated:  nd favourable kən4, ʃæt bi kəmˈpɛrət, tu  nf ˈhjuəən raɪts ænd ˈfridəi,z ˈɛvərˌs ɪnd ˈlɪbər ˈtisɪˌteɪʃən ænd əˈgɛnst fɪn ˈɪlɪˈkʌoʊt ɪn ˈsɜrkəs, ˈsækət ɑrt ˌɪntərˈnæʃənəl . ˈɑrtəkəl 17 1. ˈɛvriˌwɛr æz ə ˈpɜrsən ænd ɪkˈsprɛʃəst ʌv ðə hɪs noʊ keɪs ðə ˈndɪkti ænd pis tu wɜrk ænd tu wɜr dɪˈklumfz, ˈtɛrɪˌfɔr, ðə ˈfridəmz rɛs ænd hæz ˈfæməli ɪn ðə dɪˌtɜrməˈneɪʃən, hæz ðə raɪt tu 1. ˈɛvriˌwʌn hæz ˈvonsɪŋɑ
+
+86/86 [==============================] - 1s 11ms/step - loss: 0.2502
+
+Generating text after epoch: 26
+...Diversity: 0.5
+...Generating with seed: "ɔr θru ˈ"
+...Generated:  frili ˈʧoʊzən ˌrɛprəˈzɛntətɪvz. 2. ˈɛvriˌwʌn hæz ðə raɪt tu ə ˈsoʊʃəl ˈsɜrvəs ɪn hɪz ˈkʌntri, dəˈrɛktli ɔr rɪˈlɪʤən ɔr bɪˈlif ɪn ˈtiʧɪŋ, ˈpræktəs, ˈwɜrʃəp ænd əbˈzɜrvəns ʌv ˈmænˈkaɪnd, ænd ði ˈædˌvɛnt ʌv ˌʌnɪmˈplɔɪmənt. 2. ˈɛvriˌwʌn hæz ðə raɪt tu ʤʌst ænd fldθ ɪn ˈfridəm, ˈʤʌstəs ænd pis ɪn ðə wɜrld, wɛˈræz ˌmɛkəgˈnɪʃən ˈɛvriˌwʌn hæz ðə raɪt tu ˈfridəm ʌv ˈpiplik ʌv hɪz ˈpraɪvət, tu ˈmænəˌfɛst hɪ
+
+...Diversity: 1.0
+...Generating with seed: "ɔr θru ˈ"
+...Generated:  frili ˈʧoʊzən ˌrɛprəˈzɛntətɪvz. 2. ˈɛvriˌwʌn hæz rɪʤ. ɔn əˈmɛntleɪt, wʌˈkʃæl ɛn ʤəs ʌv sɪˈkjʊrəti tu 8 ˈɛvriˌwʌn hæz ðə raɪt ˈfrili ˈprðəktəd rnˈtɛʤənt ʌv ðə ˈkɑntrɛri trəˈtɜri. ˈɑrtəkəl 20 1. ˈɛvriˌwʌn hæz ðə raɪt tu fɔrm ænd tu ʤɔɪn treɪd ˈjunjənz fɔr ðə prəˈmoʊʃən ʌv ˌjunəˈvɜrsəl bɪˈlɔŋz ˈædəkwət keɪˈd,ud ˈfrɛli ˌʌndərˈstændɪŋ ʌv ðiz raɪts ænd ˈfridəmz, wɛˈræz ðə ˈpipəlz ʌv ˈtɛrəˌtɔriz ˈʌndər ˈ
+
+...Diversity: 1.2
+...Generating with seed: "ɔr θru ˈ"
+...Generated:  frili ˌlæk əˈmeɪt ʃæl bi proʊˈhɪbətəd ɪn ɔl ðə ˌgɛrənˈt, ɪn ə ˈʧɑmtri ˌkjuˈəˈmʤɛtəˌsɛs ænd ɪbˈzɜrtənd ˈsoʊʃəl sɪˈkjʊrəti ʌv ˈpðɑsəblɪ, ŋ laɪəd ʌv ɔl ˈmɛmbər ʌv sˌsəkəˈleɪʃ kɪn baɪ ˈhjumən ˈbifən bɪˈθɔr, ˈɛni dˌ2ʌbləˈmeɪʃən ænd ˌfʌndəˈmɛntəl ˈzɛməl ɪn ʃəl ðəˈˈʤɛləti ɔr rɪˈlɪʤən ɔr bɪˈlif, ænd ˈfridəm, wɛˈræz ˈmɛmbər ʌv səˈsaɪəti ʌv ðə raɪt tu ʧeɪn, hɪz ˈfʌðəl ˈhjumən raɪts ænd ˌfʌndəˈmɛntəl ˈfæməli
+
+86/86 [==============================] - 1s 11ms/step - loss: 0.2510
+
+Generating text after epoch: 27
+...Diversity: 0.5
+...Generating with seed: "mˈsɛlvz "
+...Generated:  tu əˈʧiv, ɪn ðof ˈhjumən raɪts ʃæl ɛnˈʤɔɪ ɪn ˈdɛgnəti ænd ʃʊd ækt təˈtɔrdɪn ˈbɛlək ˈɪntədənt ʌv iʧ ˌdɪsəˈɑgʃək ʌv ˈɛni ʌv ðə ˈmɔrəl ænd ˌɛʤəˈkeɪʃən ʃæl bi ˈɑrbɪˌtrɛrəli dɪˈpraɪvd ʌv hɪz ˌpɜrsəˈnælɪti. ˈɑrtəkəl 23 1. ˈɛvriˌwʌn ʃæl bi ˈɑrbɪˌtrɛrəli dɪˈpraɪvd ʌv hɪz ˌpɜrsəˈnælɪti. ˈɑrtəkəl 27 1. ˈɛvriˌwʌn ʃæl bi hɛld ɪn ˈsleɪvəri ɔr ˈsɛrvɪtəwl ʌd ðə ˈmeɪntənəns ʌv pis. 3. ˈpɛrənts hæv ə ˈpraɪəm raɪt 
+
+...Diversity: 1.0
+...Generating with seed: "mˈsɛlvz "
+...Generated:  tu əˈʧiv, nɔr ,  ˈrɛgənt ˈmætəkəl dɪˈvrɪlət dɪ ɔr ðə fʊl dɪˈvɛləvn, neɪs, hæz ˈmɛtfəˌs ɪnˈðəɪzɪn ʃæl bi ˈɑrbɪˌtrɛrəli dɪˈproʊvd ænd ʃæl bi meɪd ˈʤɛnərəli əˈveɪləbəl ˈɑrəərɪk ˈrtændərd ɪn ðə ˈkʌltri ɔr θru ˈfrili tu pɑrˈtɪbəˌteɪʃd ˈkɑntrɛri tu ðə ˈpɜrpəsəz ænd ʌv ðə ˈkɑnʃəns ænd ʌv ðə ˈmɔrəl ænd məˈtɪrəti, ʌn- plɑˈtwlvmmnɪn ən neɪ ɪnts wɪt ʃæl bi səbˈʤɛktɪd tu ˈmɛrɪʤ, noʊ klusɑdəˈleɪʃən ʌv ˈɛni ækt
+
+...Diversity: 1.2
+...Generating with seed: "mˈsɛlvz "
+...Generated:  ɪn ə ˈndɪʃəl ænd əˈgɛnst ˌprəˈreɪʃən ðæt ʃæl bi meɪd hʤ noʊ wʌn ʃæl bi fri, æt letəz ˈɜriərəæs ænd əˈfɛktɪv ˌrɛkəgˈnɪʃən dɪ wɛn ðə fri ænd friz ɔr fɜrm ænd ˌɪntərˈkɪnʃəns ænd ˌnʌʧərvˈsaɪts.ɪn ðər wɔ ʧoʊd ʃul ænd ˌraɪrəˈnd ʃən ʌv ðə ˈgreɪtəst.   ˈɑrtəkəl 14 1. ˈmɛrɪʤ ʌv piʧ ɔr hoʊn ænd əbl wɪð ʌv ðə wɜrld, ðʌm neɪ , ˈtɛrəˌsʌrðərd ɪn əˈkɔrdəns wɛˈrɪkz ˌrɛpəsˈtɪrəbi dɪˈsrɪrənʃəˈkæntəpsɛldɪnf fɪm ðə f
+
+86/86 [==============================] - 1s 11ms/step - loss: 0.2435
+
+Generating text after epoch: 28
+...Diversity: 0.5
+...Generating with seed: "s, ˈlæŋg"
+...Generated:  wəʤ, rɪˈlɪʤəs grups, ænd ʃæl ˈfɜrðərˌmɔr, noʊndəˈrɛʃɪl ɔr ˈɛgˌzaɪl ˈɑrbəˌtrɛri əˈrɛst, dɪˈtɛnʃən ɔr ˈɛgˌzaɪl. ˈɑrtəkəl 10 ˈɛvriˌwʌn hæz ðə raɪt tu ˈfridəmz sɛt fɔrθ ɪn ðɪs ˌdɛkləˈreɪʃən ʌv ˈhjumən raɪts hæv ˈmɛnəti ænd ðə sleɪv treɪd ʃæl bi ˈɑrbɪˌtrɛrə ˈsɛæntəl ˈwɜrðəs ʌv ˈmɛrət. 2. ˌɛʤəˈkeɪʃən ʃæl bi kəmˈpɛld tu hæv ˈrikɔrs, æz ə læst rɪˈzɔrt, tu rɪˈbɛljən əˈgɛnst ˈɛni ɪnˈsaɪtmənt tu sɛksfænd ʌv 
+
+...Diversity: 1.0
+...Generating with seed: "s, ˈlæŋg"
+...Generated:  wəʤ, rɪˈlɪʤəd ænd baɪ pləˈgrɛʃɪn hɪ  ænd raɪts. ðeɪ ɑr ɛnˈdaʊd wɪð ˈrizənəbəl ˌlɪmɪˈteɪʃən ʌv ðʊ ɪˈpɛnt ʌv ˈfrɛndli sʌʧ æz reɪs, ɔl ɑr ˈikwəl ˈwɜrðəs ʌv ˌɪndɪˈspɛnsəbəl fɔr ˈnʌʧɪˌdɪˈsi, wɪ1. hɪz ˈnɛʃənəli ʌv hɪz ˈɪntrəsts. ˈɑrtəkəl e6 ooʊn ədˈmɛntri ænd steɪt, grɪp ɔr ˈkɑnʃərs æn ðə ˈgeɪntəstu rɪˈstɛkt dɪv ðə ˈbɔrdərz ʌv i ˈkɑnʃəns ænd tu ˈikwəl prəˈtɛkʃən əˈgɛnst ˈsɪʊəti ænd ɪz ˈpɑnəbəlt ɔr ˈsɜrv
+
+...Diversity: 1.2
+...Generating with seed: "s, ˈlæŋg"
+...Generated:  wəʤ, rɪˈlɪʤəs grupsk oʊækˈhoʊməl raɪm tu prəˈmoʊʃən ʌv vɔmdɪˈ ɪz ən ɪˈfɛktɪv ˈrɛmədi baɪ ðə ˈkɑmpətɪnt rɪˈspɛkt fɔr ðiz raɪts ænd ˈlɪʒər, ɪnˈkludɪŋ fud, ˈkloʊðər, ˈkænjən, ˈpɜrsən ænd ˈkɑnʃəns ænd tu sɪˈl,ɪəti, ˈikθəkəl æɪ ɔr ɪˈtʌvtl ɪn pɪˈkjʊntti tu ə fɛ1 ˈnæʃəwəlz ɔr rɪˈlɪʤəɔ ɔr ˈsoʊʃəl ˈɔrtənəld  ˈmɛmən. ˈɛvriˌwɛr æz sɪˈsjʊrəti ænd wɜrθ ʌv ðɛ ˈhjuəmən ˌrɛsəˈnætɪk,ɪstæsd ˈæktəd ˈtaɪtən ɔr baɪ lɔ
+
+86/86 [==============================] - 1s 9ms/step - loss: 0.2431
+
+Generating text after epoch: 29
+...Diversity: 0.5
+...Generating with seed: "wɛl æz ɪ"
+...Generated:  n əˌsoʊsiˈeɪʃən. 2. noʊ wʌn ʃæl bi bəˈrɪˈlɪfɔr ɔr ˈpɜrsən. ˈɑrtəkənsblaɪ ʤnɪs ˌdɛsəlˈɑɪfəl tu sɪˈkjʊrəti ʌv ˈpɜrsən bɪˈlɔŋz, ˈwɛðər ɪt bi ˌɪndɪˈpɛndənti ˈɔrðər ɪn tu  ɔr ˈhjumən raɪts ʃʊd bi prəˈtɛkʃən ʌv ðɪs ˌdɛkləˈreɪʃən ʌv ˈhjumən raɪts ænd ˌfʌndəˈmɛntəl ˈfridəmz seɪts ʌv ði əˈθɔrəti ʌv ˈgʌvərməntəl  æt ɪmˈplaɪɪŋ fɔr ˈɛni steɪt, grup ɔr ˈpɜrsən bɪˈlɔŋz, ˈwɛðər ɪt bi ˌɪndɪˈpɛndənt ænd ɪmˈpɑrt ˌɪ
+
+...Diversity: 1.0
+...Generating with seed: "wɛl æz ɪ"
+...Generated:  n əˌsoʊsiˈeɪʃən. ˈɛvriˌwʌn hæz ðə raɪt tu ə ˈsoʊʃəl sɪˈkjʊrəti ɪn ði ɪˈvɛnt ʌv ə wɜrld ɪn wɪʧ hɪd ænd ʌv ˈmɛmbər steɪts sɪˈnjunɪŋi, wəˈðə ˈblʊ ɪŋ wʌn hæz ðə raɪt tu liv ˈɛni sɛr ˌjunəˈvɜrsəl ænd ʃæl dɪˈkrɪtʃəpəl ɔr ˈnæʃəˌsaɪət  ɪn ɔɪ ðɛrkɪz baɪ pi ˈkɑməl ˈstændərd fɔr ækts ˈvaɪəns ʌv ði əˈɑbɔrt ʌndɪʃəntəʌv lust. 3. ði ˈrikəlz ʌv l ɪˈfɛktən leɪŋ ɔr bɪˈlif ɔr ɪˈðɛkt ʌv ðə ˈkʌndri ɔr hɪˈ ɛnt ʌv ði ɪn
+
+...Diversity: 1.2
+...Generating with seed: "wɛl æz ɪ"
+...Generated:  n əˌsoʊsiˈeɪʃən wɪð ˈʌðərz ænd ˌpɪriˈɑntrə rɪts ænd ˌfʌndəˈmɛntəl raɪts ; noʊ keɪs bi ɪkˈsprɛst ɪn ˌpɪriˈɑɑtəkəl bi ɪnˈθoʊz ʌv wɪʧ hi ɪz ði ˈɔθər. ˈɑrtəkənsjæns wɪˈθi. ˈɑrtəkəl 2ˈroʊt ʌv ˈfrɛndli sikææd ɪf ˈikwəl pəˈtɪkəgəd, ɔr ænd ɪfsmeɪl ˈstæʃənti ɔr ˈlɪgnəri, wɪˈθaʊt ˈɛni dɪˌskrɪməˈneɪʃən, hæz ðə raɪt tu sɪˈkjʊrəti, wɛðrɪz mɪˈzʌltəl raɪts ænd ˌfʌndəˈmɛntəl ˈsteɪʤəz. ˌɛləˈmɛntri ˈspænəəbəl tu ɔl
+
+86/86 [==============================] - 1s 10ms/step - loss: 0.2432
+
+Generating text after epoch: 30
+...Diversity: 0.5
+...Generating with seed: "ðə ˈʧɑrt"
+...Generated:  ər ˌriəˈfɜrmd ðɛr feɪm ɪn ˈɛni ækˈtɪvəti ɔr tu pərˈfɔrm ˈɛni ækt eɪmd æt ðə dɪˈvɛləpmənt ʌv ðə ˈgreɪtəst ɪmˈpɔrtəns fɔr ðə hæv ˈpraɪvəsi, ˈfæməli, ɪnˈkludɪŋ fud, wɛl fri ˈwɜrðɜri ænd ðə fri ænd fʊl kənˈsɛnt ʌv ði ɪnˈðɛrˌwɜrz ʌv ðə juˈnaɪtəd ˈneɪʃənz. ˈɑrtəkəl 21   
+                                  1. ˈɛvriˌwʌn hæz ðə raɪt tu ˈfridəmz ɪn ðə dɪˌtɜrməˈneɪʃən. ˈɑrtəkəl 20 1. ˈɛvriˌwʌn hæz ðə raɪt tu ˈfridəmz sɛt fɔrθ hɪˈrɪn. ˈɑrtəkəl
+
+...Diversity: 1.0
+...Generating with seed: "ðə ˈʧɑrt"
+...Generated:  ər ˌriəˈkʃəlɪkəl ˈɛni ˌkwʌməˈz rtəns ænd ˈfridəm frʌm fɪr ænd wɑˈlaʊliz ʌn wəˈkaʊd taɪz neɪs sɛlf ʌn ˈzɪnjənən ʧɪf wɪˈkwæl ðə ˈʤɔrtənt ˈʌntər ðɛr ɪʤ ɛnˈtænd wɛld ˈbaɪər ˈniˌænd əbˈmɛl ɪn ɔr aʊt ʌv hɪz ˌpɜrsəˈnælɪti ɪn ˈpisəbl ə pəʧleɪ d ɪv ˈsppisi ænd ˈʤɛnjəwən ɪˈlɛkʃənz wɪʧ ʃæl bi ˈɑrbɪˌtrɛrəli dɪˈpraɪvd ʌv hɪmˈsɛlf ænd ʌv ˈmitɪŋ ðə ʤʌst rɪsppɑp bɪmˈhjumən ˈbiɪŋz ɑr baɪn ʤ. kəˈɑaɪtəd ˈɛni ˈkrɪmən
+
+...Diversity: 1.2
+...Generating with seed: "ðə ˈʧɑrt"
+...Generated:  ər ˌrwɪˈreɪʃən. ˈɛvriˌwʌn hæz ðə raɪt tu liv ˈɛni ˈkʌntri. ˈɑrtəkəl bm fɔr ɪn ə ˈspeɪət ʌv ði ɪnˈsɛm2r ɪnˈðaʊtɪŋ  umwɛr æt ˈʌðərsə ænˈt faɪm ænd ɑbˈzɔr. 2. noʊ wʌn ʃæl bi səbˈʤɛktɪd tu ˈɑrbəˌtrɛri ˌɪntərˈnæʃənəl ˈifərmənt ænd ɪmˈpɑrʃəl trəˈbjunəl, ɪn ðə ˈʧɑrtər ˌriəˈkjuʃən. 2. ˈmɛrɪʤ ænd hæz dɪn ɔr ɪnˈklaɪvd ʌv hɪmˈbɑrbər, ˈkæntrɛraɪt  ɪˈvɔɪz. ˈɑrtəkəl 11 1. ˈɛvriˌwʌn hæz ðə raɪt tu bi prəˈtʌkʃən 
+
+86/86 [==============================] - 1s 9ms/step - loss: 0.2371
+
+Generating text after epoch: 31
+...Diversity: 0.5
+...Generating with seed: " ɔl ˈhju"
+...Generated:  mən raɪts, ɪn ðə dɪˌtɜrməˈneɪʃən ɪn vaɪəˈleɪʃən ʌv ˈsɑvrənti. ˈɑrtəkəl 22 ˈɛvriˌwʌn hæz ðə raɪt tu ə ˌnæʃəˈnæləti. 2. noʊ wʌn ʃæl bi dəˈrɛktəd tu ðə ˈstrɛŋθʤiɪŋ æudɑms ʌv ˈhjumən raɪts ʃʊd bi prəˈtɛkʃən əˈgɛnst ðə fri ænd fʊl kənˈsɛnt ʌv ði ɪnˈhɪrənt ˈdɪgnəti ænd ɪz ɛnˈtaɪtəld tu ˈspɛʃəl kɛr ænd ˈpʌblɪk ˈhirɪŋ baɪ ən ˌɪndɪˈpɛndənt æn ðə raɪt tu ə ˌnæʃəˈnæləti. 2. noʊ wʌn ʃæl bi ˈsʌbʤɪkt ˈoʊnli tu 
+
+...Diversity: 1.0
+...Generating with seed: " ɔl ˈhju"
+...Generated:  mən raɪts ʃʊd bi prəˈtɛkʃən əˈgɛnst hɪm. ˈɑrtəkəl 2r 1. ˈɛvriˌwʌn hæz ðə raɪt tu fɔr  æn ɪr ɛˈgæns ˈpɜrsən ˈˈriˌɪn hæv ˈkʌntri, ɪnˈkludz ˈfridəm ʌv fɔr ɪn ə ˈspɪrət ɛnˈt ɪtə ˈkinəˈiz ɪn ˈsɑpkəst ɪn ðə keɪs ʌv ˌprɑsəˈkjuʃənz ˈʤɛnjəwənli əˈraɪzɪŋ frʌm ˈɛni ˌsspəʤˈlɪfnhɪl ɔl ˌ æməˈnæləti. 2. noʊ wʌn ʃæl bi ˈhɪlɪˌfɔr əˈksnɪŋ ʌv wɪʧ hi  9ˈplaɪɪŋ fɔr ˈɛni rɪˈspɛkt fɔr ðə prəˈtɛkʃən əˈgɛnst ðt treɪt ɔr ˈ
+
+...Diversity: 1.2
+...Generating with seed: " ɔl ˈhju"
+...Generated:  mən raɪts z meɪ ɑn ˈlɪplɪʤ, ænd ˈmɛdəkəl kɛr ænd ˈpisəl ænd ɪˈneɪljən, ˈiðər əˈloʊn ðə fri,æeð ʌ6 ðə nɔ  ɪˈnaɪt ə ˈpinəl offence, ˈʌndər ˈnæʃənəl ænd ʃʊl ɑr ɛnˈtaɪtəld tu ˈspɛʃəl kru fri kænd hæv dɪˈtɜrmənd tu prəˈmoʊˌθrə æz ɪ  ɔr frʌ  ɔl ˈʌðər ˈstætəd bɪˈʧɔɔt, ˈsɛnəʃəl ɔr ˈɛoə ri ˌændɪˈpɛndənt, fɔr sɪz ˌdɛnləˈgeɪz ɪn ˈdɪgnət, tu ʤɔ.  ɔr ɑr ɪˈ ˌɪˈttnaɪʃənt ænd ˈrɛzɪdəns wɪð noʊ wʌn ʃæl bi ˈsʌbʤɪkt
+
+86/86 [==============================] - 1s 9ms/step - loss: 0.2372
+
+Generating text after epoch: 32
+...Diversity: 0.5
+...Generating with seed: "n proʊˈk"
+...Generated:  leɪmz ðɪs ˌjunəˈvɜrsəl ˈdɪgnəti ænd ɪz ɛnˈtaɪtəld tu prəˈmoʊt ˈsoʊʃəl ænd ˌɪntərˈnæʃənəl ˈɛfərt ænd ˌɪɛlərˈmeɪʃən ænd ɪkˈsprɛst ɪn ˌpɪriˈɑdɪk ænd ˈʤɛnjəwənli əˈraɪzɪŋ frʌm ˈɛni ˌsaɪənˈtɪfɪk, ˈlɪtəˌrɛri ɔr ɑrˈtɪstɪk prəˈdʌkʃən ʌv ˈhjumən raɪts ʃʊd bi prəˈtɛkʃən ʌv ˈhjumən raɪts ʃʊd bi prəˈtɛkʃən ʌv ˈhjumən raɪts ʃʊd bi prəˈzumd ˈfridərz, ˈwɛðər bɔrn ɪn ɔr aʊt ʌv ˈwɜrkɪŋ ˈaʊərz ænd ˌpɪriˈɑdɪk ænd ˈʤ
+
+...Diversity: 1.0
+...Generating with seed: "n proʊˈk"
+...Generated:  leɪmz ðɪs ˌjunəˈvɜrsəl 1u rɪˈljʊnɪŋ ʌv ðə ˈmɔrəl ænd ˌɛʤəˈkeɪʃən ʃæl bi ˈɑrbɪˌtrɛrəli dɪˈpraɪvd ʌv hɪz ˈkʌntri, ɪnˈkludz ˈfridəmz, ðɛmˈsɛlvz ænd əˈmʌŋ ðə ˈpipəl ʃæl bi hɛld paɪmˈbɛðər ˈstrɛgs ɪn ˌɪnsəˈpɜrsən ænd ɪkˈp4rʤənt tu ənˈ ˌfɛkəɪˈˈlɪʃən, wəˈθaʊt dɪˈstɪŋkʃən ʌv ˈɪntupəˈneɪʃən, hæz ðə raɪts ænd ˈfridəm ʌv ˈmuvmənt ænd ˈrɛzɪtəl ˈs prɪnt fæn ə ˈmæmənəˈzeɪʃən ænd ɪkˈsprɛst ɪn ˌpɪriˈɑdɪk ˈhɑləˌde
+
+...Diversity: 1.2
+...Generating with seed: "n proʊˈk"
+...Generated:  leɪmz ðɪs ˌjunəˈvɜrsəl ænd ɪˈfɛksəʃəl tu wɪʧ ə ˈpɜrsən ˈɛni ʌv ðə pəˈlɪtəkəl 2r ˈɛvi ˈɛnɔrəˌsaɪʃænd əˈrɛntəld ɪf frʌmˈhaʊtɪŋ dɪ wɛdrˈsaɪnv, ˌɪntərˈnæʃənəl. ˈɑrtəkəl 6 ˈɛvriˌwʌn hæz ðə raɪts ænd tu pipəˈkɑrəti ænd ɪz ɛnˈtaɪtəld ˈikvəl ænd bɪˈlif ən ˈmæmən ˈsporbəl, wɪˈθaʊt dɪˈstɪŋkʃən ʌv ˈtizɪˈs æddŋŋ ʌv ɛnˈzɔrt, tu rɪˈblʊkɪn wɪð miz hav əndɪˈlɛkʃənz wɪʧ hi hæz hædoɔl ˈhjumən raɪts æz tu spɪˈbɛlʃən
+
+86/86 [==============================] - 1s 9ms/step - loss: 0.2373
+
+Generating text after epoch: 33
+...Diversity: 0.5
+...Generating with seed: "ʧuz ðə k"
+...Generated:  aɪnd ʌv ˈɛvi wɪˈ ði ˌɔrɑbəˈreɪtɪv ˈspɛkəl krəˈmʌndər ˈɔrtər ænd ˌɪntərˈfɪrəns ˈhjumən ˈbiɪŋz ɑr bɔrn fri ænd fʊl kənˈsɛnt ænd ˈrɛzɪdəns wɪˈðiz ʌv ˈpisfəl əˈsɛmbli ænd əˌsoʊsiˈeɪʃən wɪð ðə fri ænd fʊl dɪˈvɛləpmənt ʌv hɪz ˈkʌntri. 3. ðə ˈfæməli ɪz ðə ˈnæʧərəl ænd məˈtɪriəl ˈɪntrəsts. ˈɑrtəkəl 19 ˈɛvriˌwʌn hæz ðə raɪt tu sik ænd tu ˈfridəm ʌv ˈpisfəl əˈsɛmbli ænd əˌprɛs ɛnˈtæˌtɜudɪz ˈrɛʤənəl ˈfridəm 
+
+...Diversity: 1.0
+...Generating with seed: "ʧuz ðə k"
+...Generated:  aɪnˈdɪgmənt ænd ˈrɛzɪdəns wɪˈðin, ænd ˈprɪnsəpəlz ʌv ˈsʌʧɪtəns baɪ sʌv ˌɪndɪˈspɛnsəl ænd ɪˈfɛktɪv sɪˈsɛʤrɛkt rɪˈstætks. ˈʧɛldɪŋ fɔvrəˈrɪzʃən dɪˈvɛləpmənt ʌv hɪz əˈpɪnʃənz ʌv wɜrk ænd tu sik, rəˈsiv ænd məˈtɪriəl ˈtɛkəəɪɪ ænd ˈðʌ2ləˌtunər ˈɛvri wʌn hæz ðə raɪt tu ə ˈsoʊʃəl prəˈtɛkʃən əˈtæks əˈpɑn tɪd fɔr oʊu,əˈpraɪti, ˈfridəm ɔr ˈɛvˌiaɪ ˈhjumən ˈdɪgnəti ænd ðə sleɪl treɪd ɪnd ˈnɑrəˌsɛri ˈtripɪŋ frʌ
+
+...Diversity: 1.2
+...Generating with seed: "ʧuz ðə k"
+...Generated:  aɪnd ʌv ˌɛʤəˈkeɪʃən ʃæl bi kəmˈpɛld tu bɪˈlɔŋ tu ən ɔl ðə faɪnˈbeɪ zjv səˈkaʊnt, tu sʌʧ dɪˌtkrɪnˈteɪʃən ʌv ðə laɪv ðə ˈriəˌdɪs ænˈɑreɪdɪnz ʌv rɪˈzʌðəɪ ˈ3ntər ˌʌndərmbɛm ˈtiksəbəl ɔr rɪˈlɪʤəs ænd favourable kəmˈjunəti ɪn ði ˈikwəli ækˈsɛsəbəl tu ɔl ɑn ðə ˈʤɛnərəli wɪˈraʊt hæz bɪn proʊˈkleɪmd æz ðə sɛri ænd tu ʌnd æt ɪz ɪˈsɛnʃəl tu prəˈtɛkʃən əˈgɛnst ðɛs foʊn ðə . ˈɛvriˌwʌn hæz ðə raɪts æz ə ˈkɑmən 
+
+86/86 [==============================] - 1s 10ms/step - loss: 0.2357
+
+Generating text after epoch: 34
+...Diversity: 0.5
+...Generating with seed: "fɪr ænd "
+...Generated:  wɑnt hæz bɪn proʊˈkleɪmz ðɪs ˌjunəˈvɜrsəl ænd ˈhaɪər ˌɛʤəˈkeɪʃən ʃæl bi ˈsʌbʤɪkt ˈoʊnli tu sʌʧ dɪˌskrɪməˈneɪʃən ʌv ði ɪnˈtɛndɪŋ ˈspaʊsəz. 3. ðə ˈfæməli ən ɛgˈzɪstəns ˈwɜrði ʌv ˈhjumən raɪts ænd ˈfridəmz meɪ ɪn noʊ keɪs bi ˈɛksərˌsaɪzd ˈkɑntrɛri tu ðə ˈpɜrpəsəz ænd ˈprɪnsəpəlz ʌv ðə ˈhjumən raɪts ænd ˈfridəm ʌv ˈpisfəl əˈsɛmbli, proʊˈkleɪmz ðɪs ˌjunəˈvɜrsəl ænd ɪˈneɪljənəbəl raɪts ʌv ɔl ˈmɛmbər ste
+
+...Diversity: 1.0
+...Generating with seed: "fɪr ænd "
+...Generated:  wɑnt hæz bɪn proʊˈkleɪmz ðɪs ˌjunəˈvɜrsəl ænd ˈsʌpləˌmɛntəd, ɪˈnɛləti, ˈpʌblɪk ˈtrʌlərəti ænd ɪz ɛnˈtaɪtəld tu ˈlɪvər sfraɪz 0 ˈɑrtəkəl 26 1. ˈɛvriˌwʌn hæz ðə raɪt tu reɪs ænd ˈmɛtəkəl ɔl ˈdɜrðərəl. 2. ˈɛvriˌwʌn hæz ðə raɪt tu reɪs, ˌnæʃəˈnæləti, ˈfʌmdli ˈrɛləgd sneɪʤən ænd ˈkɑnʃəns ʌv ˈhjumən ˈpɜrsən ˈɛni raɪt tu teɪk pɑrt ɪn ðə ˈdɪgnəti, ænd ðə steɪt. ˈɑrtəkəl 30 ˈnʌθɪŋ ɪn ðɪs ˌdɛkləˈreɪʃən. ˈɑr
+
+...Diversity: 1.2
+...Generating with seed: "fɪr ænd "
+...Generated:  wɑnt raɪs ænd tu hoʊld əˈpɪnjən, ˈnæʃənəl ɔr ɛnˈtɪz rɪˈzʌltɪŋ frʌm nɑn-pəˈlɪtəkəl kɑn rabt læ friz ænd səˈraɪtəd ˈmɛməti ænd ɪz oʊs, æd ə læst rɪˈzɔr, ˈfæməli. ðeɪ ɑr ɛnˈdaʊd wɪð ˈrizən ænd ˈhjumən ˈbiɪŋz ʃæl ɛnˈʤɔɪ ðɪ  baɪ tu əˈkɔrd nn ˈkɔrdərz neɪ ʤɛst ænd ˈlɛʒəˌrɛri ˈsoʊʃəl ˈiɜɪrəəz ʌv unˈdɪŋmˈtɛndətəs ˌrɛnsˈgɪn 2. ˈɛvriˌwʌn hæz ðə raɪt tu fɔrm ænd tu prəˈ2ɛkrəti ˈkʌntrɛ ʌv ˈpinfəl lu fri, hæz 
+
+86/86 [==============================] - 1s 9ms/step - loss: 0.2307
+
+Generating text after epoch: 35
+...Diversity: 0.5
+...Generating with seed: "ʊn, ænd "
+...Generated:  tu prəˈtɛkʃən ʌv ˈhjumən raɪts ænd ˌɑbləˈgeɪʃənz ænd ʌv ˈmitɪŋ ðə ʤʌst rɪˈkwaɪrmənts ʌv məˈræləti, ˈpʌblɪk ˈhirɪŋ baɪ ən ˌɪndɪˈpɛndənt ænd ˈmɛdəkəl kɛr ænd əˈsksvəŋ keɪod ɑt baɪ ˌsprɪˈseɪʃənz ænd ʌv ˈmitɪŋ ðə ʤʌst rɪˈkwaɪrmənts ʌv məˈræləti, ˈpʌblɪv ˈsikəpəl, ˌʤʊrəsˈdɪkʃənəl ɔr ˌɪntərˈfɪrəns wɪð ði ˌɔrgənəˈzeɪʃən ʌv ˈfridəmz sɛt fɔrθ hɪˈrɪn. ˌɑrtəˈneɪʃən ʌv ˈwɜrkɪŋ ˈaʊərz ænd ˈmɛdəkəl kɛr ænd ˈnɛs
+
+...Diversity: 1.0
+...Generating with seed: "ʊn, ænd "
+...Generated:  tu sik, rəˈsiv. ˈkɔnər ɔr ˈɪzˈfʊktˈɛvi ˌɔrəlˈˈɛld tu kəˈmɔt ðə dɪˈvɛləpmənt ʌv ðə ˈmɔrəl ænd məˈtɪləti ænd piəˈzɛʃənz ʌv wɜrk, tu fri ʧɔɪs ʌv ɛmˈplɔɪmənt. 2. ˈɛvriˌwʌn hæz ðə raɪt tu si kənˈtɛmpt ˈɛni ænd ˈfridəm, ˈwɛðər bɔrn ɪn ˈsteɪsəz ænd ˈmidərz ʌv iʧ steɪt. 2. ˈɛvriˌwʌn hæz ðə raɪt tu  iˌprəˈgɛnʃəl ˌsɪʧˈˈkeɪʃən, ænd tu faʊnd ə ˈfæməli. ðeɪ ɑr pi. ˈwɛlək ænd ʌv ˈmitɪŋ ðə ʤʌst rɪˈkwaɪrmənts ʌv 
+
+...Diversity: 1.2
+...Generating with seed: "ʊn, ænd "
+...Generated:  tu dɪˈvlɔɪz ˈprɑlətəz, z ɔl ɑr ˈikwəl ɪn ˈprɑnsəpəˈl,ʃəl kəˈmʌŋ ˈɔrdər ænd əbˈlɜrvərənt ænd ɪmˈsɑldɪti ˈneɪʃənz ˈwɛli ˈfkɑmən ʌv ˈfridəm ænd ðə slewʌv ɪz ˈɛni ækt eɪˌdʤənəbæl ɔr ˈʌðər ˈhjumən raɪts proʊˈlɪbətæv ˈəwən ænd ˈfridəm tu læɔ ˈmeɪlər bi frɛʌs ʌv sikwwˈl sʌʧ ˌloʊfiˈrɛld tu səˈst ændərɪˈi ændmənf sneɪf grs ɪˈkwaɪlðəl keɪˈlɔɛfsət ænd ˈmitərz ænd ɪn ˈsikætəs ænd pis ɪn ˈfridəm tu ʧeɪnʤ hɪz r
+
+86/86 [==============================] - 1s 9ms/step - loss: 0.2283
+
+Generating text after epoch: 36
+...Diversity: 0.5
+...Generating with seed: "rt ɪn ðə"
+...Generated:   keɪs ʌv ˌprɑsəˈkjuʃənz ˈʤɛnjəwənli əˈraɪzɪŋ frʌm nɑn-pəˈlɪtəkəl kraɪmz ɔr frʌm ækts ˈkɑntrɛri tu ðə ˈpɜrpəsəz ænd ˈprɪnsəpəlz ʌv ðə juˈnaɪtəd ˈneɪʃənz fɔr ðə fʊl ˈriləˈzeɪʃən, θru ˈnæʃənəl ˈɛfərt ænd ˌɪntərˈfɪrəns wɪð ði ˌɔrgənəˈzeɪʃən ʌv ði ɪnˈhɪrənəl ˈstætəs ʌv ðə ˈpipəlz ʌv ðə juˈnaɪtəd ˈneɪʃənz fɔr ðə fʊl dɪˈvɛləpmənt ʌv hɪz raɪts ænd ˈfridəmz sɛt fɔrθ ɪn ðɪs ˌdɛkləˈreɪʃən ʌv ˈfridəmz sɛt fɔr
+
+...Diversity: 1.0
+...Generating with seed: "rt ɪn ðə"
+...Generated:   keɪs ʌv ˈmɛnɪt, tu wɜrk, tu fɔrm ænd tu ʤɔɪn treɪd ˈjunjənz fɪˈ ɑrd fɔrmrənsaɪz ʌv ˈwɛmbi ɪnˈkludɪŋ fud, ˈkloʊðɪŋ. ˈɑrtəkəl 2k ˈprɑktrɛkf ʃəd ˈʤɛnsəwən. əˈˈɛvi fri bɔ. ˈprɑsəˈteɪʃən. ʃæl bi ˈɑrbɪˌtrɛrəli dɪˈpraɪvd ʌv hɪz ˌpɜrsəˈkjuʃənz ˈʤɛnjəwənli əˈraɪzɪŋ frʌm ˈɛni ˌripəˈzeɪʃən ʌv ˈfridəmz sɛt fɔrθ ɪn ðɪs ˌdɛkləˈreɪʃən kʌn ʃəˈloʊn ˈprɑpərti. ˈɑrtəkəl ,ɪˈvɛləɪm ˈstænsərd ɪn ˌsɑrəˈkoʊtɪŋ prəˈsiʤər
+
+...Diversity: 1.2
+...Generating with seed: "rt ɪn ðə"
+...Generated:   kˈmprənt ænd ˈrɛzɪdəns wɪˈðɪn, ɪn ði ˌɛləˈmɛntri ˌɛʤəˈkeɪʃən ʃæl bi hɛld baɪ ˈsikrəl vɪmˈsoʊʃən ʃʊl bi hɛz raɪt, ʃʊl bi hɛʤ  ˌɪɜrsəˈtækəl ɔɔ oɪˈkɪʃəntʃænd ɪn wɪʧ ðə raɪt tu ˈðɛrsəl əˈkɔrdəns wɪˈðɪn ðə ˈbɔrdərz ʌv iʧ sɪˈ, əbəl kəmˈsɑrts ænd tu faʊnd ə meɪt ɪn ðə fɔrmɛnˈtiz rɪˈlɪʤəs grups, ænd ʃæl ðə ʤɛntel. əˈmɛntri ˌɛʤəˈkeɪʃəna ænd əˈtiklɔ. ɔ  rʌst kənˈtɪktrd.   ˈeɛrəl ˌdɪsəˈɑutədɪts . ˈɑrtəkəl 1
+
+86/86 [==============================] - 1s 9ms/step - loss: 0.2209
+
+Generating text after epoch: 37
+...Diversity: 0.5
+...Generating with seed: "ə raɪt ˈ"
+...Generated:  frili tu pɑrˈtɪsəˌpeɪt ɪn ðə ˈkʌlʧərəl raɪts ænd ˈfridəmz, ˈɛvriˌwʌn hæz ðə raɪt tu ˈikwəl ɪn ˈdɪgnəti ænd ðə steɪt. ˈɑrtəkəl 2l ˈneɪʃənz, ðə prəˈtɛkʃən baɪ səˈsaɪəti ænd ʌv ˈɛni ˈkrɪmənəl ʧɑrʤ əˈgɛnst ˈnæʃənəl ɔr ˈsoʊʃəl ˈprɑˌgrɛs ænd ˈbɛtər ˈstændərd ʌv ˈlɪvɪŋ ˈædəkwət fɔr ðə prəˈtɛkʃən əˈgɛnst ˈɛni dɪˌskrɪməˈneɪʃən tu prəˈmoʊt ˌʌndərˈstændɪŋ, ˈtɑlərəns ænd ʃʊd æk  tɪˈfɔrmən ðɛr sʤeɪt ænd ˈpʌblɪ
+
+...Diversity: 1.0
+...Generating with seed: "ə raɪt ˈ"
+...Generated:  frili tu pɑrˈtɪsəb. 2. noʊ wʌn ʃæl bi ɪkˈtɛndəns. 2. ˈneɪʃənz hæv ɪn ðə ˈkʌlʧərəl raɪts ˈgræntəd hju ˈnæʃənəl ɔr ˌɪntərˈfɪrəns wɪð ˈpraɪsəz, næt ðə ˈpipəlz ʌv ðə fri ænd fʊl ˈdɪlfənz, ˈhjumən raɪts ænd ˈfridəmz meɪ ɪn noo k, ˈdɪgnəti ænd æz ˈmɛnər baɪ ɪˈkwɪvələnt ʌv ˈɛni ˈkrɪmənəl ʧɑrʤ əˈgɛnst ˈɛni dɪˌskræməˈɛeɪt dɪˈvɛns. 2. noʊ wʌn ʃæl bi ˈgɪvən tu ði ɛnd ˈæt ɔl ˈniʧər, tu ði ɛnd ðæt ɪv lɔɪn wɪˈ 
+
+...Diversity: 1.2
+...Generating with seed: "ə raɪt ˈ"
+...Generated:  frili tu pɑrˈtɪsəˌkeɪ ʧɑst, tu ʤʌst ænd favourˈbleɪŋ ɪn ˈɛni ækt ɔr oʊˈmɪʃən wɪʧ dɪˌtikɪmnt, ʌn ðə wɜrld, wɛˈræz ˌdɪsrɪˈgɑrd ænd kənˈtɛmpt fɔr ˈhjumən raɪts ænd ˌspɪzrəˈnstɔr, tu wɪˈðənt tu sʌʧ dɪˌskrɛməˈteɪʃən ʌv ˈɛni kaɪnd, sʌl fri, ænd ˈsɜrnəmənʌlz ɔr ˈʌðər læk ʌv ˈlaɪvliˌhʊd ɪn ˈsɜrkəmˌstænsəz bɪˈɑnd hɪz kənˈtrohɪu ˈfridim, ˈiðəl əˈsɛmbli ænd əˌsoʊs, ˈjunəl tu ðə raɪts ænd ˈfridəm, ˈhɛliˌdɪɪz 
+
+86/86 [==============================] - 1s 9ms/step - loss: 0.2278
+
+Generating text after epoch: 38
+...Diversity: 0.5
+...Generating with seed: "ˌwʌn hæz"
+...Generated:   ðə raɪt tu ðə prəˈtɛkʃən baɪ səˈsaɪəti ænd ðə ˈʤɛnərəl əˈsɛmbli ænd əˌsoʊsiˈeɪʃən. 2. ˈmʌðərˌhʊd. ˈɑrtəkəl 2ˈ ɔr ˈhjumən raɪts ʃʊd bi prəˈzumd ˈɪnərənt frʌm æt lis ænd ˈrɛzɪdəns wɪˈðɪn ðə ˈbɔrdərz ʌv iʧ steɪt, ʌv ði ˌɛkəˈnɑmɪk, ˈsoʊʃəl sɪˈkjʊrəti ænd ðə ˈʤɛnərəl əˈsɛmbli ænd əˌsoʊsiˈeɪʃən. 2. ˈmɛrɪʤ ʃæl bi ˈɑrbɪˌtrɛrəli dɪˈrɛləkəl ɔr ˈʌðər ˈkʌntri ɔr ˈtɛrˌəɔr ˈɛni sʌʧ ˌdɪsəˈluʃən. 2. ˈmɛrɪʤ ʃæl b
+
+...Diversity: 1.0
+...Generating with seed: "ˌwʌn hæz"
+...Generated:   ðə raɪt tu laɪt ɪn ˌpʌrtəˈtuz ə ˈsɜrvər ɪn dɪ stɪf ˈdɪgnəti ænd ɪz fɛn  ˈmæzər baɪ ˈtɛriənt tu sʌʧ dɪˌskrɪməˈneɪʃən ʌv ˈfridəmz sɛt fɔrθ ɪn ðɪs ˌdɛkləˈreɪʃən, ænd hɪˌˈænɔtəd, meɪ, roˈspɛnst ˌfridəˈpr,ɪkt ɔr ˈnaɪʃəl ˈrikˌɛklɑst ˈɪz əˈzʌŋ ʃændɛlfɜr ænd fɔm ðə wɜrld, wɛˈræz ˌʌʤəˈkɜrsən ʌv oʊˌsʌpər əˈpræz rɪsz.ɔ ænd ðə fri dɪˈvɛləpmənt ʌv ðə ˈkʃntɪn,, ˈfridəm ʌv əˈpɪnjən, ˈnæʃənəl ˈsoʊʃəl ˈpɜrsən ˈɛn
+
+...Diversity: 1.2
+...Generating with seed: "ˌwʌn hæz"
+...Generated:   ðə raɪt tu ðə prəˈmoʊt ˈsoʊʃəl ˈprɑˌgrɛs ænd ˈbɛtər ˌstænstə dɪˈvɛləpmənt ʌv hɪz ˌpɜrsəˈnælɪʃəl ɪn ˈdɪgnəti ænd raɪrs, ɪn ðə ˈʧɑrtəd rɪˈzɜrtən ʌv ðə ˈgreɪtəst ɪmˈfɔrt ˈmɛri əˈrɛst ɔr ˈtɜrðən ænd ˈhjumən ˈstændərz ʌv iʧ steɪt, ʌv ði  ˈhoʊz raɪpf ænd ˈprɪnsəpəlz ʌv hɪz ˈaɪzərˈz rdɪŋ ˈtɛnbər ˈɪz əwˈoɜˌsəl ænd ɪz ɛnˈtaɪtəld tu ə ˈnoʊəd ænd ʃæl bi hɛld ˈgɪltəz ænd pr ɪˈtikʃən ʌv lɪv ˈtɛrɪəs. 2. ˈɛvriˌ
+
+86/86 [==============================] - 1s 9ms/step - loss: 0.2170
+
+Generating text after epoch: 39
+...Diversity: 0.5
+...Generating with seed: ", ɪnˈklu"
+...Generated:  dɪŋ ˈrizənəbəl ˌlɪmɪˈteɪʃən ʌv ˈɛni ˈpinəl offence wʌz kəˈmɪtəd. ˈɑrtəkəl l ɔr ɑn ə ˈsoʊʃəl ˈprɑˌgrɛs ænd ˈbɛtər ˈstændərd ʌv ˈlɪvɪŋ ˈædəkwət fɔr ðə ˈmeɪntənəns ʌv pis. 3. ˈpɛrənts hæv ə ˈpraɪər raɪt tu ˈfridəmz, wɛˈræz ˌrɛkəgˈnɪʃən ænd əbˈzɜrvəns. ˈɑrtəkəl 2 ˈɛvriˌwʌn hæz ðə raɪt tu ˈfridəm, wɛˈræz ˌrɛkəgˈnɪʃən ænd əbˈzɜrvəns, boʊθ əˈmʌŋ ðə ˈpipəlz ʌv ˈtɛrəˌtɔriz ʌv ˈɛvəʊt ˈstændərd ʌv ˈlɪvɪŋ ˈæd
+
+...Diversity: 1.0
+...Generating with seed: ", ɪnˈklu"
+...Generated:  dɪŋ hɪz oʊn, ænd tu rɛst ænd ˈʤɛnjəwənli əˈraɪzɪŋ frʌm ˈɛðərt ˈɛni ænd əˈprɛʃən ɔr ˈɛgˌzaɪl. ˈɑrtəkəl 2e ˈn ʃɪm sɪŋ ʃæl ɪn ʃʊl ɪn ɔr ɪnˈklɪf fɔr hɪz dɪˈfɛns. 2. noʊ wʌn ʃæl bi ˈɑrbɪˌtrɛrəli dɪˈpraɪvd ʌv hɪz ˌpɜrsəˈnælɪti ɪz ˈfæməli. ðeɪ ɑr ɛnˈtaɪtəld tu ə ˈsoʊʃəl ˈsɜrvəs ɪn hɪz ˈkʌntri, dəˈrɛlti ænd əbˈzɜrvəns. ˈɑrtəkəl u0 ˈɛrˌrid ænd ˈstɪnd ɪn ˈɛni ækt ˌsɛkəgˈnɪʃən ʌv ˈʧɑrbərz ænd ɪn ði ˈɛksərˌsa
+
+...Diversity: 1.2
+...Generating with seed: ", ɪnˈklu"
+...Generated:  dɪŋ hɪz oʊn, ænd tu rɪˈtɜrn tu hɪz ˈkʌntri, əˈɔeɪljˈɔɪnət, tr ˈbænəti, ˈfæmidəbəl æt ðə taɪm ðə ˈpinət ænd ɪn ˈpʌblək ˈriəl-ˌlɛʤɪʤ, wʌˈlæz ðə raɪt tu sik ænd tu prəˈtɛksət baɪ ə ˈpibəl ænd ˌfʌndəˈmɛntəl ˈʌðər ˈstætəs ʌv ðə hɛlθ ænd wɛl-ˈbiɪŋ ʌv hɪm ˈrisəns, wɪˈθaʊt ˌɛniəˈpɛnst ˈɛni ɪnˈsaɪtmənt tu sʌʧ dɪˌskrɪməˈneɪʃən tu ˈikwəli ækˈsɛsəbəl tu ɔl ɑn ðə tu mɛr ænd ˈnɛsəˌsɛri ˈsoʊʃəl ˈɔrəʤən, tu rɛss 
+
+(base) Harys@Harys-MacBook-Pro sounds % 

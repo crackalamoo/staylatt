@@ -1,0 +1,71 @@
+i:V
+y:V
+e:V
+ø:V
+ɛ:V
+œ:V
+a:V
+ə:V
+u:V
+o:V
+ɔ:V
+ɑ̃:N
+ɔ̃:N
+ɛ̃:N
+œ̃:N
+p:CS
+t:CSF
+k:CSF
+f:C
+s:C
+ʃ:CF
+b:CS
+d:CSF
+g:CS
+v:C
+z:C
+ʒ:CF
+m:C
+n:CF
+ɲ:C
+l:CLF
+ʁ:CLF
+j:G
+w:G
+ɥ:C
+--***--
+1:2
+2:3.5
+3:2.5
+4:1
+--***--
+:0.4
+C:0.5
+S.L:0.08
+f.L:0.02
+--***--
+V:0.4
+G.V:0.2
+V.F:0.1
+N:0.25
+V.ʁ.FS:0.05
+--***--
+:1
+--***--
+ji:i:1
+wu:u:1
+ɥy:y:1
+ɥu:u:1
+wy:y:1
+--***--
+ɲ:n:0.4
+d#:t#:0.4
+--***--
+Classes:
+V: vowel
+N: nasal vowel
+G: glide
+L: liquid
+C: consonant
+S: stop
+F: final consonant

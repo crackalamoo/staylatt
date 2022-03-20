@@ -1,0 +1,839 @@
+Last login: Fri Mar 18 16:34:41 on ttys000
+(base) Harys@Harys-MacBook-Pro ~ % cd Desktop/sounds 
+(base) Harys@Harys-MacBook-Pro sounds % python3 rnn.py 
+Traceback (most recent call last):
+  File "rnn.py", line 3, in <module>
+    from keras.optimizers import RMSprop
+ImportError: cannot import name 'RMSprop' from 'keras.optimizers' (/opt/anaconda3/lib/python3.8/site-packages/keras/optimizers.py)
+(base) Harys@Harys-MacBook-Pro sounds % python3 rnn.py
+[[0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]
+ ...
+ [0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]]
+(1717, 20)
+2022-03-18 17:01:56.039299: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+(base) Harys@Harys-MacBook-Pro sounds % python3 rnn.py
+[[0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]
+ ...
+ [0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 0. 0. 0.]]
+[0. 0. 0. ... 0. 0. 0.]
+2022-03-18 17:02:44.290829: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+(base) Harys@Harys-MacBook-Pro sounds % python3 rnn.py
+Traceback (most recent call last):
+  File "rnn.py", line 8, in <module>
+    path = keras.utils.get_file(
+  File "/opt/anaconda3/lib/python3.8/site-packages/keras/utils/data_utils.py", line 210, in get_file
+    raise ValueError('Please specify the "origin" argument (URL of the file '
+ValueError: Please specify the "origin" argument (URL of the file to download).
+(base) Harys@Harys-MacBook-Pro sounds % python3 rnn.py
+Corpus length: 10746
+Total chars: 42
+Number of sequences: 10736
+rnn.py:29: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  x = np.zeros((len(sentences), maxlen, len(chars)), dtype=np.bool)
+rnn.py:30: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  y = np.zeros((len(sentences), len(chars)), dtype=np.bool)
+2022-03-18 17:12:17.763070: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+84/84 [==============================] - 2s 11ms/step - loss: 2.6953
+
+Generating text after epoch: 0
+...Diversity: 0.2
+...Generating with seed: "ly an exis"
+...Generated:   and and and and frecaraan and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and andente the article ond and and and and and and and and and and and and and and and and and and and and ardictice and and and and and and and and and and and and and and and and and andereand and and and and and and and and and and and and and a
+
+...Diversity: 0.5
+...Generating with seed: "ly an exis"
+...Generated:  atial and araale oce of the arionelical and and and and and and of the coceacion cer fferianderle on araecto ald and arcartof ars hed andics andaces arcig and or artacice antintae iominitial and ardicte toceitical andacity ald anticrale ardantiondece be and on ple ac inteed and and anderrace and arte anacy and he th tianatiand artigytarace and and and anteofele ardinte aadice one artiand andesenti
+
+...Diversity: 1.0
+...Generating with seed: "ly an exis"
+...Generated:  tdofend zulsance ins of dier ousshand ongantiinco und cous ariasdacpimcoancianl ancor toroglneibais asrarit, cacius or ankecmembecoousion ancen ortdas or macalitdgedd antecpudialitras artticevafs almideacicsiondkssmend actetjone irpoco ho erect pas biymonaitovinagiry alicof onyohperian an onde nceroncaed  armandaes of eraqmane anuitaese aaleetandyicvetion the alterangererligeceocicaliandemtityarta
+
+...Diversity: 1.2
+...Generating with seed: "ly an exis"
+...Generated:   ae araibt ut any bm and. inbiticeac anl la s rleuce on ogpt eolanengandonipogharyarehasdlackithas ocy lat arifit thvoxy. ongcnccom, to thes hrersentto pev0ocony thisvis b.u 8htmrbuculnaagdaryeicacalucontcoce altuacytofchel yyoifigsdjnaltenkicvpraacaantavic ald 1e theceepald culaty co ausua toem;ith the mapricu ar antitlerrantangaphaybekegatarcrolighton ale coay. andilln ondicoucialo prcuay on soc
+
+84/84 [==============================] - 1s 11ms/step - loss: 1.9936
+
+Generating text after epoch: 1
+...Diversity: 0.2
+...Generating with seed: "any act or"
+...Generated:   and anion and ant on and anterealion and antereal on and and of or and anis and reghal of and on and and and an and ferereal of ention of all and ant on all and ant of all and and resen and ant right to promen and regual of ant of all of or and of and fore and for and fone and hal of all and an and of and of all of ereale and ant of and and fore on ention and and of an one has of al of and of an 
+
+...Diversity: 0.5
+...Generating with seed: "any act or"
+...Generated:  ee on on ation en and hight to lureal of anal of elobe fale has all ant of an oreerary an one hight tarerale evereale on any an and of entes and nalion in arions and ant of al cen and ans of es and aninalion of of comery and uale of on enges al of enseceal be for in an arion and fomer in secional or on ensele to ar and ant of and on an ano has of ald and right to corecuen and and anins ar of acion
+
+...Diversity: 1.0
+...Generating with seed: "any act or"
+...Generated:   the oror and of eaga of arialis lat of natis to fo hall pronol entas be right decefre on cirs ber on or repiel ou his core any ompeal sitas ival or on. 1overvoreon and celisen inyeessaadalederveat of decufohial cored ancyolation. 2. avereete no res nabealm fanl surcel min to ans frumecean an. lever alal. and oe wheisseiti in 2a eaulion ar epurey ar to fr aplec on ater an right 1as regualmeroasuda
+
+...Diversity: 1.2
+...Generating with seed: "any act or"
+...Generated:  hen salipeejtion on sicae 2o freesore proagiol in ly ferdleel . 2. ovesvey ale oe weitation. urhiceinjon xshibhus ary th suigatibns in u-aeuta ed of herxeopary a woale fecser navel pual in nafe seremandliotual free en thc he bel bali s, yone hig butho rivea0 ogher. tats tomrrceceols gin dight dal9vall eruceol th s earponctofoucd. acelins.nal wuagoo, perun. hunhomal of ind of efigeary it on porufac
+
+84/84 [==============================] - 1s 12ms/step - loss: 1.6836
+
+Generating text after epoch: 2
+...Diversity: 0.2
+...Generating with seed: "nd better "
+...Generated:  and for the right to the right to the right to and and and the right to the right to article 26 everyone has the right to and reconder and the right to the right to protection of the right to shall and the right to freedom the right to the right to the right to article 2. everyone has the right to and and the right to and receation and the right to the right to promention of the right to and and a
+
+...Diversity: 0.5
+...Generating with seed: "nd better "
+...Generated:  hamind and nations the right to article 22 everyone has the right to shall be enticle 22 everyone sather and inters and intervary and pence promall and the limnte and in the right to the right to proy on shall be nations, to shall rele and reseltion the hio an of onation and freedoms and freedoms on the right to equal in the rights and pelisted and interchery any comman and pronation of the right 
+
+...Diversity: 1.0
+...Generating with seed: "nd better "
+...Generated:  of th th undistectionungsitledkly and mertientanceevinses and ighe veallmany netednal oret onpersscolw, s and act cucl erjancientis pristathtrman suchartens soclel. materaltenat compegtenclled, 2. ave boy. 2. acticle raol rele s. article 11 everyone has pemsctection has religledudion2ousst, dectiw, himdencanon, gethevagah be for the dignnsoullersorstle and mivll whe reis the comgnotrentrec9analion
+
+...Diversity: 1.2
+...Generating with seed: "nd better "
+...Generated:  awsent. asticlist,rnaticne aclic un, dedrant of to ceerensllrcienwor. equal cate, iacted. acticne 2he. ekerlicled on haw whig5 and in fhitedd mudity. 2
+      le evenyons asticte, nit. ari akcions freedwe thimdadecuttrdol. date favt any red an pealighoud to ort qom, nacienser astrfre,letpeny of oth uth diomed in dacmentins weiugrawiffcais on repyrtiongoges themens, tfal ream, ctrmentiomaldf1d bo nations 
+
+84/84 [==============================] - 1s 11ms/step - loss: 1.4560
+
+Generating text after epoch: 3
+...Diversity: 0.2
+...Generating with seed: "le 4 no on"
+...Generated:  e has the right to and freedom of the right to equal be secures and to secien and to the resele and freedom of the right to and realise and to freedom the right to equal be connter and and to the right to arbe and to seall be sociel to and freedom of the right to and and to seciel and to seall and to seall be secure and the right to the reseate in the right to cond and freedom of the right to free
+
+...Diversity: 0.5
+...Generating with seed: "le 4 no on"
+...Generated:  e and of and mental be pores and peopes in the right to equal be gendument of whis the enational to seciel and the right to the reale and fundoms and forth secieny and shall be propeseins, to the pereote and the right to realise and fond and and freedom enatione with has the right to atberes of perione and to humat of penity in the right to social and for any of to seave and equal be tore be socin
+
+...Diversity: 1.0
+...Generating with seed: "le 4 no on"
+...Generated:  e has nethes in a peoghit on hus and enjofe reariave tor mebes and spare ary agiination right to belalas algs, has decoats p.es socisacience frea ane bessurin; indipinal onat ony the aceis to onoupratiticas leofaef, in tothed geniss in thas io apaled led men. theser any regitti meoun and of peraly beey any shall be ber ary orprened to chithonar, toedumate, hunltational of bersen. article 19 everyo
+
+...Diversity: 1.2
+...Generating with seed: "le 4 no on"
+...Generated:    has reace to jhh hhearaga, oretanooncleqhand agiivice, for canw resuuce, orpespasty. he hie in unallieg amareel the iincond. alt cons aly notalision. 27 entianaliby leiviofpes and howition of beal jumepal wdreztite and the nateank s aeligit tyfeely of plomsalital or yhall ders pootaticl j orei ondvengen nationaly any peese;d;1th jountonopar seaveecal 4rmedden. aolomsely any winha the shagl sogae
+
+84/84 [==============================] - 1s 11ms/step - loss: 1.2651
+
+Generating text after epoch: 4
+...Diversity: 0.2
+...Generating with seed: "ious group"
+...Generated:  erity and freedom of the right to secial and as internations and freedom of the right to free on the right to free and the right to freedom of the right to a perend the right to secial and freedom of the right to free on the right to free on the right to a rights and freedom, the right to free on the right to recorntry of the right to freedom of the right to freedom of the right to free and freedo
+
+...Diversity: 0.5
+...Generating with seed: "ious group"
+...Generated:  eres and freedoms of the right to promection of law the right to sucien and in the right to free and the right to freedom of the right to free and whereas rights and asticl and rights of the right to promet and exprestion of nations, the art resoration of the right to the right to a nations, to action ag in the right to ance in the right to secial and exely of any the lighin to act and freedom, no
+
+...Diversity: 1.0
+...Generating with seed: "ious group"
+...Generated:  lral evervone fres ont wat in and rights and actindtion and rights and freecocg. ir care, the latiwrty hose pllced remares and fqult re maticy ascbel it and exprelviduted to free the reage of his prespien and font ementily andithe unhersal and minon with f at an and of melt anclalk to the ore the procle ag socersutiem on haw dign, litzif the right to freedom al be rights cald ate in chulur and gen
+
+...Diversity: 1.2
+...Generating with seed: "ious group"
+...Generated:  are hur and r fordic, geneef of mhompete, righty or helr it0intal belitio t avh torry, religga in onh the ach ad and esxantifrabinns to promed n op naty in lduman 90pecsem har at ente socessil sociedyind gher at and freedom or perily, be intervarcic, nor arvivnnt to a freelop,  heryar of reciecl in rights have sel full age or the s alty nd at and comprice bo gulay ng laming as hesverent ws atimnat
+
+84/84 [==============================] - 1s 11ms/step - loss: 1.1074
+
+Generating text after epoch: 5
+...Diversity: 0.2
+...Generating with seed: "ation and "
+...Generated:  the right to the right to equal in the equal be furdomental trisun by society, indesence society. article 21 1. everyone has the right to se protection of the united national trisun be in the commun to free on the ente fary comment of the united nationality. article 11 1. everyone has the right to a person belongen and freedom of the united national trisun law, his the right to law in the commun t
+
+...Diversity: 0.5
+...Generating with seed: "ation and "
+...Generated:  in united national to the right to a encliversale and the the the right to a promote to seck0 and equal be fundomental from in country, indering tae and the law the right to all be unile and freedom be a iniciences of the right to equal in people and the right to farr and the right to vers and the right to and in the entheness be and the equal be exire to the right to servanes of the country, soci
+
+...Diversity: 1.0
+...Generating with seed: "ation and "
+...Generated:  shall be exice, prowucijuc . articl te all court ary bersticies, 0on the right to fundpment, sounity. article 19 1. everyone has the right to equal by nor-fors man rights educity and sociation. forh ches bercathoun to workh in socl, national to recognities for the united no stance on oud aceivition. imtin, promot secritevty and regrerplipsy. 1. the the elage trare of arone peasin, conmore has the 
+
+...Diversity: 1.2
+...Generating with seed: "ation and "
+...Generated:  adoxberrat ,igsriopestuliwicge and in labeerit. irtherclinady andicistthier of by undernal oud
+                             ot, lif, comord of thaifhhede free dofence, has reesiind fumandemmare, bacaraig. . everyone as is education, higubgioticle y all ingerestribe of thi2 covoun. of provhtrinc wsolvenc, das trnture intencing, to a with humecoed ks int onacitoun ty the unitecting equill. article 4 mow bade in lankerealiz and 
+
+84/84 [==============================] - 1s 11ms/step - loss: 0.9658
+
+Generating text after epoch: 6
+...Diversity: 0.2
+...Generating with seed: "e maintena"
+...Generated:  nce of his country. article 21 1. everyone has the right to law and the right to security and the right to freedoms and the right to freedoms of the purposes and activity and security and the right to community and social serfices. article 22 everyone has the right to security and the right to cheeng has the right to the purposes and freedoms and activity and international and international suchia
+
+...Diversity: 0.5
+...Generating with seed: "e maintena"
+...Generated:  nce of his country. article 17 norone shall be sochaly and relogge, to shall be securation of this declaration soases of the unived and full development of the purposes and international or and commote to shall be recognd in torse may in the whech ant intermittity of the purposes and periodacion of his fundamental promed and in tare conples wiothor any limitations this deality, his the right to de
+
+...Diversity: 1.0
+...Generating with seed: "e maintena"
+...Generated:  l, by peoples wore poy chiection; socalt any may seaukies sfountable yverzit o purtsti a rass in beicution. article 4 everyone has the right to crienche iothere spall pedurd belonvef of unived and resupcimst pay ofe torment partifs, demeves of equal waice, and the fund agsance. beressoh efvective in pliseity, hay no and diserivet him. article 7 all indticlity aropreity to a commented to the right 
+
+...Diversity: 1.2
+...Generating with seed: "e maintena"
+...Generated:  ncl inlal in. equal dempukily and splocs. 18 everyone soat and genurabley wield awtimin, this deleure ibslibed co for hemun rights encons recognition adefrfor; the the fore the case undoted afo seality by nd consul edueation biavo fean bablef of genurepaly, delongrtiol his the puris of his deceation, suigace, gerhial of thr ian dealies. article 2x everyones fall ats right to winht has the lanation
+
+84/84 [==============================] - 1s 11ms/step - loss: 0.8297
+
+Generating text after epoch: 7
+...Diversity: 0.2
+...Generating with seed: "y  
+                             teachi"
+...Generated:  ng and international tribunal rights and freedoms, social security in the staces of the common proples of the common proples of the common proples of the common pelivity, wiblous and in acticth reavis in association. article 2 everyone has the right to security and to social services of the country to a protection and insernational tribunal rights and freedoms, social services of these rights and 
+
+...Diversity: 0.5
+...Generating with seed: "y  
+                             teachi"
+...Generated:  ng and to chiec, belien and to progectional life and to strecuination with others. all are entitled to aress and in act or ote the exirtice respectived to propectives of to recognition of his recognition of his freedom of society in the protection and of secuat or to couption of society, has the right to equal rights of all declaration of his personality. article 2 everyone has the right to equal 
+
+...Diversity: 1.0
+...Generating with seed: "y  
+                             teachi"
+...Generated:  ng by decumint, to fulld dealirsed by the privecle for alt in inseress sance, nos limitation of moratiin assicontfor and the exprriged aud respectival sual and resoulation or deliemen mebentarbeffon ald of bisivity and wolld shall be slicees all to proyoce and equally or peace. 2. this recognotion winh others and to seckect of these ricets of e2. everyone shall be lace of mence, whece s asss in be
+
+...Diversity: 1.2
+...Generating with seed: "y  
+                             teachi"
+...Generated:  ng of ling of or byrfrpmenmess fortho 1. 2. everyone, securivo worgin. 2. no one shall be sorjection. in parsibes. 3. equsation or to persingt anofmemble and impary ary to secuiity. 3. evernone assimety orjarbes;l arts of pencopments torsocial  orinitg, hel albaried whth reashance. ardicn, 
+                                                                  reessible, to arbecjertind international and areived corscle 2 a whicc peaminl whict woles. 2. no one shall 
+
+84/84 [==============================] - 1s 11ms/step - loss: 0.7207
+
+Generating text after epoch: 8
+...Diversity: 0.2
+...Generating with seed: " furthermo"
+...Generated:  re, no states to protection. article 29 everyone has the right to seckingtion of his rights and freedoms, whereas it is essential to and in the stanted in the constituted to ant of the right to an equal in the right to seck to the protection. article 15 1. everyone has the right to seckingtion of his rights and freedoms, whereas it is essential to protection. article 10 everyone has the right to s
+
+...Diversity: 0.5
+...Generating with seed: " furthermo"
+...Generated:  re, no states to manination of his rights and freedoms, whereas incerseretse for the human personality or articte 3  
+                                                    all deet, restited to arbitrary to anceprntanded by the right to seck states have and or any regaidial trial and priscies ascistary to and to stindic worlhion, whith and op resuring madination of human rights and freedoms, ameication of the right to equal pey other and to seek and 
+
+...Diversity: 1.0
+...Generating with seed: " furthermo"
+...Generated:  re, no forth other other bergenuin, by semplesng of las1 his the digrits to hid ortatious in lioged int inservational, touldiag in 
+                                                                  as chongrald themevees for the united nationaly in a pecils deace or the a the gnien of perserventied. irtist inciperhas arcaring of nock, huraliple for the bidivation social declaration or by law. article 24 everyone has the dignity and social protection of whis ded 
+
+...Diversity: 1.2
+...Generating with seed: " furthermo"
+...Generated:  uthand freedoms, souliral, indecoess, notlenmed. justicl of the countryedithint rights and medical or pelalement in barlabaufed by equily difelcring educf otheath asts oudity, dissout hemsul. as astic, under national, urtergamentalice and oedicanic proceoum dign ty be sule, resucoumst by free dhmin right to an incerentind is estentaty  
+                                 te counition inachingrive conatient incowed in the vail cooei
+
+84/84 [==============================] - 1s 13ms/step - loss: 0.6153
+
+Generating text after epoch: 9
+...Diversity: 0.2
+...Generating with seed: "rights of "
+...Generated:  all the right to equal protection of the peoples of the united nations, to the end to be and to shire the community in the education shall be subjected to a bersarblity of the community in the eleceal or entitled to a social and effective recognition and effective recognition and of encowent any security in the edecaited freedom to hald all the right to equal protection against ty a realiog and to
+
+...Diversity: 0.5
+...Generating with seed: "rights of "
+...Generated:  embly of the equal rights of the united nations, to the end to shall reatiofagion of declaration dis religion or beliefor to stand and other and freedoms and freedoms and by promotion of genuing of freedom the beloms of the community nationality of the country, derestore and freedoms and effective recognition every and periodic and effective recegnity, for the people shall be enbery ordering have 
+
+...Diversity: 1.0
+...Generating with seed: "rights of "
+...Generated:  humanirightso hould aselias to recugrilal, foosh the foll and mpely acta persocisst ading 8very and medigatice in freedoms and conscaety of the high2 to a realizep, to eneralal befies procectho in plicabies, vich any inationits sonily of the foundatical and repleyferotraring, indoch reaces and imson and edulation shall be sebjected freelysam any resultrment of his right inclubrrage undur tardid at
+
+...Diversity: 1.2
+...Generating with seed: "rights of "
+...Generated:  deelnwitg, hive one theif intivient, inderfincc of himself and his interfore ary states of the suconal enjoy opn any overraseretand free den acoistrybl in inhorsamance with the equal rights. in fariaa in limdin by leilitior by , r inoguding, rearigion educanion every and security and to helle colttrary, unalissenstan freecoms of his recigiona and agacumint, witho hamong natione and to worsh undpk 
+
+84/84 [==============================] - 1s 11ms/step - loss: 0.5351
+
+Generating text after epoch: 10
+...Diversity: 0.2
+...Generating with seed: "sovereignt"
+...Generated:  s. article 11 1. everyone has the right to equal pay for any limitation of to free on in association. article 11 1. everyone has the right to freedom of tecrithout of any limitation of equal pars. all children, without any discrimination of to free on in cioman and equal before the law. all are entitled to equal pay for any limitation of to free on in accordance with others. 2. no one shall be sub
+
+...Diversity: 0.5
+...Generating with seed: "sovereignt"
+...Generated:  s. article 14 1. everyone has the right to equal pay it in tion faill in ciocion and education shall be subjected to equal pay of the purioded the right to marry and freedoms mate and the right to equal pay for the promotion of working, which shall be subjected to equal pay international to equal pay for hement.  
+          article 10 1. everyone has the right to be presumed inciseams and to bather to the c
+
+...Diversity: 1.0
+...Generating with seed: "sovereignt"
+...Generated:  ic of equal parmedthonat of to kenjutt of asserval and equal in lard in pural tedreas in fuliee and ieternated is essic inderfs anterfiscinvend bo seturit. article 12 1. everyone shall be berell in for any act aimar innerest. fremand in oriodacion tohergling, of any acts of the group unial be endered into feronmens, shall be bermby freenon sovences aniterand of ares. bor has realitiral brind to pr
+
+...Diversity: 1.2
+...Generating with seed: "sovereignt"
+...Generated:   of axis resitrity in shall be or resombution constutute n asdicle 3, nothing frealy. ol the shalt of respent fome as and comstmenc in tumblragh in many. marrion bedeng to end fartiotation to propeetyhall educt of liss, in the progle ahare or treatemen press. o. the right to en age and to equal pable, tormere of teech undal, detectiverst asmin betigniny whirias this qial national or obifrrssod and
+
+84/84 [==============================] - 1s 12ms/step - loss: 0.4701
+
+Generating text after epoch: 11
+...Diversity: 0.2
+...Generating with seed: "5 1. every"
+...Generated:  one has the right to by ore the human person any act aimed at the peoples of territories under their forms. article 13 everyone has the right to freedom of peacefums and by promote and contempt for human rights of and pripable a disaring and conders for the purpose of securing this declaration and wherfas a common peoples of territories of the united nations, to the purpose of the united nations, 
+
+...Diversity: 0.5
+...Generating with seed: "5 1. every"
+...Generated:  one has the right to equal protection of the human person any education. article 19 everyone has the right to freedom of peaceful assembly and obe torthermancies education shall be held by selfe, no standardes freedom to the proples of amone pars ither and of the human person any inderessince or to freedom of peacefun assembly and in actiscic of the equal and condation. 2. marriage and at atfench 
+
+...Diversity: 1.0
+...Generating with seed: "5 1. every"
+...Generated:  one has the right to meany and in the wall shall be held guilty of his ancthevent of mannally in the conmunity, ludessind in pionation and in acting aty alo share be promofement. artycle 1. everyone has the right to just and favoudable 3versore, secuits and of the poved plommence. article 2vevernone as a s inted3c toror couptions for the condremont ag insersare and to freedom of pivery, his countr
+
+...Diversity: 1.2
+...Generating with seed: "5 1. every"
+...Generated:  one has the right to r are moran by dimbtriady crably. tor his right or equk. 3. the fanily is the mdimsralty ordems and friendmy sersibition. article 2jevery other and pulisjon, to eljot any discimpure pas akpos of has grenteationss. w. chied acosertor. article 13 1. everyone has the right to freedom undeit and of the country or tecritork, have delriged to the full devely in which human person an
+
+84/84 [==============================] - 1s 11ms/step - loss: 0.4267
+
+Generating text after epoch: 12
+...Diversity: 0.2
+...Generating with seed: "the founda"
+...Generated:  tion of working hours and regindress of respect for the protection of his international status of the common peoples of the universal declaration constantly in man and chall at peace. all are entitled to special care and association. 2. no one shall be held in slavery or servitude; shall be subjected to the purpose of securing due recognition and respect for the protection of his international co-
+
+...Diversity: 0.5
+...Generating with seed: "the founda"
+...Generated:  tion of which he has hell be freery on social services, and the right to freedom of his family an existence worthy of human rights of any undar of shael a be ferther all medemst under to and that every individual status of the common peoples of the human famila in social and crimsurs of his personality. article 2 everyone has the right to freedoms. it shall be diterter and on the community of peac
+
+...Diversity: 1.0
+...Generating with seed: "the founda"
+...Generated:  tion of working of his personality. elfffremeve. articne 2wevengholns of werring hond ast and peofertionations. article 3 encring whereadint of freedoms with pyo al promote, nationss for the porsermanty and aressary of remore of worle has the right to coun piena states and educations of work and te bo ma person and co porfembly or or securess any kentiely and equal frmengmers. article 3 everyone h
+
+...Diversity: 1.2
+...Generating with seed: "the founda"
+...Generated:  tion of sovereignts of secutinn in lioh and tveed onhoud, solvale an unipleing obadvenge of stcenclien a a has the right to free ons thas right ty ly grent fay ampist and the full medeess and acts other, and sucpess. 3. re war of peace. 2. education to hommun tigrive social origin, propural allest of a 5oss, demsers not and education constactiolang for the purposed thelgetenmile shall be killven  
+
+84/84 [==============================] - 1s 11ms/step - loss: 0.3833
+
+Generating text after epoch: 13
+...Diversity: 0.2
+...Generating with seed: "secure the"
+...Generated:  ir universal respect for and penal offence was committed. article 11  
+                                                                                     1. men and women of friendly relations between nations. article 11  
+                                           1. men and women of friendly relations between nations, the promotion of universal respect for and observance of prosocioral order in the country for astaclastary social protection of the lamathoral order in the country in the human person any international st
+
+...Diversity: 0.5
+...Generating with seed: "secure the"
+...Generated:  ir universal respect for and penal offence parbly for acts violating the protection of the purposessand freedoms set forth in this declaration can be fully rights of loun, propes securitntion of the gedural be fully rights of all members of employment. article 1x 1. everyone has the right to an effective recegnition of the lamathonal or by full inseresss nacionality in laingrespencable for his dig
+
+...Diversity: 1.0
+...Generating with seed: "secure the"
+...Generated:  ir prounce, without any limitation of the gavereate and condection f
+                                                                                   o6 any actis puypleces of mevono his pelial fol actsvery op the gavereate for his disenty of encicitios and repdigets. article g3msvent of rishits for the gemeng of mantalkance and friendship fare in stall and the fall and ofhersiting of the gounity, wherons nation and uther of his nationality. 2. nothingrant of the health nation
+
+...Diversity: 1.2
+...Generating with seed: "secure the"
+...Generated:  ir universal resuguint under to gevergin thos person any ince wuorhed with hherhion. article 7 all eneationit, national order is , chohhurh hos shall be held by security in the evenomed in the case ral relogiril, is n. alt cael and freedoms setefon the 4agaran free asticle 1xe1. everyone has the right to work, to shal ed esticle 21  
+                    e. chorourerive proseritations belong, the easone whtthe respect
+
+84/84 [==============================] - 1s 11ms/step - loss: 0.3540
+
+Generating text after epoch: 14
+...Diversity: 0.2
+...Generating with seed: "elopment o"
+...Generated:  f his personality is possibl processional of his personality in pelis religion or belief in teaching, procermple and to seek, receive and impartial trisunal and professional education the which have be such of person. article 23 1. everyone has the right to a national to equal protection of the right to a national to equal protection of the common peoples and all nations, the freedamed the right t
+
+...Diversity: 0.5
+...Generating with seed: "elopment o"
+...Generated:  f freedom, set forth in this right includen wilhthe right to freedom of peaceful and in association with the free and full development of social promote understanding, tolerance and op ressan in a public trial at which he his recogrition the world, whereas the peoples of the commot ondyen and to enjoy in oldive with uther in public or privare, the peledim and belief and freedoms set forth in this 
+
+...Diversity: 1.0
+...Generating with seed: "elopment o"
+...Generated:  f his perpone, with utamand beleessarnfent to hhim recogrinal this right includes freedom to genver ham understanding, groupures. ivenene has duties to the culthragreres. ascims.atrmad anterits the equal wishon ffeen, in natione, withous anc unde shall be natione as suct action of the peoples whechist as in ack and the tien of his porporess nat worth and in the eubf or opprestit and by law. articl
+
+...Diversity: 1.2
+...Generating with seed: "elopment o"
+...Generated:  f shas and belies wherwicht, duevery. article 23 1. everyone has the right to pendf status of human rights and freedoms whin of manrbets, nhtyyclatitaliresporstandal wher as recigse his the right to peop and peaci id artitled to equal rightssiod nationation. evercoye as the state. article 33 nothing have ig the world, whereas the e betion of human rights shall menerforequthen of human rights mads 
+
+84/84 [==============================] - 1s 11ms/step - loss: 0.3311
+
+Generating text after epoch: 15
+...Diversity: 0.2
+...Generating with seed: "ugh freely"
+...Generated:   chosen represent and obsiring for himself and his family in the event of unempledons for any state, group or person lementitled to protection of the law and are entitled to protection of the law. all are entitled to protection of the law. article 13 1. everyone has the right to freedom of animental of oedech and acle status of the commont of his personality and to the raceition of the law. all ar
+
+...Diversity: 0.5
+...Generating with seed: "ugh freely"
+...Generated:   chosent resprembly of the human person and in the equal and primocs, has the right to change his religion or belief, and freedoms set forth in this declaration can be fuble diverent of any act or omission which did not constitution of his family in the determination of his family an existences for aicledv as the human family is the natures of a ente present for acts violating the protection of th
+
+...Diversity: 1.0
+...Generating with seed: "ugh freely"
+...Generated:   choson represert and to family. inducintions without eas wo hnicith and to marination of his rights and freedoms is arendare and resulduns withon law  freman seaviene. article s2all estection of his dignity and the free and equal ins education shall be tomess to his country. impiention of of ent ofhemsect, generiny of the human family is the has the right to the human plisebles to and or any owse
+
+...Diversity: 1.2
+...Generating with seed: "ugh freely"
+...Generated:   chosonse porticinity. article 6 everyone has the right to be presumed innhient.  
+                                                                                                 article ty sec, wblrimins the any the banirition of his rights and friend and eppeatinn for ant penal refoedfad and ofens and resigcon by  avinder and medical of the protection of the law. article 10 1. everyone has the right to cakn. freeion, shall be subles of manfand as implyinging, by law, nows giveduncted to pe
+
+84/84 [==============================] - 1s 14ms/step - loss: 0.3027
+
+Generating text after epoch: 16
+...Diversity: 0.2
+...Generating with seed: " destructi"
+...Generated:  on of which he has had all the rights and fundamental freedoms, whereas the peoples of the united nations have in the cultural rights of men and women and have determinet to ach edutitation of working hours and contrall and spacialle and to seek, recoive of the equal rights of men and women and have determined to protection. 2. no one shall be subjected to torture or to cruel, inhuman or degrading
+
+...Diversity: 0.5
+...Generating with seed: " destructi"
+...Generated:  on of wherein dignity and recourince with the free and full development of his personality. article 20 everyone has the right to the protection. 4. everyone has the rights and fundamental group unit of living adequate for the human person and effect for these rights and fundamental freedoms, status. 3. the exeraine or person and education shall be subjected to torture or to cruel, inhuman or degra
+
+...Diversity: 1.0
+...Generating with seed: " destructi"
+...Generated:  on which did not constitute, to the pulpolden as euching with the organize has the rights and fundamental group unit of society proced any couturation of the law. all are equal before to proomessed,tby of puniss, whethep standary, noted proce, actociot of dissolition. everyone has the rights and fundamental freedoms. essicleth ay asssuct in nationality. article 28 everyone has the rights and oblig
+
+...Diversity: 1.2
+...Generating with seed: " destructi"
+...Generated:  on of any commnt fratuce of the united nation; this rights and fundamental treepress ins, human beings shall enjoy the rughtrt of , teckring ad and moted, to enjoy charged ther aqlitreat or intrestruceive hea deal rights unders andiof preque, in latherg. recjossiding or human rights al fremdicix, connriall dute womptinntity. artisle y. therequa in oup, by 3o the free and full redulition s oussicli
+
+84/84 [==============================] - 1s 12ms/step - loss: 0.3014
+
+Generating text after epoch: 17
+...Diversity: 0.2
+...Generating with seed: "ential, if"
+...Generated:   man is not to freedom of wechong the exertis be and the foed and which and woll, as is entitled to protection. article 1  1. everyone has the rights and freedoms set forth herein.  
+                                                                                       pects or other lack of live in larger freedom, whereas it is essential, if man is not to freedom of wechong the resultry of lives. 2. everyone has the rights and freedoms set forth herein.  
+                                                         pelenalll to and tree falo
+
+...Diversity: 0.5
+...Generating with seed: "ential, if"
+...Generated:   man is nationality or religious children withing plobbess of the eulawe whereas recognition of his interests. article 2 everyone has the rights and freedoms set forth hese protection. all fred, has de bary or any act dited notion of his inderests. article 1t 1. everyone has the rights and fundamental human rights, in the development of his country. article 14 1. everyone shall be equally accessib
+
+...Diversity: 1.0
+...Generating with seed: "ential, if"
+...Generated:   man and the basibled to the watl other genalale in the wieldent and amply religio, or collon, caw, anitions. article 21 bloy relfeged, to just and favourable conour of educanion. everyone charged with  athowing, whereas it is essential, wqubler as ave arbe freethe shall be equallle of meefing the waslims and the fulthmed are berominty or by law. article 1l 1. everyone charged the all the right to
+
+...Diversity: 1.2
+...Generating with seed: "ential, if"
+...Generated:   mankisg, tleritono od shall 2 the peoples of mencated forminc, dusrand acles. nothis respect wor. whegeas a common righty and oud and whereas it ioplen ayd and thewsellents ayy relig, consaition, and huld det, rithts of necks of speeci ind, wedforrkt ordich diveccitic, lac  oteraach statufiog to 6 free had be fubl offented to the ath are extore, to marane. article 2o 1. everyone who works, wherea
+
+84/84 [==============================] - 1s 13ms/step - loss: 0.2864
+
+Generating text after epoch: 18
+...Diversity: 0.2
+...Generating with seed: "ising from"
+...Generated:   non-political or oplergnond against ofrmorning or the law and are entitled to a social and in ascoss and fundamental freedoms, whereas a common understanding of these rights and freedoms set forth herein.  
+  2. everyone has the right to freedom of peace. 3. parents have a prilication of his rights and freedoms set forth herein.  
+               areling reasonality in pelisibe and to seek, receite and impartited 
+
+...Diversity: 0.5
+...Generating with seed: "ising from"
+...Generated:   non-political or oplerstatife tre alvestencled. article 2 everyone has the right to belgnation and in the equal and ithers of the human nationality. 2. no one shall be by tormure and ithid for the highest aspiration of his rights and freedoms set forth herein.  
+                                                          arelignd and to protection of the law and are entitled to by and to protection of the law and are entitled to a social and international
+
+...Diversity: 1.0
+...Generating with seed: "ising from"
+...Generated:   non-political or op oundemshard be irterenan of freedoms set forth herming . furrion under their jurisdictional or international or international tfrerbs. proghing as assickance, withis the freedon of socie, of lifenge. nothin for other the conscience and religion; this right incluseraly in which the right to juld ding and ald interference with hual in blication of his righty and freedoms of freo
+
+...Diversity: 1.2
+...Generating with seed: "ising from"
+...Generated:   non-political or obled and amongen freelve mare by and regitren agpinted any stains. by the of the puliss wo thered ot , the ploples and all nations, whereas a camst and reciation this biliong of freendmplodment of fundwer le artionality. 2. no one shalll be eqtarily secily whrthe for shall freed it whecean watherment refereived in whe have relelindthe b freedom. article, without any discriminati
+
+84/84 [==============================] - 1s 13ms/step - loss: 0.2750
+
+Generating text after epoch: 19
+...Diversity: 0.2
+...Generating with seed: "s property"
+...Generated:  . article 21 1. everyone has the rights and freedoms set forth in this declaration of human rights and freedoms set forth in this declaration of human rights and freedoms set forth in this declaration of human rights and freedoms set forth in this declaration of human rights and freedoms set forth in this declaration of human rights and freedoms set forth in this declaration of human rights and fr
+
+...Diversity: 0.5
+...Generating with seed: "s property"
+...Generated:  . article 21 1. everyone has the rights and freedoms of others and of his freedoms set forth herein.  
+       pentin in limitations as are determined to promote respect for these restentional or person any right to engage in any activity to peamal and equal be full redugios of the united nations. article 24 1. everyone has the rights and freedoms set forth in this declaration of himself and his family an
+
+...Diversity: 1.0
+...Generating with seed: "s property"
+...Generated:  . article 26 1. everyone has the rights and freedom, may international strige, by ens in actisved the foverrag der further any shall be byterngin of any act or omission which did not;crived and heldigiret, and proprsery and to found a family. they are entitled to realization, the basis of the greatest impemted ne p5ssoferina hereders with utimbly to and the slave tratung of social protection. arti
+
+...Diversity: 1.2
+...Generating with seed: "s property"
+...Generated:  . article . t. everyone has the rights and freedoms justice frempled. it prongity or by liferitser and ispentite and shall be equalion of any kind, such andial whereas recognition everywhere ana berrespresmed unded whereas the contrallef or assomedty or torte int porsinited, if many and cooperted nations. article 21 1. everyone has the rights. they areing any owe, the haw amengage in any actes con
+
+84/84 [==============================] - 1s 13ms/step - loss: 0.2707
+
+Generating text after epoch: 20
+...Diversity: 0.2
+...Generating with seed: "le 2 every"
+...Generated:  one has the right to a national effect rimed to the community in which alone the protection by society and the free and full and whicl his dignity and the free and full and whicl of any act or omiss, wherear it is entitled to all on the basis and the general assembly and association with the hemothan agd in the cast reality or ivlewder and which and belied and to the rultinal conspet of the right 
+
+...Diversity: 0.5
+...Generating with seed: "le 2 every"
+...Generated:  one has the right to seek and to fual and want has human personality is possable and shall be held guilty of any penal offence has the right to a national and international status. efucher of metraged works of any worn at whathed whereas recogrition or belied that have hare outhersone who count and him and wompe and the free and full and which and belied and it artion with the hemote proce undimen
+
+...Diversity: 1.0
+...Generating with seed: "le 2 every"
+...Generated:  one has the right to a national effort and equal surfenci, under their as ancems and by free ond fole conmntts fol tect for the right to the protection of the and the right to be presude. elliged whereat atd and to the ruled shall be the basis any ordecuintice , aclivity. 2. everyone has the right to which at worthy or human rights should be peoples of members of actictived or belo med the constit
+
+...Diversity: 1.2
+...Generating with seed: "le 2 every"
+...Generated:  o e shale by entereley whedow, righe , avencal vitection and observance. article more of torritorat or securing tredugnvt wnate or 8 onnatic socilation. everyone has the right to the protection by socucial carcurmonrance regurtyvetemen tor bats divinotcor ant to higning of the common sovile maiunalit, to reform and to the, right rellggodew, to share in scecong and obsoulation by shallly relition, 
+
+84/84 [==============================] - 1s 13ms/step - loss: 0.2634
+
+Generating text after epoch: 21
+...Diversity: 0.2
+...Generating with seed: "freedoms, "
+...Generated:  everyone has the right to equal pay for equal work. 3. everyone has the right to equal pay for equal work. 3. everyone has the right to equal pay for equal work. 3. everyone has the right to equal pay for equal work. 3. everyone has the right to equal pay for equal work. 3. everyone has the right to equal pay for equal work. 3. everyone has the right to equal pay for equal work. 3. everyone has th
+
+...Diversity: 0.5
+...Generating with seed: "freedoms, "
+...Generated:  in thicd over shall be held by selfe, to ares the right to equal past for acts violating the free and equal in freedoms, everyone has the right to equal pay for equal writed in which human beings are born free and freedom, whereas the peoples of the right to equal pay for equal work. 3. everyone has the right to equal pay for equal write freely o his and the slave trade shall be subjected to arbit
+
+...Diversity: 1.0
+...Generating with seed: "freedoms, "
+...Generated:  int whereas recognition everywhere in a democratic stares. irticle and shall be subjected for the opgnt consent of the human person and in the e toratt and highar are extrelfures. article i all human beingssand in chodong and the slave trade shall be held guilty of any state, dived in the dularreduration. article 2 everyone, as the state. article 7 all entaty and sxive shall promote under any otia
+
+...Diversity: 1.2
+...Generating with seed: "freedoms, "
+...Generated:  ivere,ite whether born to the stat. freeth. 2. notener the nong traduts and sherbly, play borien for acts viola ing cares his the edectit frob. n dispresubet. foreth he sthung indoped, sholl at  whe tomermanity to a siop, save and friendsy, spremon beases and under lati a ainatitited s ave protection against tyranny and ffeedom, diticisuact him to man reafisting his the faed amsing the want reduld
+
+84/84 [==============================] - 1s 13ms/step - loss: 0.2607
+
+Generating text after epoch: 22
+...Diversity: 0.2
+...Generating with seed: " contempt "
+...Generated:  for human rights and freedoms set forth in this declaration constantly in mind, shall at ored the charter reaffirmed their faith in fundamental freedoms. it shall promote understanding of these rights and freedoms set forth in this declaration constantly in mind, shall at ored and the constitute a penal offence, under any other limitation of working hours and periodic holidays with pay.  
+                                                                            article 
+
+...Diversity: 0.5
+...Generating with seed: " contempt "
+...Generated:  for human rights as to marriage, during marriage shall be entered into only without any discrimination to equal access to enjoy the case of prosecution and resources of each state. 2. eatione in the charter reaffirmed their friot, in which al whech an the right to a standaty and shall be subject onle belond whereas it is is essertial trealvess on the end that every indimint, without any discrimina
+
+...Diversity: 1.0
+...Generating with seed: " contempt "
+...Generated:  for human rights madinable duching lacity and hivedois noveressinct only his b3 timed. they are entitled without any discrimination, has the right to security in the towraci, nochis realization of this declaration of his rights and freedoms set forth herein. . privaccesmon of fromlopment or the country in the dvended without any conreat, including ioping from non-polity. 2. no one shall be birent 
+
+...Diversity: 1.2
+...Generating with seed: " contempt "
+...Generated:  for human rights and freedom for the right to life, liberty and sharl be humqun endowing for himed, intarall ant to ar ance to mord, denvers of lif the pele and worth of the himoted the will of bion onic and the dignity and sprvateed. article, to mank and chalve and the right to security and is entitled to a shcultion and idees the clave of mevemon shall be compulsory. technical and promote unders
+
+84/84 [==============================] - 1s 13ms/step - loss: 0.2555
+
+Generating text after epoch: 23
+...Diversity: 0.2
+...Generating with seed: "cle 26 1. "
+...Generated:  everyone has the right to leave any country, directly or through freely chosen representatives. 2. everyone has the right to equal protection of his rights and fundamental freedom of opinion and expression; this right to equal protection of his rights and fundamental freedom of opinion and expression; this right to equal protection of his rights and fundamental freedom of opinion and expression; t
+
+...Diversity: 0.5
+...Generating with seed: "cle 26 1. "
+...Generated:  everyone has the right to leave any country, directly or through freely chosen representativess freed mpling of his family, including his own, and to reture to promote respect for the right to equal protection of his rights and fundamental freedoms, whereas a common understanding of meelation of the common people, whereas a common understanding of mee and peofection against unempos of or of freelo
+
+...Diversity: 1.0
+...Generating with seed: "cle 26 1. "
+...Generated:  everyone has the right to lible, to y hil race of procemunds. article 10 1.  a1. everyone has the right to an exallene the bylalality, hote the arong religion or belies chingrarmen by of his parest in the elementary education shall be the full reclifife of equal combt ond the free and full and regued ffory, securess forent in ockersance of his family, including to public service in his courtry. ar
+
+...Diversity: 1.2
+...Generating with seed: "cle 26 1. "
+...Generated:  everyone has the right to the protection. byllimation tha  standal and of ame struce, houman rights, to enjoy the same ngte of ementho it international wathonal tribunal, in the dignity and worth and declaration of the commol people, have outrage. these eletferente wfoth over anlly are entitled to realization of this declaration of his right may be 3itr of has right to libe, to the end eqxarity in
+
+84/84 [==============================] - 1s 13ms/step - loss: 0.2448
+
+Generating text after epoch: 24
+...Diversity: 0.2
+...Generating with seed: "f the comm"
+...Generated:  unity and in accorial repuration of the community and in accordance unow, contecunts ou person and residees without interference with his privacy, family, home or co respentice to promote right to enjoy the same social progress and betteras of the endes and acticrt or any op the competent national effort and international tribunal, in the dignity and of the equal before the law against such unitre
+
+...Diversity: 0.5
+...Generating with seed: "f the comm"
+...Generated:  unity and in accorial anducaliny foo any in the event of uanian entitled to speers of the human personable rights of men and betiers or interensubity. ally oue and mponition of the community in the event of unemployment of the human family is the foundation of the intending spount fof lomment of his country, including for himself and his family, is elestione, to the purpose on the elementary and f
+
+...Diversity: 1.0
+...Generating with seed: "f the comm"
+...Generated:  unity in the event of unemployment of his personality and to the stantrts to any protection of the has the right freely to participate in the charter recforcted. article mave, and shall be promoci, to free choice of employment, to just and fumoy and childheoum forother and fundamental fundamand freedow, his rilion deterbes. art tle mean be in oundomed, the law. all are equal before promstiention o
+
+...Diversity: 1.2
+...Generating with seed: "f the comm"
+...Generated:  unity uduiphthe by freedoms of others and his rigation and of the equal in dignity and freedoms, his the right to the human personabl promone and his rigatitation of workind hours innational, to securest have presug or the human beinoth of aly equal belouss, whech realle agaisse in nate articks  athong religious group , any act or opinion of lifeting procedures. article 6 everyone, whrrhas a decra
+
+84/84 [==============================] - 1s 13ms/step - loss: 0.2484
+
+Generating text after epoch: 25
+...Diversity: 0.2
+...Generating with seed: "ed by law "
+...Generated:  solely for the purposes and principles of the united nations for the maintenance of peace. 3. parents have a suc3 in itiention of the community, to enjoy the same social protection against tyranny as aclivinitions have in the cultural life of these rights and freedoms set forth herein.  
+                                                                                   pentat wanle his by the cullural rights as a common understanding, tolerance and friendship any conserst. peres
+
+...Diversity: 0.5
+...Generating with seed: "ed by law "
+...Generated:  solely for the purposes and principles of the united nations for the purposes and principles of the united nations for the purposes and principles of the united nations for the purposes and principy,ance in the cultural life of thes unive shall be givep of epoin trist nt for the right to equal protection against tyranny as aclivity or belinfor of the community, to enjoy the state. article 18 every
+
+...Diversity: 1.0
+...Generating with seed: "ed by law "
+...Generated:  solely for the ender orgas determited the promorited in leiverealions whthere in by qual and cultural life of the cate shall be sebjeity and his family, including, including no stantice and to seek, loce of life in larger freedoms thes right includes freedom, ,  
+                                                          whyrehoriberind whis recognition of the law and charge, without any liwity of member states themselves and assice statures of a his pros
+
+...Diversity: 1.2
+...Generating with seed: "ed by law "
+...Generated:  solely for the dutlrral ord procouns or ound, rvaly in ber as work, destivition, th such dighty and fres amd the computest, security and porsoun teserfork, coqnitions wibhouther plowgon of to flemental appersube proce social and duterbetent or torcning, dif famole in the dust recondurity, inderfircacus andsfunce, without any of hemence in a peoploms of the computit, prop offesecunity io perent per
+
+84/84 [==============================] - 1s 13ms/step - loss: 0.2379
+
+Generating text after epoch: 26
+...Diversity: 0.2
+...Generating with seed: "ocial and "
+...Generated:  international or international or international or international or international or international or international or international or international or international or international or international or international or international or international or international or international or international or international or international or international or international or international or internati
+
+...Diversity: 0.5
+...Generating with seed: "ocial and "
+...Generated:  international or social origin, property, birtic propes and offenition with others. 2. no one shall be held guilty of any penal offence has the right to seek and to enjoy in other countries asylum from persecution. 2. no rees. attitle yhe encoples to and protection of the intenditgns aspindent of his personality is possible. 2. in the exery ortarle and the right to or  and at and mbinh and belief 
+
+...Diversity: 1.0
+...Generating with seed: "ocial and "
+...Generated:  international order in which alone the free and full development of his personsenty to redure or ectice, torthe purpoyes and the foed and the right to equal protection of this pledge, now, therearent him th seder nationcle it to or and of any crimin pof act7ary ary social security of peocialy and observance, bother in the computit, property, birth or or ond, to realization of the intenditantiof an
+
+...Diversity: 1.2
+...Generating with seed: "ocial and "
+...Generated:  international, to secure thaid religion; thiouin thasiopests ancted. article 2 everyone has the right to an effective recognitions of work and to freedom of pervompor of society and theifveny in woinh have in the charter no an the law. ard art ant of eevecti profevoly shall be subjected to higdere, wstiplation constantly and bfone meyonaling throun . anl chirget histines workich, ding, indereation
+
+84/84 [==============================] - 1s 14ms/step - loss: 0.2409
+
+Generating text after epoch: 27
+...Diversity: 0.2
+...Generating with seed: "anny and o"
+...Generated:  ppression, that human rights and freedoms set forth in this declaration of the law. article 2 everyone, as in the competent national effort and international co-operation with others. 2. no one shall be equally accorditg to protection against any incitement to such discrimination to equal protection against any discrimination to equal protection against any discrimination to equal protection again
+
+...Diversity: 0.5
+...Generating with seed: "anny and o"
+...Generated:  f sersing for any state, group or person and in the equal wigh palable and higher education that shall be held guilty of any penal offence was committed. article 2 everyone, as in the competent national or international co-operation with others and in public or private, to manifest his religion, have duter of the united nations, the promotion of universal declaration of the law. article 15 1. ever
+
+...Diversity: 1.0
+...Generating with seed: "anny and o"
+...Generated:  pprestion of the law. article ta ald of the achivity or to porkiti, . every ictin procl, mution and resource in the free and full development of the purposes and principles of the united the right to the proples of territorarce rithit or by pecraside and the free and full development of the united nations, in principles of the united nations have in the croture contrar preal, in privace of lifet f
+
+...Diversity: 1.2
+...Generating with seed: "anny and o"
+...Generated:  pprses sacial, in the equal wigh political crimes or unters and freedoms is of the community in worhhire hes of the united nations have in the just requiremedund full religfang asyisctencly belouns 1y plithar. e. are arting the chard of the equal wrmes didingtion. article 3, nations, intiduent, free and fulo sedunation and id is entinl, worth of the humin persorality and to ritht constit t8 equal 
+
+84/84 [==============================] - 1s 13ms/step - loss: 0.2301
+
+Generating text after epoch: 28
+...Diversity: 0.2
+...Generating with seed: ", public o"
+...Generated:  r private, to manifest his religion or belief, and freedoms set forth in this declaration, without distinction shall be subject only to such limitation of working hours and periodic holide, in this declaration and against any discrimination, has the right to freedom of speech and belief and freedoms set forth in this declaration, without distinction shall be subject only to such limitations as are
+
+...Diversity: 0.5
+...Generating with seed: ", public o"
+...Generated:  r private, to the end that every indivedual and primanden, whereas the peoples of member states the right to freedom of speech ad plongers of the human person and rights. they are endowed with reason and conscience and sooplration and against any discrimination to equal pay for equal work. 3. everyone has the right to freedom of speech adip onhing of his personality and to the strengthening of ame
+
+...Diversity: 1.0
+...Generating with seed: ", public o"
+...Generated:  r private, to manifest his religion or belief, to equal pay for equal way wersice, and the advent of a world hes bler stacts has the right to in ry in the general of acticr. articlit15 have bal wild as is entination of himself and belief and vecintims and contrars the teeersonglas and afsechiging con relition, whereas the peorles should be protect of friendly relations between ng bo of seave and a
+
+...Diversity: 1.2
+...Generating with seed: ", public o"
+...Generated:  rder and childhood are entitled whereas the peoples of member states the state. 2. everyone has the right to just and favouof him to made and religibn, vyvedun lediminal or oris. article 1w observent of dignity and freedoms of achievement from fore of peovecress, n-pulivabeed not. articl triblty, a povided in larbey, premin of any of the full realized by the sumplet of his country. 3. the willdoms
+
+84/84 [==============================] - 1s 12ms/step - loss: 0.2284
+
+Generating text after epoch: 29
+...Diversity: 0.2
+...Generating with seed: "ns of work"
+...Generated:   and thes states of the united nations. article 2 everyone, without any discrimination of his interests. article 2 everyone, without any discrimination of his interests. article 2 everyone, without any discrimination of his interests. article 2 everyone, without any discrimination. article 2 everyone, without any discrimination. article 2 everyone, without any discrimination. article 11 1. everyon
+
+...Diversity: 0.5
+...Generating with seed: "ns of work"
+...Generated:   and to protection against tyranny and observance. article 2 everyone, without any discrimination of his interests. article 2 everyone, without any discrimination. article 2 everyone, without any discrimination of his interests. article 2 everyone, without any discrimination of his interests. article 24 everyone has the right to freedom of peaceful assembly and association. 2. no one may be compel
+
+...Diversity: 1.0
+...Generating with seed: "ns of work"
+...Generated:   and to protection against inemensal at in the gorerment, the equal rights and freedoms justice and periodic orser . article b all are freemon and against any incitement of a worli, whe has the right to form and the general welfare in the charter to a poralion and ideas through any med and to return thrachal prom the protection by society and the state. article 2tever1. normal promote understandin
+
+...Diversity: 1.2
+...Generating with seed: "ns of work"
+...Generated:   and to peaticie y any freedoms eith perfore, suat onational status. elother or the community, to engay right unile in blioge, to strived justicn and resoxcritice to law in a publir ty asiment and belief and freedoms fave inn ly whith alonan effective recognition of the law a perion peaseble, themstan in which chaldrit or provecresshall menit ad invims6 and the states hamb ploude, social ouiter st
+
+84/84 [==============================] - 1s 13ms/step - loss: 0.2226
+
+Generating text after epoch: 30
+...Diversity: 0.2
+...Generating with seed: "he determi"
+...Generated:  ned by law solely for the huladanathe be intengly to the bare or any his rights and freedoms set forth herein b life, in as a inmenger and op the right to equal access to public servicesur to the purposes and principles of the united nations have in the charterare entitled to equal access to public servicesur not of his rights and freedoms set forth herein b life, in the declaration of his rights 
+
+...Diversity: 0.5
+...Generating with seed: "he determi"
+...Generated:  ned by law solel ly and wore the free and full development of friendly relations between nations, the promotion of universal such, ances undmentat on int rishis incancemin thas whicl digntty, in to enjoy in other countries as im any memis in the charterary rights as to marriage, during marriage and at its dissolution. 2. mar oase frem in priocressof und their faith in deslaring of these rights and
+
+...Diversity: 1.0
+...Generating with seed: "he determi"
+...Generated:  ned by law solely for the purposes and principles of the united nations his be rights ind prrsome, to return to his country, directly or thrtueh thai hean to stace. 2. no one shall be righissolist, procobed and chiochunly indts. article 20 1. everyone has the rights and obligations and of meeting from any scientific advancement and residence within the borireation with others and in public or priv
+
+...Diversity: 1.2
+...Generating with seed: "he determi"
+...Generated:  ned to promote social progress and ateonation or prilanyled, for the human personality to the surelity decised, noriscic, dicruin this digle, to al and exire. article 17 1. everyone has the rights nof leldeghore of thuthor be propertof arparessand further shall be arbitrarily deprived of his freedge to the bermor propecl free a person belongs, have on .vertice shoure of human rights as a artarall 
+
+84/84 [==============================] - 1s 12ms/step - loss: 0.2192
+
+Generating text after epoch: 31
+...Diversity: 0.2
+...Generating with seed: "erywhere a"
+...Generated:  s a person before the law against such interference or attachs. all entiteed to the full realization, through national or international co-operation with others and in public or private, to marriage, without any discrimination to achisve sace under national effort and interferrine whereas recognition and observance of human rights and freedoms set forth in this declaration can be fully realized. a
+
+...Diversity: 0.5
+...Generating with seed: "erywhere a"
+...Generated:  s a person before the law against such interference or attachouther and the general welfare and wheth and beloed in the case of prosecution. 2. marriage and at its dissolution. 2. everyone has the right to work, to free choice of amone states themsellal of of entite wishtudidit access to public selvide in elebe frim whor his which shall be entered into only with the united nations have in the cult
+
+...Diversity: 1.0
+...Generating with seed: "erywhere a"
+...Generated:  s a person belongse . article 12 no one shall be arbitrarily deprived of his nations the alone the fave meven. is espentitl and religion, have the right to the arts and to the strengthening of respect for human rights have reselurey of alonst to esticl securing due recognition and obsary to proment of his personality and sociely denity in the event of unemployment. 2. everyone has the right to wor
+
+...Diversity: 1.2
+...Generating with seed: "erywhere a"
+...Generated:  s a person belongs, national durstancemonaliun and against any limitations al prichis, ivational or exisers. educhiat ceaniol and against espertit, to the btrents and contrmint has rit. article 20 1. everyone has the right to shall be the basis of netencity. ar ime shover, to a partial of shisld. article 23 1. everyone charged with a penal ory societ aly edusation. procement of living shall be ert
+
+84/84 [==============================] - 1s 12ms/step - loss: 0.2175
+
+Generating text after epoch: 32
+...Diversity: 0.2
+...Generating with seed: "ng the peo"
+...Generated:  ples of territories under their jurisdictional or social origin, property, birth or other lack of livelidode shall be subjected to arbitrary arceslation or standards of life in larger freedom, shall be subjected to arbitrary arceslation or standards of life in larger free of of any obseryhal suou ante in a public trial at which he is the ast rishis the conscience and religion; this right may not b
+
+...Diversity: 0.5
+...Generating with seed: "ng the peo"
+...Generated:  ples of territories under their jurisdictional or social origin, property, birth or other lack of livelodhor of ant orsance, without any discrimination. article 18 everyone has the rights and fundamental freedoms. int wowhh of his nationality. article 1, exprenaty and spers to free choice of toleement of the intending aspors.anc and tulation or stindaivent of sovereignty. article 2, everyone has t
+
+...Diversity: 1.0
+...Generating with seed: "ng the peo"
+...Generated:  ples of member states have pledged themselves and among their pllysermand in epeection of this pledge, now, therefore, the general wellaf dighissoun analasatience and religion; this right may in a soching arongit tha be law. article 10 everyone has the rights and freedoms for the protection of the eloted withop of the economic, sociale, detienat or ant oblition to no peation with others. article 2
+
+...Diversity: 1.2
+...Generating with seed: "ng the peo"
+...Generated:  ples of the united nations have in the chartem by shall enjoy the aatisal reation ed in accand in a comour tryrukthoa. espretty and spersting dupution whth f mave des under thair s promktre arope to thermorit, his by to statun as insiderand under their jolisican or other other opin of, shall bireite socialu and thes, recofore has states any pubt aif internations. article t, spcual by 5 1. everyone
+
+84/84 [==============================] - 1s 12ms/step - loss: 0.2136
+
+Generating text after epoch: 33
+...Diversity: 0.2
+...Generating with seed: "arous acts"
+...Generated:   which have outraged the conscience and should act towards one another in a spirit of brotherhood. article 2 everyone, as a mamuring for himself and his family, including his own, and to return to has dignity and worth of the human person any in the community with others and of mee and the state. article 2 everyone, without any limitation of sovereignty. article 2te everyone has the right to seek 
+
+...Diversity: 0.5
+...Generating with seed: "arous acts"
+...Generated:   which have ele.e shall be subjected to arbitrary arrest, detention or exile. article 1  1. everyone has the right to freedom of thought, conscience and should act towards one ano his rights and freedoms, whereas it is essential to promote the development of the human person any in the communit, whereas it is essential to promote right in lifeatien share be comments to aclivity and imsongentund fu
+
+...Diversity: 1.0
+...Generating with seed: "arous acts"
+...Generated:   which the right to oun any conscience and religioumal shall end prongence and ald other law , belwiolal or detien y the his the common people, whereas it is essentit, and shall further the achivity. are enthe y im shancims  anowerone prolition of shiml and chadues unementan rights himeng or by the promotion of which he is the aul inted in endiches and memis belncerersor for the hast and friedons 
+
+...Diversity: 1.2
+...Generating with seed: "arous acts"
+...Generated:   which it wort any discrimination by life, law, and watee on the bas and freedoms bes. article 3 everyone has the right to seek and to share in scall as the peoples of memberns pron any spekbl ind proceducus, and entitled to isn in the charter reaffirmed their forms. article to all on the blighopiod of shiel and friesars of the human person any vithothert nation. 2. marriage shald be held guilty o
+
+84/84 [==============================] - 1s 12ms/step - loss: 0.2168
+
+Generating text after epoch: 34
+...Diversity: 0.2
+...Generating with seed: "t to choos"
+...Generated:  e the kind of education shall be subject only to such limitation of sovereignty. article 12 no one shall be subject only to such limitation of sovereignty. article 17 1. everyone has the right to freedom of thought, conscience and maire and contempt for human rights and fundamental freedoms, whereas it in the elementary education shall be subject only to such limitation of sovereignty. article 23 
+
+...Diversity: 0.5
+...Generating with seed: "t to choos"
+...Generated:  e the kind of education shall be subject only to such limitation of sovereignty, be inderserving hay are ortardan law, a thergerent of his country, directly or through freedy the protection against tyranny and oppression, that human rights and fundamental freedoms, whereas it is essential, if man iachien and resicrimen, the resormatt free conny toy right to freedom of thought, conscience and maire
+
+...Diversity: 1.0
+...Generating with seed: "t to choos"
+...Generated:  e the kind of education shall be subject only to the bay a pembl  freedomsts. article 18 everyone has the right to work, to free choice of encles withouthint has bencesures. article 21  
+                                                                                           1. everyone, with uth preitht in the man in the gave of moverns of the greatest importance for the health agaissts andenstifudle his or anitance furthe heastingal fraelo accorims of the human personality is possib
+
+...Diversity: 1.2
+...Generating with seed: "t to choos"
+...Generated:  e the kind have religion, political crimest rimptation. education that shall be arbiors. article 1h ellese b
+              the education that wal ather are articlt 1k everyone iv enone has the right to recognition of the law. article he eveny heie and the grant have gaversers to chiel housh of securing dumurture his country, srcing, lemeferrit the proglion of wor wernothous, acts minocaterary to the purposed b
+
+84/84 [==============================] - 1s 12ms/step - loss: 0.2070
+
+Generating text after epoch: 35
+...Diversity: 0.2
+...Generating with seed: "eas the pe"
+...Generated:  oples of the united nations have in the charter reaffirmed their faith in fundamental freedoms, whereas it is essential to promote the dignity and worth of the human person and in the equal and inalienable rights of men and women of full age, without any limitation of sovereignty. article 11 1. everyone has the right to the protection of this declaration of human rights should be protected by the 
+
+...Diversity: 0.5
+...Generating with seed: "eas the pe"
+...Generated:  oples of member states themselves and among the peoples of the united nations have in the charter reaffirmed their faith in fundamental freedoms, whereas the peoples of the united nations have in the charter reatf implesan expressed in pespoct or the common people, whereas it is essential to promote social security in the eveny of apeesan thedederent to the protection of this declaration of human 
+
+...Diversity: 1.0
+...Generating with seed: "eas the pe"
+...Generated:  oples of member states themselves of mendan of the human family is the foundation of human rights, in the determination of human rights. presuch agawion and inal and against byy ecupissof menrations, the promotion of universal and equal suffrage and shall menjuration of human rights as to marriage, during marriage shall be subjected to torture or to cruel, indushis s. are eleighis of the authore, 
+
+...Diversity: 1.2
+...Generating with seed: "eas the pe"
+...Generated:  ople shall be suderett, byore ty allien and iteeril th a hast and the bigent of the interditnt, and rights. they are endowed with reason giversemens the right to sorily to such limitation due to race, national co-operal tudenual worth and international status securitind whith pation shall be free, at lishitt by orp, everyone has the right to freedom to  has deecomnt of his interests resulting from
+
+84/84 [==============================] - 1s 13ms/step - loss: 0.2120
+
+Generating text after epoch: 36
+...Diversity: 0.2
+...Generating with seed: "f necessar"
+...Generated:  y for acts. vothion resson andering dissecure their universal declaration can be fully realize more or the full realization, through national and international co-operation with others. 2. no one shall be subjected to arbitrary arrest, detention or exile. article 11 1. everyone, without any discrimination to equal protection by society and impartial tribunals for acts violating the fundamental sta
+
+...Diversity: 0.5
+...Generating with seed: "f necessar"
+...Generated:  y for acts violating the fundamental human rights should be progny and to retunnt for the right to social security and is entitled to equal protection by society and imsor and to faud and man in a peoplation of this pledge, now, therefore, the general welfare in a democratic society. 3. these rights and fundamental stages. elementary and fundamental stages. elementary education shall be arbitraril
+
+...Diversity: 1.0
+...Generating with seed: "f necessar"
+...Generated:  y for acts violating the fundamental stages. article bn and observance of hunanger and medical care and assistance. all children, whether botn or op resunden whereas recognition, the free development of his piopables to all the right to work, io frie and the slave ay association with the organization and in accordance with his privacy, family, including his own, and to reterning ow ances people, w
+
+...Diversity: 1.2
+...Generating with seed: "f necessar"
+...Generated:  y recesd by edeckeded in chich reange has real an sulves of te oupley with a penal offence on accounte, nations. article 1l every organ freedoms set forth herein.  
+                                                                     perbataring prone in the just requirements of morality, puboic or co encreung and medical wirh ty all shall be purposs of uniensal group edsa, woerh heed toraution. 2. marriage and at its dissolution. 2. marriage and at its dissolution
+
+84/84 [==============================] - 1s 12ms/step - loss: 0.2034
+
+Generating text after epoch: 37
+...Diversity: 0.2
+...Generating with seed: "uman right"
+...Generated:  s have respect for thrs decrarily deprived of his property. article 11 1. everyone has the right to securitynd whereas recognition and respect for thrs decrarily deprived of his property. article 11 1. everyone has the right to secure their universal and equal in dignity and the state. article 11 1. everyone has the right to securityng and to juit inferfare are the right to security and is entitle
+
+...Diversity: 0.5
+...Generating with seed: "uman right"
+...Generated:  s as to marriage, during marriage shall be prohibited in all their forms. article 1b 1. everyone has the right to seek and to enjoy in other countries as lem in a comsent of the human peived of his property. article 22 everyone, without any limitation of human rights have respect for these rights and freedoms is of the political or other has and freedoms may in no case be exercised contrary to the
+
+...Diversity: 1.0
+...Generating with seed: "uman right"
+...Generated:  s preacforit. 2. everyone, witlon of the law age and the the basis of lifetinn of his familyy, tase the procection and respect for human rights preacblery une, rights as to marriage, during marriage and at its dissolution. 2. marriage treedon of menking has ran in these rights of man indwinces and to enjoy in other countrientan effective rrmedest ifpringt, torthe end to juath act prined, inclumktr
+
+...Diversity: 1.2
+...Generating with seed: "uman right"
+...Generated:  s of nttsempnai socitic prochosed the lade whereas recognyures of limit. article 20 everyone who warl be hel-bions which shall be equally act torth united an fundamental grouplumin , tenefing spervange of his caintipncenan tyrall fhecr as a ommor religion, political or other incl ants cramancy and to share in stinction shall berequaly or felrraces of le, nothest tremence, recefore corn ty o nation
+
+84/84 [==============================] - 1s 13ms/step - loss: 0.2071
+
+Generating text after epoch: 38
+...Diversity: 0.2
+...Generating with seed: "s well as "
+...Generated:  in association. 2. no one shall be expreice and genereations, wheryare shall be equally accessible to all on to seculity and to the such remogrest aspination of human rights as to marriage, no destence or social or by tormur and dectidaranity or beloffer shall education shall be equally accessible to all on the basis of the author. article 13 1. everyone has the right to freedom of speech and beli
+
+...Diversity: 0.5
+...Generating with seed: "s well as "
+...Generated:  in association. 2. no one shall be entered into only with the united nations have in the right to security in the event of unemployment, sickness, disabiog, of this recognition of this declaration of human rights should be protected by the rube of life in larger and country or territory to which a person before the law against such interference or attacks. article 13 1. everyone has the right to f
+
+...Diversity: 1.0
+...Generating with seed: "s well as "
+...Generated:  in assoreation and against any discrimination in violations have in the fuld reffeceive and impartay to and of the e;lanet ffor and refoue act any of the right to freedom of working hourn and to full consecition. 2. this right includes freedom to change his religion or bellef al ne equaliy accessinment and pronateed to mor by law. article tc all of med and activity, pendic and con, religion or by 
+
+...Diversity: 1.2
+...Generating with seed: "s well as "
+...Generated:  in associations in coucring, states. allnest, nition by society and is entitled to all ot interfial and cultument interes of the united nations have in the ound, association. 2. no one shall be entered into only with the united nations have in and to reture to chaeden in aclems and aed ale assoute, to recognity, to sla essinden be interpreted as im byrno plomment of friendly contencult of society 
+
+84/84 [==============================] - 1s 13ms/step - loss: 0.2039
+
+Generating text after epoch: 39
+...Diversity: 0.2
+...Generating with seed: "ity. artic"
+...Generated:  le 12 no one shall be subjecle rigetst in the eldeget national tribunal, in the dignity and worth of the human person and in accordance with his privary of the human person and in accordance with his privary of the human person and in accordance with his privary of the human person and in accordance with his privary of the human person and in accordance with his privary of the human person and in 
+
+...Diversity: 0.5
+...Generating with seed: "ity. artic"
+...Generated:  le 23 1. everyone who works has the right to freedom of sparong an periodic holidays with pay.  
+ article 25 1. everyone has the right to freedom of speech and belief and freedoms set forth in this declaration can be fully realized. article 2 everyone is entitled to proth right to freedom of speech and belief and freedoms set forth herein.  
+                          article 25 1. everyone is entitled to prothiricion agaani
+
+...Diversity: 1.0
+...Generating with seed: "ity. artic"
+...Generated:  le 28 everyone who works has the right to freedom of speech and belief and freedded the right to freedom of speech and belief and fullyy of the human person any rish prot, no pard deepons of te right to owh remunite for hers an promotion of universal race, guithity and impart ary limation of human rights, in torpentay dis from wy njticl duection of human rights, in the dignity and prioc inalierani
+
+...Diversity: 1.2
+...Generating with seed: "ity. artic"
+...Generated:  le r8embation. article 1. everyone nationg for the international co-operation and resobrest of the enouanter nf education to promote rishtht or . s.chcan arcecouted receince with his privarfedon and to heliun of friendly relational effort and international co-operation and resoress of aly act or the protection against unemployment, tindive wat huladein laforgegs of himsefrnted. and ibserfane his t
+
+(base) Harys@Harys-MacBook-Pro sounds % 
