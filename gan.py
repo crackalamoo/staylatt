@@ -10,6 +10,8 @@ data_words = np.loadtxt("data/en.csv")
 data_words = data_words.reshape((int(data_words.size/WORD_LEN), WORD_LEN))
 print(data_words)
 
+#https://machinelearningmastery.com/how-to-develop-a-generative-adversarial-network-for-a-1-dimensional-function-from-scratch-in-keras/
+
 CODES = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5, 'f': 6, 'g': 7,
     'h': 8, 'i': 9, 'j': 10, 'k': 11, 'l': 12, 'm': 13, 'n': 14,
     'o': 15, 'p': 16, 'q': 17, 'r': 18, 's': 19, 't': 20, 'u': 21,
@@ -25,29 +27,6 @@ def codeToStr(word):
     return s
 NUM_PHONEMES = len(CODES.keys())
 BATCH_SIZE_GAN = 32
-
-"""
-         in         
-  ??? ? cda c  ??   
-        marry       
- ???? ???uhe   ?? ??
-       health       
-? ?? a? ggddfi ??  ?
-       family       
-????? ?c bacad ?? ? 
-       purpose      
- ??  a?kafejdmd??   
-       members      
- a? ? ?l?olmsha??  ?
-      everyone      
-?????? ??ig?a ??  ??
-      sickness      
- ?  ?? bdnhn? a???? 
-        born        
-  ??? ??b?bbd b??? ?
-        shall       
- ????  bahrh?a??? ? 
-"""
 
 # define the standalone discriminator model
 def define_discriminator(n_inputs=WORD_LEN):

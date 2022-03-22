@@ -2,7 +2,7 @@ import sys
 import random
 import numpy as np
 
-lang = "hi"
+lang = "en"
 file = open(lang+".txt")
 temp = file.read().split("\n--***--\n")
 data = []

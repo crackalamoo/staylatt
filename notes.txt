@@ -1,20 +1,12 @@
-Parameters in txt:
+Parameters in .txt:
 List of phonemes, including relevant classes
 List of number of syllables per word, including relative probabilities
 List of possible onsets, including relative probabilities
 List of possible nuclei, including relative probabilities
 List of possible codas, including relative probabilities
-Replacements (syllable level)
-Replacements (word level)
+Replacements (syllable level) with probabilities
+Replacements (word level) with probabilities
 
 https://en.wikipedia.org/wiki/English_phonology#Vowels
 https://en.wikipedia.org/wiki/English_phonology#Phonotactics
 https://www.researchgate.net/figure/Distribution-of-the-number-of-syllables-per-word-in-Websters-dictionary_fig3_220597266
-
-Record:
-English CVC with no phonotactics:
-ʃeɪʃfi zəzʒiʒ pɪpoʊzbeɪvaɪv jʌjhoʊhnən.
-bʊʃɒʃ neɪnpæpbaɪbɒ ninfæf tɒt.
-mɒmhoʊhteɪ keɪknaʊn jɛjðaʊðroɪrʃiʃroɪ soɪsbaɪb.
-
-əˈraɪzɪŋ frʌm ˈɛni ˌsaɪənˈtɪfɪk, ˈlɪtəˌrɛri ɔr ɑrˈtɪstɪk prəˈdʌkʃən ʌv ˈhjumən raɪts ʃʊd bi prəˈtɛkʃən ʌv ˈhjumən raɪts ʃʊd bi prəˈtɛkʃən ʌv ˈhjumən raɪts ʃʊd bi prəˈzumd ˈfridərz, ˈwɛðər bɔrn ɪn ɔr aʊt ʌv ˈwɜrkɪŋ ˈaʊərz ænd ˌpɪriˈɑdɪk ænd
