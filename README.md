@@ -1,2 +1,3 @@
-# staylatt
-A set of programs to simulate what English and other languages sound like to people who don't speak them, using both hard-coded phonological rules and neural networks.
+# Ortatious Andith ib Staylatt Neller
+
+A set of programs to simulate what English and other languages sound like to people who don't speak them, using both hard-coded phonological rules and neural networks. The neural network (English only) is at `rnn.py`, and the hard-coded phonotactic rule runner is at `rules.py`. Full details are at [harysdalvi.com/projects/staylatt](http://www.harysdalvi.com/projects/staylatt).
